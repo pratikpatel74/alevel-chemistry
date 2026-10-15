@@ -1,0 +1,123 @@
+id: "3.2.1"
+order: 8
+year: 1
+section: "3.2"
+spec: "3.2.1"
+title: "Periodicity"
+desc: "Classifying elements into s, p, d and f blocks, and trends in atomic radius, first ionisation energy and melting point across Period 3."
+practicals: []
+summary:
+  - h: "Classification"
+    p:
+      - "Elements are arranged in the Periodic Table by **atomic number**."
+      - "They are classified into **s, p, d and f blocks** according to the sub-level of their **highest-energy electron**."
+      - "s-block: Groups 1 and 2. p-block: Groups 3 to 0. d-block: transition metals. f-block: lanthanides and actinides."
+  - h: "Atomic radius across Period 3"
+    p:
+      - "Atomic radius **decreases** across Period 3 (Na to Ar)."
+      - "**Nuclear charge increases** (more protons), but electrons are added to the **same shell**, so shielding is similar."
+      - "Outer electrons are pulled **closer** to the nucleus."
+  - h: "First ionisation energy across Period 3"
+    p:
+      - "General **increase** across the period, for the same reasons: more protons, similar shielding, smaller radius."
+      - "**Dip at Al**: the outer electron is in a **3p** sub-level, higher in energy than 3s."
+      - "**Dip at S**: the electron is removed from a **3p orbital with a pair**, and pair repulsion makes it easier to remove."
+  - h: "Melting point across Period 3"
+    p:
+      - "**Na, Mg, Al**: **metallic** bonding. Melting point **increases** because the ions have a **larger charge** and are **smaller**, with **more delocalised electrons**, so metallic bonding is stronger."
+      - "**Si**: **macromolecular** (giant covalent). The **highest** melting point, because many strong covalent bonds must be broken."
+      - "**P₄, S₈, Cl₂, Ar**: **simple molecular**. Low melting points; only **van der Waals** forces are overcome."
+      - "Order among them: **S₈ > P₄ > Cl₂ > Ar**, because larger molecules have **more electrons** and stronger van der Waals forces."
+pitfalls:
+  - "For S₈ vs P₄, mention **more electrons**, so stronger van der Waals forces. Not 'stronger covalent bonds'."
+  - "Silicon is **macromolecular**, not metallic."
+  - "Blocks are based on the sub-level of the **highest-energy** electron."
+questions:
+  - q: "How are elements classified into s, p, d and f blocks?"
+    o: ["By their number of neutrons", "By the sub-level containing their highest-energy electron", "By their state at room temperature", "By their reactivity"]
+    a: 1
+    e: "E.g. chlorine's highest-energy electron is in 3p, so it is a p-block element."
+  - q: "Which block is magnesium in?"
+    o: ["s-block", "p-block", "d-block", "f-block"]
+    a: 0
+    e: "Mg is 1s² 2s² 2p⁶ 3s². Its highest-energy electron is in an s sub-level."
+  - q: "Why does atomic radius decrease across Period 3?"
+    o: ["Shielding increases greatly", "Electrons are added to new shells", "Nuclear charge increases, while shielding stays similar, so outer electrons are pulled closer", "Neutron number decreases"]
+    a: 2
+    e: "More protons attract the same outer shell more strongly."
+  - q: "Which Period 3 element has the highest melting point?"
+    o: ["Aluminium", "Sulfur", "Phosphorus", "Silicon"]
+    a: 3
+    e: "Silicon is macromolecular, so many strong covalent bonds must be broken to melt it."
+  - q: "Why does the melting point increase from Na to Al?"
+    o: ["Metallic bonding gets stronger: ions are smaller with a higher charge, and there are more delocalised electrons", "Van der Waals forces increase", "Covalent bonds get stronger", "Atoms get larger"]
+    a: 0
+    e: "Na⁺, Mg²⁺ and Al³⁺ have increasing charge and decreasing size, attracting more delocalised electrons more strongly."
+  - q: "Why does sulfur (S₈) have a higher melting point than phosphorus (P₄)?"
+    o: ["S₈ has stronger covalent bonds", "S₈ is a larger molecule with more electrons, so stronger van der Waals forces", "S₈ is metallic", "S₈ forms hydrogen bonds"]
+    a: 1
+    e: "Both are simple molecular. S₈ has more electrons, giving stronger induced dipole–dipole forces."
+  - q: "Why does argon have the lowest melting point in Period 3?"
+    o: ["It is metallic", "It is macromolecular", "It exists as single atoms with very weak van der Waals forces", "It forms hydrogen bonds"]
+    a: 2
+    e: "Argon atoms have few electrons for a Period 3 element and weak forces between them."
+  - q: "What is the general trend in first ionisation energy across Period 3?"
+    o: ["Decreases", "Stays the same", "Decreases then increases", "Increases, with dips at Al and S"]
+    a: 3
+    e: "Ionisation energy rises because nuclear charge increases, with dips at Al (3p) and S (paired electrons)."
+  - q: "Why is the first ionisation energy of Al lower than Mg?"
+    o: ["Al's outer electron is in a 3p sub-level, which is higher in energy than 3s", "Al has fewer protons", "Al has more shells", "Al's outer electron is paired"]
+    a: 0
+    e: "The 3p electron is higher in energy and partly shielded by the 3s electrons."
+  - q: "Which type of structure does phosphorus have?"
+    o: ["Metallic", "Simple molecular (P₄)", "Giant ionic", "Macromolecular"]
+    a: 1
+    e: "Phosphorus exists as P₄ molecules held together by van der Waals forces."
+  - q: "What type of bonding is present in solid sodium?"
+    o: ["Ionic", "Covalent", "Metallic", "Hydrogen bonding"]
+    a: 2
+    e: "Sodium is a metal: Na⁺ ions in a sea of delocalised electrons."
+  - q: "Which Period 3 element is macromolecular?"
+    o: ["Sodium", "Chlorine", "Sulfur", "Silicon"]
+    a: 3
+    e: "Silicon forms a giant covalent structure like diamond."
+  - q: "Which block is chlorine in?"
+    o: ["p-block", "s-block", "d-block", "f-block"]
+    a: 0
+    e: "Chlorine is 3s² 3p⁵. Its highest-energy electron is in a p sub-level."
+  - q: "Which of these has the largest atomic radius?"
+    o: ["Cl", "Na", "Si", "Ar"]
+    a: 1
+    e: "Sodium is at the start of Period 3, with the lowest nuclear charge pulling on the same shell."
+  - q: "Why is the first ionisation energy of S lower than P?"
+    o: ["S has fewer protons", "S's electron is in a new shell", "In S, the electron is removed from a 3p orbital containing a pair, and pair repulsion makes it easier to remove", "S is a metal"]
+    a: 2
+    e: "P has three unpaired 3p electrons. S has one pair, which repel each other."
+  - q: "What is the order of melting points for the simple molecular Period 3 elements?"
+    o: ["Ar > Cl₂ > P₄ > S₈", "P₄ > S₈ > Cl₂ > Ar", "Cl₂ > Ar > S₈ > P₄", "S₈ > P₄ > Cl₂ > Ar"]
+    a: 3
+    e: "Larger molecules with more electrons have stronger van der Waals forces."
+  - q: "Transition metals belong to which block?"
+    o: ["d-block", "s-block", "p-block", "f-block"]
+    a: 0
+    e: "Transition metals have their highest-energy electrons in d sub-levels."
+  - q: "Why does chlorine have a lower melting point than sulfur?"
+    o: ["Chlorine is metallic", "Cl₂ molecules have fewer electrons than S₈, so weaker van der Waals forces", "Chlorine forms hydrogen bonds", "Chlorine is macromolecular"]
+    a: 1
+    e: "S₈ has 128 electrons; Cl₂ has 34. Fewer electrons means weaker forces between molecules."
+  - q: "In the Periodic Table, elements are arranged in order of:"
+    o: ["Mass number", "Relative atomic mass", "Atomic number", "Number of neutrons"]
+    a: 2
+    e: "Elements are arranged by atomic number (number of protons)."
+  - q: "Why does aluminium have a higher melting point than sodium?"
+    o: ["Aluminium is macromolecular", "Aluminium has weaker metallic bonding", "Sodium has more delocalised electrons", "Al³⁺ ions are smaller with a higher charge, and there are more delocalised electrons, so stronger metallic bonding"]
+    a: 3
+    e: "Al contributes 3 electrons per atom to the sea; Na only 1."
+  - q: "Which element in Period 3 has the highest first ionisation energy?"
+    o: ["Argon", "Chlorine", "Sodium", "Phosphorus"]
+    a: 0
+    e: "Argon has the greatest nuclear charge in the period with similar shielding."
+  - q: "What forces are overcome when silicon melts?"
+    o: ["Van der Waals forces", "Covalent bonds", "Metallic bonds", "Hydrogen bonds"]
+    a: 1
+    e: "Silicon is macromolecular, so strong covalent bonds must be broken."

@@ -1,0 +1,122 @@
+id: "3.3.6"
+order: 16
+year: 1
+section: "3.3"
+spec: "3.3.6"
+title: "Organic analysis"
+desc: "Test-tube tests for functional groups, high-resolution mass spectrometry, and infrared spectroscopy, including the fingerprint region and greenhouse gases."
+practicals: [6]
+summary:
+  - h: "Identifying functional groups"
+    p:
+      - "**Alkene**: bromine water, **orange → colourless**."
+      - "**Primary/secondary alcohol**: acidified K₂Cr₂O₇, **orange → green**."
+      - "**Aldehyde**: Tollens' reagent gives a **silver mirror**; Fehling's solution gives a **brick-red precipitate**."
+      - "**Carboxylic acid**: add NaHCO₃ or Na₂CO₃, **effervescence** (CO₂ turns limewater milky)."
+  - h: "High-resolution mass spectrometry"
+    p:
+      - "Measures m/z to **several decimal places**, so it can tell apart molecules with the **same integer Mr** but **different molecular formulae**."
+      - "Precise atomic masses: ¹H = 1.0078, ¹²C = 12.0000, ¹⁴N = 14.0031, ¹⁶O = 15.9949."
+      - "E.g. C₃H₈ (44.0626) and CO₂ (43.9898) both have Mr ≈ 44."
+  - h: "Infrared spectroscopy"
+    p:
+      - "Bonds **absorb IR radiation** at specific wavenumbers (cm⁻¹), causing them to **vibrate** more."
+      - "Key absorptions: **O–H (alcohols)** 3230–3550, broad. **O–H (acids)** 2500–3000, very broad. **C=O** 1680–1750, sharp. **C–H** 2850–3300. **N–H** 3300–3500."
+      - "The **fingerprint region** (below **1500 cm⁻¹**) is unique to each molecule. Compare with a database to identify a compound or detect impurities."
+  - h: "IR and global warming"
+    p:
+      - "**CO₂, methane and water vapour** absorb IR radiation emitted from the Earth's surface. This is why they are **greenhouse gases**."
+      - "Increasing greenhouse gas concentrations contribute to **global warming**."
+pitfalls:
+  - "Use the **data sheet** values for IR. Don't memorise every range, but know O–H and C=O."
+  - "Broad O–H at 2500–3000 plus C=O at 1680–1750 means **carboxylic acid**."
+  - "High-resolution MS uses **precise** atomic masses, not whole numbers."
+questions:
+  - q: "Which test distinguishes an aldehyde from a ketone?"
+    o: ["Bromine water", "Tollens' reagent: only the aldehyde gives a silver mirror", "Sodium carbonate", "Litmus paper"]
+    a: 1
+    e: "Aldehydes are oxidised by Tollens' reagent; ketones aren't."
+  - q: "Which test shows a carboxylic acid is present?"
+    o: ["Add sodium hydrogencarbonate: effervescence of CO₂", "Bromine water decolourises", "Silver mirror", "Orange to green with dichromate"]
+    a: 0
+    e: "Acids react with carbonates and hydrogencarbonates to release CO₂."
+  - q: "What does high-resolution mass spectrometry allow chemists to do?"
+    o: ["Find the number of isomers", "Measure bond lengths", "Distinguish between molecules with the same integer Mr but different molecular formulae", "Identify functional groups directly"]
+    a: 2
+    e: "Precise masses to several decimal places differ for different formulae."
+  - q: "C₃H₈ and CO₂ both have Mr ≈ 44. A peak is at 43.9898. Which is it? (C = 12.0000, H = 1.0078, O = 15.9949)"
+    o: ["C₃H₈", "Neither", "Both", "CO₂"]
+    a: 3
+    e: "CO₂ = 12.0000 + 2(15.9949) = 43.9898. C₃H₈ = 44.0626."
+  - q: "What happens when a molecule absorbs infrared radiation?"
+    o: ["Its bonds vibrate more", "It ionises", "It breaks into fragments", "Its electrons are excited to higher levels"]
+    a: 0
+    e: "IR energy matches the vibrational energy of bonds."
+  - q: "Which absorption range is characteristic of C=O?"
+    o: ["3230–3550 cm⁻¹", "1680–1750 cm⁻¹", "2500–3000 cm⁻¹", "1000–1300 cm⁻¹"]
+    a: 1
+    e: "A strong, sharp peak at 1680–1750 cm⁻¹ shows a carbonyl group."
+  - q: "A spectrum shows a broad peak at 3230–3550 cm⁻¹ and no C=O. What type of compound is it likely to be?"
+    o: ["Ketone", "Carboxylic acid", "Alcohol", "Alkane"]
+    a: 2
+    e: "A broad O–H at 3230–3550 cm⁻¹ without C=O suggests an alcohol."
+  - q: "A spectrum shows a very broad peak at 2500–3000 cm⁻¹ and a sharp peak at 1710 cm⁻¹. What is the compound?"
+    o: ["Alcohol", "Aldehyde", "Alkene", "Carboxylic acid"]
+    a: 3
+    e: "Broad O–H (acid) at 2500–3000 plus C=O at 1710 shows a carboxylic acid."
+  - q: "What is the fingerprint region?"
+    o: ["The region below 1500 cm⁻¹, unique to each molecule", "The region above 3000 cm⁻¹", "The molecular ion peak", "The region for O–H bonds"]
+    a: 0
+    e: "The complex pattern below 1500 cm⁻¹ can be matched with a database to identify a compound."
+  - q: "How can the fingerprint region be used?"
+    o: ["To count carbon atoms", "To identify a compound by comparing with known spectra, or detect impurities", "To find Mr", "To measure bond enthalpy"]
+    a: 1
+    e: "Extra peaks compared with a pure reference show impurities."
+  - q: "Why are CO₂, methane and water vapour greenhouse gases?"
+    o: ["They absorb UV radiation", "They destroy ozone", "Their bonds absorb infrared radiation emitted by the Earth", "They reflect sunlight"]
+    a: 2
+    e: "Absorbing outgoing IR traps heat in the atmosphere."
+  - q: "How can IR show that a primary alcohol has been oxidised to a carboxylic acid?"
+    o: ["The O–H peak disappears completely", "A C–H peak appears", "No change", "A C=O peak appears at 1680–1750 cm⁻¹ and the O–H peak becomes very broad at 2500–3000"]
+    a: 3
+    e: "The acid has both C=O and a broader, lower-wavenumber O–H."
+  - q: "How could IR show an alcohol has been oxidised to a ketone?"
+    o: ["The O–H peak disappears and a C=O peak appears", "A broad O–H appears", "A C=C peak appears", "No change"]
+    a: 0
+    e: "The ketone has C=O but no O–H."
+  - q: "Which test distinguishes an alkene from an alkane?"
+    o: ["Tollens' reagent", "Bromine water", "Sodium carbonate", "Acidified dichromate"]
+    a: 1
+    e: "Alkenes decolourise bromine water. Alkanes don't."
+  - q: "Which test distinguishes propan-2-ol from 2-methylpropan-2-ol?"
+    o: ["Bromine water", "Sodium hydrogencarbonate", "Warm with acidified potassium dichromate: propan-2-ol turns it green", "Tollens' reagent"]
+    a: 2
+    e: "Secondary alcohols are oxidised; tertiary alcohols aren't."
+  - q: "What unit is used for wavenumber in IR spectroscopy?"
+    o: ["nm", "Hz", "m/z", "cm⁻¹"]
+    a: 3
+    e: "Wavenumber is measured in cm⁻¹ (reciprocal centimetres)."
+  - q: "What is the precise mass of ¹²C used in high-resolution mass spectrometry?"
+    o: ["12.0000", "12.0107", "12.0078", "11.9949"]
+    a: 0
+    e: "Carbon-12 is defined as exactly 12."
+  - q: "Which bond causes absorption at 3300–3500 cm⁻¹ in amines?"
+    o: ["O–H", "N–H", "C=O", "C–N"]
+    a: 1
+    e: "N–H stretching appears in this region."
+  - q: "Why is the fingerprint region hard to interpret bond-by-bond?"
+    o: ["It has no peaks", "It only shows C–H", "It contains many overlapping absorptions from the whole molecule", "It is above 3000 cm⁻¹"]
+    a: 2
+    e: "It's used as a whole pattern to match against known spectra."
+  - q: "An unknown liquid turns acidified dichromate green, and gives no silver mirror with Tollens'. What could it be?"
+    o: ["An aldehyde", "A tertiary alcohol", "A carboxylic acid", "A primary or secondary alcohol"]
+    a: 3
+    e: "Oxidised by dichromate means primary or secondary alcohol (or aldehyde). No silver mirror rules out an aldehyde."
+  - q: "Two compounds have Mr = 28: C₂H₄ and N₂. How can they be distinguished?"
+    o: ["High-resolution mass spectrometry", "Boiling point only", "Low-resolution mass spectrometry", "Litmus paper"]
+    a: 0
+    e: "C₂H₄ = 28.0312 and N₂ = 28.0062, which high-resolution MS can separate."
+  - q: "Which statement about IR spectra is correct?"
+    o: ["Peaks show the number of hydrogen atoms", "Different bonds absorb at characteristic wavenumbers", "IR spectra show Mr", "Only carbonyls absorb IR"]
+    a: 1
+    e: "Each type of bond absorbs in a characteristic range, so functional groups can be identified."

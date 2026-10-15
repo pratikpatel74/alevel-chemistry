@@ -1,0 +1,133 @@
+id: "3.1.3"
+order: 3
+year: 1
+section: "3.1"
+spec: "3.1.3"
+title: "Bonding"
+desc: "Ionic, covalent, dative and metallic bonding, crystal structures, shapes of molecules, electronegativity and polarity, and intermolecular forces."
+practicals: []
+summary:
+  - h: "Ionic, covalent and metallic bonding"
+    p:
+      - "**Ionic bonding**: electrostatic attraction between oppositely charged ions in a lattice."
+      - "**Covalent bond**: a shared pair of electrons. **Dative (coordinate) bond**: a shared pair where **both electrons come from the same atom**, shown with an arrow, e.g. in NH₄⁺."
+      - "**Metallic bonding**: attraction between **positive metal ions** and **delocalised electrons**."
+      - "Learn ion formulae: e.g. sulfate SO₄²⁻, hydroxide OH⁻, nitrate NO₃⁻, carbonate CO₃²⁻, ammonium NH₄⁺."
+  - h: "Structures and properties"
+    p:
+      - "**Ionic** (e.g. NaCl): high melting point (strong attractions throughout the lattice). Conducts when **molten or dissolved**, because ions can move."
+      - "**Metallic** (e.g. Mg): high melting point. Conducts as **solid and liquid** (delocalised electrons). Malleable, because layers of ions can slide."
+      - "**Simple molecular** (e.g. I₂, ice): low melting point. Only weak **intermolecular forces** need breaking, not covalent bonds. Doesn't conduct."
+      - "**Macromolecular / giant covalent** (e.g. diamond, graphite): very high melting point, because many **strong covalent bonds** must break. Graphite conducts (delocalised electrons between layers). Diamond doesn't."
+  - h: "Shapes of molecules (VSEPR)"
+    p:
+      - "Electron pairs around the central atom **repel** each other and arrange themselves as far apart as possible."
+      - "**Lone pairs repel more** than bonding pairs, reducing bond angles by about **2.5°** per lone pair."
+      - "2 bonding pairs: **linear**, 180°. 3: **trigonal planar**, 120°. 4: **tetrahedral**, 109.5°. 5: **trigonal bipyramidal**, 90° and 120°. 6: **octahedral**, 90°."
+      - "3 bonding + 1 lone pair (NH₃): **pyramidal**, 107°. 2 bonding + 2 lone pairs (H₂O): **bent**, 104.5°."
+  - h: "Electronegativity and polarity"
+    p:
+      - "**Electronegativity**: the power of an atom to attract the pair of electrons in a covalent bond. Increases across a period and up a group. **Fluorine** is the most electronegative."
+      - "A difference in electronegativity makes a bond **polar** (δ+ and δ−)."
+      - "A molecule is **polar** only if its bond dipoles **don't cancel**. CO₂ has polar bonds but is non-polar, because it is linear and symmetrical."
+  - h: "Intermolecular forces"
+    p:
+      - "**Van der Waals (induced dipole–dipole)**: between all molecules. Electrons move, creating a temporary dipole, which induces a dipole in a neighbour. Stronger with **more electrons** (bigger molecules) and more surface contact."
+      - "**Permanent dipole–dipole**: between polar molecules."
+      - "**Hydrogen bonding**: the strongest. Between an H atom bonded to **N, O or F** and a **lone pair** on N, O or F of another molecule."
+      - "Hydrogen bonding explains why water has an anomalously high boiling point, and why **ice is less dense** than water (open lattice)."
+      - "Boiling points depend on the **strength of intermolecular forces** for simple molecular substances."
+pitfalls:
+  - "When a simple molecular substance melts or boils, **intermolecular forces** break, not covalent bonds."
+  - "Draw hydrogen bonds with the **lone pair**, partial charges, and a 180° angle at H."
+  - "Polar bonds don't always give a polar molecule: check the **symmetry**."
+  - "Name both shape and bond angle, and explain using **repulsion** between electron pairs."
+questions:
+  - q: "What is a dative covalent bond?"
+    o: ["A shared pair of electrons where both electrons come from the same atom", "A bond between two ions", "A bond with three shared pairs", "A hydrogen bond"]
+    a: 0
+    e: "In a dative bond, one atom donates both electrons, e.g. the N–H⁺ bond formed in NH₄⁺."
+  - q: "What is metallic bonding?"
+    o: ["Attraction between ions of opposite charge", "Attraction between positive metal ions and delocalised electrons", "Shared pairs between metal atoms", "Hydrogen bonding in metals"]
+    a: 1
+    e: "Metal atoms lose outer electrons, which become delocalised and attract the lattice of positive ions."
+  - q: "Why does sodium chloride conduct electricity when molten but not when solid?"
+    o: ["Electrons are free when molten", "Covalent bonds break when molten", "In the molten state, ions are free to move and carry charge", "Solid NaCl contains no ions"]
+    a: 2
+    e: "In the solid, ions are fixed in the lattice. Melting frees them to move."
+  - q: "Why does iodine have a low melting point?"
+    o: ["Covalent bonds in I₂ are weak", "It is ionic", "It is a giant covalent structure", "Only weak intermolecular forces between molecules need to be overcome"]
+    a: 3
+    e: "Iodine is simple molecular. Melting overcomes van der Waals forces, not the I–I covalent bond."
+  - q: "Why does graphite conduct electricity?"
+    o: ["Each carbon has one delocalised electron, which can move between layers", "It contains ions", "It is a metal", "Its covalent bonds break easily"]
+    a: 0
+    e: "Each C forms 3 covalent bonds, leaving one electron delocalised along the layers."
+  - q: "Why does diamond have a very high melting point?"
+    o: ["Strong intermolecular forces", "Many strong covalent bonds must be broken", "It contains ions", "It has delocalised electrons"]
+    a: 1
+    e: "Diamond is macromolecular: each C is bonded to 4 others in a giant network of strong covalent bonds."
+  - q: "What is the shape and bond angle of NH₃?"
+    o: ["Trigonal planar, 120°", "Tetrahedral, 109.5°", "Pyramidal, 107°", "Bent, 104.5°"]
+    a: 2
+    e: "NH₃ has 3 bonding pairs and 1 lone pair. The lone pair repels more, reducing the angle from 109.5° to 107°."
+  - q: "What is the shape and bond angle of H₂O?"
+    o: ["Linear, 180°", "Pyramidal, 107°", "Tetrahedral, 109.5°", "Bent, 104.5°"]
+    a: 3
+    e: "Water has 2 bonding pairs and 2 lone pairs. Two lone pairs reduce the angle to about 104.5°."
+  - q: "What is the shape of SF₆?"
+    o: ["Octahedral", "Trigonal bipyramidal", "Tetrahedral", "Square planar"]
+    a: 0
+    e: "Six bonding pairs and no lone pairs give an octahedral shape with 90° bond angles."
+  - q: "What is the shape of BF₃?"
+    o: ["Pyramidal", "Trigonal planar", "Tetrahedral", "Linear"]
+    a: 1
+    e: "Boron has 3 bonding pairs and no lone pairs, so they spread out at 120° in a plane."
+  - q: "Why do lone pairs reduce bond angles?"
+    o: ["They attract bonding pairs", "They are further from the nucleus", "Lone pairs repel more strongly than bonding pairs", "They form extra bonds"]
+    a: 2
+    e: "Lone pair–lone pair repulsion > lone pair–bonding pair > bonding pair–bonding pair."
+  - q: "What is electronegativity?"
+    o: ["The energy to remove an electron", "The charge on an ion", "The number of electrons in the outer shell", "The power of an atom to attract the pair of electrons in a covalent bond"]
+    a: 3
+    e: "Electronegativity increases with nuclear charge and decreases with distance and shielding."
+  - q: "Why is CO₂ a non-polar molecule, even though C=O bonds are polar?"
+    o: ["It is linear and symmetrical, so the bond dipoles cancel", "Carbon and oxygen have the same electronegativity", "It has lone pairs", "It is an ionic compound"]
+    a: 0
+    e: "The two dipoles point in opposite directions and cancel out."
+  - q: "What causes van der Waals forces between molecules?"
+    o: ["Permanent dipoles", "Temporary dipoles from electron movement, inducing dipoles in neighbouring molecules", "Shared pairs of electrons", "Attraction between ions"]
+    a: 1
+    e: "Uneven electron distribution creates a temporary dipole, which induces a dipole in a nearby molecule."
+  - q: "Why does the boiling point increase down the noble gases?"
+    o: ["Covalent bonds get stronger", "Hydrogen bonding increases", "More electrons means stronger van der Waals forces", "Atoms get smaller"]
+    a: 2
+    e: "Larger atoms have more electrons, so bigger temporary dipoles and stronger induced dipole–dipole forces."
+  - q: "Which conditions are needed for hydrogen bonding?"
+    o: ["H bonded to any non-metal", "Ions in solution", "Carbon bonded to hydrogen", "H bonded to N, O or F, and a lone pair on N, O or F of another molecule"]
+    a: 3
+    e: "Only N, O and F are electronegative enough to make H sufficiently δ+, and they have lone pairs."
+  - q: "Why does water have a higher boiling point than H₂S?"
+    o: ["Water forms hydrogen bonds between molecules, which are stronger than the forces between H₂S molecules", "H₂S has fewer electrons", "Water is ionic", "O–H covalent bonds are stronger"]
+    a: 0
+    e: "Water forms hydrogen bonds. H₂S has only weaker van der Waals and permanent dipole forces, despite having more electrons."
+  - q: "Why is ice less dense than liquid water?"
+    o: ["Ice has more molecules", "Hydrogen bonds hold molecules in an open lattice, further apart than in liquid water", "Ice contains air", "Covalent bonds lengthen"]
+    a: 1
+    e: "In ice, each molecule forms hydrogen bonds in a fixed open structure, taking up more space."
+  - q: "Why are metals malleable?"
+    o: ["Ions are held by strong ionic bonds", "Electrons are fixed", "Layers of positive ions can slide over each other while still attracted to delocalised electrons", "Covalent bonds are flexible"]
+    a: 2
+    e: "The delocalised electrons keep bonding the ions together even when layers move."
+  - q: "What is the bond angle in a tetrahedral molecule such as CH₄?"
+    o: ["90°", "107°", "120°", "109.5°"]
+    a: 3
+    e: "Four bonding pairs and no lone pairs arrange tetrahedrally at 109.5°."
+  - q: "Which molecule is polar?"
+    o: ["HCl", "CO₂", "CH₄", "BF₃"]
+    a: 0
+    e: "HCl has one polar bond and nothing to cancel it. The others are symmetrical, so their dipoles cancel."
+  - q: "What is the formula of the sulfate ion?"
+    o: ["SO₃²⁻", "SO₄²⁻", "S²⁻", "HSO₄⁻"]
+    a: 1
+    e: "Sulfate is SO₄²⁻. SO₃²⁻ is sulfite, and HSO₄⁻ is hydrogensulfate."

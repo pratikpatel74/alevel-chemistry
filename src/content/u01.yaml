@@ -1,0 +1,135 @@
+id: "3.1.1"
+order: 1
+year: 1
+section: "3.1"
+spec: "3.1.1"
+title: "Atomic structure"
+desc: "Subatomic particles, isotopes, time-of-flight mass spectrometry, relative atomic mass, electron configurations and ionisation energies."
+practicals: []
+summary:
+  - h: "Fundamental particles"
+    p:
+      - "**Protons**: relative mass 1, charge +1. **Neutrons**: relative mass 1, charge 0. **Electrons**: relative mass 1/1836, charge −1."
+      - "**Atomic number (Z)**: number of protons. **Mass number (A)**: protons + neutrons."
+      - "**Isotopes**: atoms of the same element with the **same number of protons but different numbers of neutrons**. They have the same chemical properties (same electron configuration) but different physical properties (e.g. mass, density)."
+      - "Models of the atom developed over time as new evidence appeared: Dalton's solid spheres, Thomson's plum pudding, Rutherford's nuclear model, Bohr's electron shells."
+  - h: "Time-of-flight (TOF) mass spectrometry"
+    p:
+      - "**Ionisation**: by **electrospray** (sample dissolved in a volatile solvent and sprayed through a high-voltage needle; each molecule **gains a proton**, giving MH⁺) or by **electron impact** (high-energy electrons knock out an electron, giving X⁺)."
+      - "**Acceleration**: an electric field gives all ions the **same kinetic energy**."
+      - "**Ion drift**: lighter ions travel faster, so they reach the detector first."
+      - "**Detection**: ions hit the detector and gain an electron, creating a current proportional to their **abundance**."
+      - "`KE = ½mv²`, so `v = √(2KE ÷ m)` and `t = d ÷ v`."
+  - h: "Relative atomic mass"
+    p:
+      - "**Relative atomic mass (Ar)**: the weighted mean mass of an atom of an element relative to **1/12 of the mass of an atom of carbon-12**."
+      - "`Ar = Σ(isotope mass × abundance) ÷ Σ abundance`"
+      - "Mass spectra of diatomic molecules like Cl₂ show peaks for each combination, e.g. ³⁵Cl³⁵Cl, ³⁵Cl³⁷Cl and ³⁷Cl³⁷Cl at m/z 70, 72 and 74."
+  - h: "Electron configuration"
+    p:
+      - "Shells contain **sub-levels** s, p, d and f, which hold 2, 6, 10 and 14 electrons. Each orbital holds **2 electrons** with opposite spins."
+      - "Fill in order: 1s 2s 2p 3s 3p **4s 3d** 4p. The 4s fills before 3d, but 4s electrons are **lost first** when ions form."
+      - "Exceptions: **Cr** is [Ar] 3d⁵ 4s¹ and **Cu** is [Ar] 3d¹⁰ 4s¹."
+  - h: "Ionisation energy"
+    p:
+      - "**First ionisation energy**: the energy needed to remove **one mole of electrons** from **one mole of gaseous atoms**, forming 1+ ions. `X(g) → X⁺(g) + e⁻`"
+      - "It depends on **nuclear charge**, **distance** of the outer electron from the nucleus, and **shielding** by inner electrons."
+      - "**Down a group**: decreases, because outer electrons are further away and more shielded, despite more protons."
+      - "**Across a period**: generally increases, because nuclear charge increases, with similar shielding and a slightly smaller radius."
+      - "**Dip from Group 2 to 3** (e.g. Mg to Al): the electron removed from Al is in a **3p** sub-level, higher in energy and slightly more shielded than 3s."
+      - "**Dip from Group 5 to 6** (e.g. P to S): in S, the electron is removed from a **3p orbital containing a pair**, and **repulsion** between the paired electrons makes it easier to remove."
+      - "**Successive ionisation energies** show a large jump when an electron is removed from a new, inner shell. This shows which group an element is in."
+pitfalls:
+  - "Include **gaseous** and state symbols in ionisation energy definitions and equations."
+  - "Transition metals lose **4s electrons before 3d** when forming ions."
+  - "For the Group 2→3 dip, mention the **p sub-level**. For the 5→6 dip, mention **pair repulsion**."
+  - "In electrospray, molecules gain a proton (**M + H**), so the peak is 1 unit above Mr."
+questions:
+  - q: "What is the relative charge and mass of a neutron?"
+    o: ["Charge +1, mass 1", "Charge 0, mass 1", "Charge −1, mass 1/1836", "Charge 0, mass 1/1836"]
+    a: 1
+    e: "Neutrons are neutral and have a relative mass of 1, the same as a proton."
+  - q: "What are isotopes?"
+    o: ["Atoms with the same number of protons but different numbers of neutrons", "Atoms with different numbers of protons", "Ions with different charges", "Molecules with the same formula"]
+    a: 0
+    e: "Isotopes of an element have the same atomic number but different mass numbers."
+  - q: "Why do isotopes of an element have the same chemical properties?"
+    o: ["They have the same mass", "They have the same number of neutrons", "They have the same electron configuration", "They have the same density"]
+    a: 2
+    e: "Chemical reactions involve electrons. Isotopes have the same number and arrangement of electrons."
+  - q: "In electrospray ionisation, what happens to the sample molecules?"
+    o: ["They lose an electron", "They are bombarded with electrons", "They are heated until they break", "They gain a proton, forming MH⁺ ions"]
+    a: 3
+    e: "In electrospray, the high voltage causes each molecule to gain a proton: M + H⁺ → MH⁺."
+  - q: "In TOF mass spectrometry, why do lighter ions reach the detector first?"
+    o: ["All ions have the same kinetic energy, so lighter ions travel faster", "Lighter ions have a larger charge", "They are deflected less", "They are produced first"]
+    a: 0
+    e: "KE = ½mv². With the same KE, a smaller mass means a higher velocity, so a shorter flight time."
+  - q: "How is a current produced at the detector in TOF mass spectrometry?"
+    o: ["Ions lose an electron at the detector", "Ions gain an electron at the detector", "Ions are deflected by a magnet", "Ions emit light"]
+    a: 1
+    e: "Positive ions gain electrons when they hit the detector. The current is proportional to abundance."
+  - q: "What is the definition of relative atomic mass?"
+    o: ["The mass of one atom in grams", "The number of protons and neutrons", "The weighted mean mass of an atom of an element relative to 1/12 the mass of a carbon-12 atom", "The mass of the most common isotope"]
+    a: 2
+    e: "Ar is a weighted average of the isotopes, compared with 1/12 of the mass of a carbon-12 atom."
+  - q: "Chlorine is 75% ³⁵Cl and 25% ³⁷Cl. What is its relative atomic mass?"
+    o: ["36.0", "35.0", "37.0", "35.5"]
+    a: 3
+    e: "Ar = (35 × 75 + 37 × 25) ÷ 100 = 35.5."
+  - q: "A mass spectrum of Cl₂ shows peaks at m/z 70, 72 and 74. What causes three peaks?"
+    o: ["Different combinations of ³⁵Cl and ³⁷Cl in the molecule", "Fragmentation of Cl₂", "Cl⁺ and Cl²⁺ ions", "Impurities"]
+    a: 0
+    e: "³⁵Cl–³⁵Cl = 70, ³⁵Cl–³⁷Cl = 72, ³⁷Cl–³⁷Cl = 74."
+  - q: "What is the electron configuration of Fe²⁺?"
+    o: ["[Ar] 3d⁴ 4s²", "[Ar] 3d⁶", "[Ar] 3d⁶ 4s²", "[Ar] 3d⁵ 4s¹"]
+    a: 1
+    e: "Fe is [Ar] 3d⁶ 4s². The two 4s electrons are lost first, giving [Ar] 3d⁶."
+  - q: "What is the electron configuration of a chromium atom?"
+    o: ["[Ar] 3d⁴ 4s²", "[Ar] 3d⁶", "[Ar] 3d⁵ 4s¹", "[Ar] 4s² 3d⁵"]
+    a: 2
+    e: "Chromium is an exception: [Ar] 3d⁵ 4s¹, because a half-filled d sub-level is more stable."
+  - q: "How many electrons can a d sub-level hold?"
+    o: ["2", "6", "14", "10"]
+    a: 3
+    e: "A d sub-level has 5 orbitals, each holding 2 electrons, so 10 electrons."
+  - q: "Which equation represents the first ionisation energy of sodium?"
+    o: ["Na(g) → Na⁺(g) + e⁻", "Na(s) → Na⁺(g) + e⁻", "Na(g) + e⁻ → Na⁻(g)", "Na(s) → Na⁺(aq) + e⁻"]
+    a: 0
+    e: "First ionisation energy involves gaseous atoms forming gaseous 1+ ions."
+  - q: "Why does first ionisation energy decrease down Group 1?"
+    o: ["Nuclear charge decreases", "The outer electron is further from the nucleus and more shielded", "There are fewer electrons", "Atoms get smaller"]
+    a: 1
+    e: "Although the nuclear charge increases, the extra shells increase distance and shielding, so attraction for the outer electron falls."
+  - q: "Why does first ionisation energy generally increase across a period?"
+    o: ["Shielding increases greatly", "Atoms get larger", "Nuclear charge increases with similar shielding, so the outer electrons are held more strongly", "Electrons are added to new shells"]
+    a: 2
+    e: "Protons are added but electrons go into the same shell, so shielding is similar and attraction increases."
+  - q: "Why is the first ionisation energy of aluminium lower than that of magnesium?"
+    o: ["Aluminium has fewer protons", "Aluminium's outer electron is paired", "Aluminium is in a new shell", "Aluminium's outer electron is in a 3p sub-level, which is higher in energy than 3s"]
+    a: 3
+    e: "The 3p electron is higher in energy and slightly more shielded by the 3s electrons, so less energy is needed."
+  - q: "Why is the first ionisation energy of sulfur lower than that of phosphorus?"
+    o: ["In sulfur, the electron is removed from a 3p orbital containing a pair, and repulsion between the paired electrons makes it easier to remove", "Sulfur has fewer protons", "Sulfur's outer electron is in a 4s orbital", "Sulfur is a larger atom"]
+    a: 0
+    e: "Phosphorus has three unpaired 3p electrons. Sulfur has one paired 3p orbital, and electron repulsion lowers the energy needed."
+  - q: "The successive ionisation energies of an element show a large jump between the 2nd and 3rd. Which group is it in?"
+    o: ["Group 1", "Group 2", "Group 3", "Group 6"]
+    a: 1
+    e: "Two electrons are removed easily, then the third comes from an inner shell. So the element has 2 outer electrons: Group 2."
+  - q: "Which order shows sub-levels filling in a potassium atom?"
+    o: ["1s 2s 2p 3s 3p 3d", "1s 2s 2p 3s 3p 4p", "1s 2s 2p 3s 3p 4s", "1s 2s 3s 2p 3p 4s"]
+    a: 2
+    e: "4s fills before 3d, so K is 1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹."
+  - q: "Which statement about the 4s and 3d sub-levels is correct?"
+    o: ["3d fills first and empties first", "4s fills after 3d", "4s and 3d fill at the same time", "4s fills before 3d, and 4s electrons are lost first when transition metals form ions"]
+    a: 3
+    e: "4s is lower in energy for empty atoms, so it fills first. Once 3d is occupied, 4s electrons are removed first."
+  - q: "An ion has 16 protons, 18 electrons and 16 neutrons. What is it?"
+    o: ["³²S²⁻", "³²S²⁺", "³⁴S²⁻", "³²P³⁻"]
+    a: 0
+    e: "16 protons is sulfur. Mass number = 16 + 16 = 32. Two extra electrons give a 2− charge."
+  - q: "An electrospray mass spectrum shows a molecular ion peak at m/z 47. What is the Mr of the compound?"
+    o: ["47", "46", "48", "23.5"]
+    a: 1
+    e: "Electrospray adds a proton (mass 1), so the peak at 47 is MH⁺ and Mr = 46."

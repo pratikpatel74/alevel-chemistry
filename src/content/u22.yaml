@@ -1,0 +1,127 @@
+id: "3.2.4"
+order: 22
+year: 2
+section: "3.2"
+spec: "3.2.4"
+title: "Properties of Period 3 elements and their oxides"
+desc: "Reactions of Na, Mg, Al, Si, P and S with oxygen and water, structure and melting points of the oxides, and their acid–base behaviour."
+practicals: []
+summary:
+  - h: "Reactions with water"
+    p:
+      - "**Sodium** reacts vigorously with cold water: `2Na + 2H₂O → 2NaOH + H₂`. Solution pH **13–14**."
+      - "**Magnesium** reacts very slowly with cold water: `Mg + 2H₂O → Mg(OH)₂ + H₂`. Solution pH about **9–10** (Mg(OH)₂ is sparingly soluble)."
+  - h: "Reactions with oxygen"
+    p:
+      - "Na burns with a **yellow** flame to form Na₂O. Mg burns with a **bright white** flame to form MgO."
+      - "Al forms Al₂O₃; Si forms SiO₂; P burns with a white flame to form P₄O₁₀; S burns with a **blue** flame to form SO₂."
+  - h: "Structure and melting points of the oxides"
+    p:
+      - "**Na₂O, MgO, Al₂O₃**: **giant ionic**, high melting points. MgO > Na₂O because Mg²⁺ has a higher charge. Al₂O₃ is lower than expected because it has some **covalent character**."
+      - "**SiO₂**: **macromolecular**, very high melting point (many strong covalent bonds)."
+      - "**P₄O₁₀, SO₂**: **simple molecular**, low melting points (weak intermolecular forces). P₄O₁₀ is larger, so higher than SO₂."
+  - h: "Oxides with water"
+    p:
+      - "**Na₂O** + H₂O → 2NaOH (pH 12–14). **MgO** + H₂O → Mg(OH)₂ (pH about 9)."
+      - "**Al₂O₃** and **SiO₂** are **insoluble** in water (pH 7)."
+      - "**P₄O₁₀** + 6H₂O → 4H₃PO₄ (pH 0–1). **SO₂** + H₂O → H₂SO₃ (pH 2–3). **SO₃** + H₂O → H₂SO₄ (pH 0–1)."
+      - "**Ionic** oxides are **basic** (release O²⁻, which reacts with water to give OH⁻). **Covalent** oxides are **acidic**."
+  - h: "Acid–base reactions"
+    p:
+      - "**Basic oxides** (Na₂O, MgO) react with acids to form salts and water."
+      - "**Al₂O₃** is **amphoteric**: it reacts with acids **and** bases. With NaOH: `Al₂O₃ + 2NaOH + 3H₂O → 2NaAl(OH)₄`."
+      - "**SiO₂** is acidic: it reacts with hot concentrated NaOH to form sodium silicate: `SiO₂ + 2NaOH → Na₂SiO₃ + H₂O`."
+      - "**P₄O₁₀** and **SO₂/SO₃** react with bases to form salts, e.g. phosphates and sulfites/sulfates."
+pitfalls:
+  - "Al₂O₃ is **amphoteric**. Give equations with both an acid and a base."
+  - "SiO₂ doesn't react with water but is still classed as **acidic** (it reacts with bases)."
+  - "Explain melting points with **structure and bonding type** for each oxide."
+questions:
+  - q: "What is the product of sodium reacting with cold water?"
+    o: ["Na₂O and H₂", "NaOH and H₂", "NaH and O₂", "Na₂O₂"]
+    a: 1
+    e: "2Na + 2H₂O → 2NaOH + H₂."
+  - q: "What is the approximate pH of the solution formed when sodium reacts with water?"
+    o: ["13–14", "7", "9–10", "1–2"]
+    a: 0
+    e: "NaOH is a strong alkali that dissolves fully."
+  - q: "Why is the solution formed by magnesium with water only weakly alkaline (about pH 9–10)?"
+    o: ["MgO forms", "Mg is not a metal", "Mg(OH)₂ is only sparingly soluble", "Magnesium doesn't react"]
+    a: 2
+    e: "Little Mg(OH)₂ dissolves, so the OH⁻ concentration is low."
+  - q: "What colour flame does sulfur burn with?"
+    o: ["Yellow", "Bright white", "Red", "Blue"]
+    a: 3
+    e: "Sulfur burns with a blue flame forming SO₂."
+  - q: "What type of structure does SiO₂ have?"
+    o: ["Macromolecular", "Giant ionic", "Simple molecular", "Metallic"]
+    a: 0
+    e: "Each Si is covalently bonded to 4 O in a giant network."
+  - q: "Why does MgO have a higher melting point than Na₂O?"
+    o: ["MgO is covalent", "Mg²⁺ has a higher charge than Na⁺, giving stronger ionic attraction", "MgO is macromolecular", "Na₂O has more ions"]
+    a: 1
+    e: "Higher charge and smaller ion size give stronger electrostatic attraction."
+  - q: "Why is the melting point of Al₂O₃ lower than expected for an ionic oxide?"
+    o: ["Al³⁺ is large", "It is simple molecular", "It has some covalent character, because Al³⁺ polarises oxide ions", "It is metallic"]
+    a: 2
+    e: "The small, highly charged Al³⁺ distorts O²⁻, giving partial covalent bonding."
+  - q: "Why do P₄O₁₀ and SO₂ have low melting points?"
+    o: ["They are ionic", "They are macromolecular", "They have metallic bonding", "They are simple molecular, with only weak intermolecular forces"]
+    a: 3
+    e: "Melting only requires overcoming van der Waals and dipole–dipole forces."
+  - q: "What forms when P₄O₁₀ reacts with water?"
+    o: ["Phosphoric(V) acid, H₃PO₄", "Phosphine", "Phosphorus", "Sodium phosphate"]
+    a: 0
+    e: "P₄O₁₀ + 6H₂O → 4H₃PO₄, a strongly acidic solution."
+  - q: "What is the pH of the solution formed when SO₂ dissolves in water?"
+    o: ["12", "2–3", "7", "9"]
+    a: 1
+    e: "SO₂ forms sulfurous acid, H₂SO₃, a weak acid."
+  - q: "What does it mean that Al₂O₃ is amphoteric?"
+    o: ["It dissolves in water", "It only reacts with acids", "It reacts with both acids and bases", "It is acidic only"]
+    a: 2
+    e: "Al₂O₃ shows both basic and acidic behaviour."
+  - q: "What forms when Al₂O₃ reacts with sodium hydroxide solution?"
+    o: ["Al(OH)₃ only", "Al and NaOH", "Al₂(SO₄)₃", "NaAl(OH)₄"]
+    a: 3
+    e: "Al₂O₃ + 2NaOH + 3H₂O → 2NaAl(OH)₄."
+  - q: "Why is SiO₂ classed as an acidic oxide even though it doesn't dissolve in water?"
+    o: ["It reacts with bases such as hot concentrated NaOH to form a salt", "It reacts with acids", "It has a low pH", "It is ionic"]
+    a: 0
+    e: "SiO₂ + 2NaOH → Na₂SiO₃ + H₂O."
+  - q: "Why are ionic oxides like Na₂O basic?"
+    o: ["They contain H⁺", "Their oxide ions (O²⁻) react with water to form OH⁻ ions", "They are covalent", "They form acids"]
+    a: 1
+    e: "O²⁻ + H₂O → 2OH⁻."
+  - q: "What is the trend in the oxides across Period 3?"
+    o: ["From acidic to basic", "All basic", "From basic (ionic) through amphoteric to acidic (covalent)", "All amphoteric"]
+    a: 2
+    e: "Metal oxides on the left are basic; non-metal oxides on the right are acidic."
+  - q: "What is formed when MgO reacts with hydrochloric acid?"
+    o: ["MgH₂", "Mg(OH)₂", "Mg and water", "MgCl₂ and water"]
+    a: 3
+    e: "MgO + 2HCl → MgCl₂ + H₂O. A basic oxide neutralises an acid."
+  - q: "Which oxide forms a solution of pH about 0–1 with water?"
+    o: ["SO₃", "MgO", "Na₂O", "Al₂O₃"]
+    a: 0
+    e: "SO₃ + H₂O → H₂SO₄, a strong acid."
+  - q: "What colour flame does magnesium burn with?"
+    o: ["Yellow", "Bright white", "Blue", "Green"]
+    a: 1
+    e: "Magnesium burns with a dazzling white flame, forming MgO."
+  - q: "Write the equation for SO₂ reacting with sodium hydroxide."
+    o: ["SO₂ + NaOH → NaSO₂ + H", "SO₂ + H₂O → H₂SO₃", "SO₂ + 2NaOH → Na₂SO₃ + H₂O", "SO₂ + Na → NaSO₂"]
+    a: 2
+    e: "An acidic oxide reacts with a base to form a salt (sodium sulfite) and water."
+  - q: "Why does P₄O₁₀ have a higher melting point than SO₂?"
+    o: ["P₄O₁₀ is ionic", "P₄O₁₀ is macromolecular", "SO₂ has hydrogen bonds", "P₄O₁₀ molecules are larger, with more electrons, so stronger van der Waals forces"]
+    a: 3
+    e: "Both are simple molecular, but P₄O₁₀ is a bigger molecule."
+  - q: "Why don't Al₂O₃ and SiO₂ change the pH of water?"
+    o: ["They are insoluble in water", "They are neutral oxides", "They react to give pH 7", "They are gases"]
+    a: 0
+    e: "Neither dissolves, so the water stays at pH 7."
+  - q: "What is the product of sodium burning in oxygen?"
+    o: ["NaO", "Na₂O", "NaO₂ only", "Na₂O₃"]
+    a: 1
+    e: "4Na + O₂ → 2Na₂O."

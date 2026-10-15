@@ -1,0 +1,124 @@
+id: "3.3.15"
+order: 33
+year: 2
+section: "3.3"
+spec: "3.3.15"
+title: "NMR spectroscopy"
+desc: "¹³C and ¹H NMR, chemical shift and TMS, number of environments, integration, splitting patterns using the n+1 rule, and solvents."
+practicals: []
+summary:
+  - h: "Principles"
+    p:
+      - "NMR detects nuclei with spin, such as **¹H** and **¹³C**, in a magnetic field."
+      - "Atoms in different **chemical environments** absorb at different **chemical shifts (δ)**, measured in **ppm**."
+      - "The reference is **TMS**, Si(CH₃)₄, given δ = 0. TMS is used because it gives a **single, sharp peak** (12 equivalent H), is **inert**, **non-toxic** and **volatile** (easily removed)."
+      - "Samples are dissolved in **deuterated solvents** (e.g. CDCl₃) or CCl₄, which have **no ¹H** to interfere."
+  - h: "¹³C NMR"
+    p:
+      - "The **number of peaks** = the number of **different carbon environments**."
+      - "Chemical shift (from the data sheet) indicates the type of carbon, e.g. C=O at 160–220 ppm, C–O at 50–90, aromatic/alkene C at 90–150, alkyl C at 5–55."
+      - "¹³C spectra aren't split, and peak heights aren't proportional to the number of carbons."
+  - h: "¹H NMR"
+    p:
+      - "**Number of peaks** = number of different **H environments**."
+      - "**Integration** (relative peak area) = the **ratio** of H atoms in each environment."
+      - "**Chemical shift** shows the type of environment, e.g. R–CH₃ about 0.7–1.2, H–C–C=O about 2.1–2.6, H–C–O about 3.1–3.9, aldehyde CHO about 9–10, carboxylic acid OH about 10–12."
+  - h: "Splitting (n + 1 rule)"
+    p:
+      - "A peak is split into **n + 1** lines, where **n** is the number of H atoms on **adjacent carbons**."
+      - "Singlet (0 neighbours), **doublet** (1), **triplet** (2), **quartet** (3), and so on."
+      - "Example: ethyl group CH₃CH₂– gives a **triplet** (3H) and a **quartet** (2H)."
+      - "H on O or N (OH, NH) often appears as a singlet and doesn't usually split neighbouring peaks."
+pitfalls:
+  - "In the n + 1 rule, count H on **neighbouring carbons**, not on the same carbon."
+  - "Check for **symmetry**: equivalent carbons or hydrogens count as **one** environment."
+  - "Integration gives a **ratio**, not absolute numbers. Scale up to fit the formula."
+questions:
+  - q: "What is used as the standard reference in NMR?"
+    o: ["Water", "Tetramethylsilane (TMS)", "CDCl₃", "Benzene"]
+    a: 1
+    e: "TMS is given a chemical shift of 0 ppm."
+  - q: "Why is TMS used as the reference?"
+    o: ["It gives a single sharp peak, is inert, non-toxic and volatile", "It has many different H environments", "It is a solvent", "It absorbs at high δ"]
+    a: 0
+    e: "All 12 H atoms in TMS are equivalent."
+  - q: "Why are deuterated solvents such as CDCl₃ used in ¹H NMR?"
+    o: ["They are cheaper", "They react with the sample", "They contain no ¹H atoms, so they don't give peaks in the spectrum", "They increase chemical shift"]
+    a: 2
+    e: "Deuterium doesn't show up in a ¹H spectrum."
+  - q: "How many peaks are in the ¹³C NMR spectrum of propanone, CH₃COCH₃?"
+    o: ["3", "1", "4", "2"]
+    a: 3
+    e: "The two CH₃ carbons are equivalent, plus one C=O carbon: 2 environments."
+  - q: "How many peaks are in the ¹³C NMR spectrum of propan-1-ol?"
+    o: ["3", "2", "1", "4"]
+    a: 0
+    e: "Each of the three carbons is in a different environment."
+  - q: "In ¹H NMR, what does the relative area (integration) of peaks show?"
+    o: ["The number of carbon atoms", "The ratio of hydrogen atoms in each environment", "The chemical shift", "The number of neighbouring H"]
+    a: 1
+    e: "Peak area is proportional to the number of H atoms in that environment."
+  - q: "A ¹H NMR peak is split into a quartet. How many H atoms are on adjacent carbons?"
+    o: ["4", "2", "3", "1"]
+    a: 2
+    e: "n + 1 = 4, so n = 3."
+  - q: "What splitting pattern does the CH₃ in an ethyl group (CH₃CH₂–) show?"
+    o: ["Singlet", "Doublet", "Quartet", "Triplet"]
+    a: 3
+    e: "The CH₃ is next to a CH₂ (2 H), so n + 1 = 3."
+  - q: "What splitting pattern does the CH₂ in CH₃CH₂Cl show?"
+    o: ["Quartet", "Triplet", "Singlet", "Doublet"]
+    a: 0
+    e: "The CH₂ is next to a CH₃ (3 H), so it is a quartet."
+  - q: "How many peaks are in the ¹H NMR spectrum of ethanol, CH₃CH₂OH?"
+    o: ["2", "3", "6", "1"]
+    a: 1
+    e: "CH₃, CH₂ and OH are three different environments."
+  - q: "A peak at δ 9.7 in a ¹H NMR spectrum suggests which group?"
+    o: ["Alkyl CH₃", "Alcohol OH", "Aldehyde CHO", "Aromatic H"]
+    a: 2
+    e: "Aldehyde protons appear at about 9–10 ppm."
+  - q: "In ¹³C NMR, what does a peak at about 200 ppm indicate?"
+    o: ["C–H alkyl carbon", "C–O in an alcohol", "Aromatic carbon", "C=O in an aldehyde or ketone"]
+    a: 3
+    e: "Carbonyl carbons appear far downfield, at 160–220 ppm."
+  - q: "What unit is chemical shift measured in?"
+    o: ["ppm", "cm⁻¹", "m/z", "nm"]
+    a: 0
+    e: "Chemical shift is measured in parts per million relative to TMS."
+  - q: "What splitting does a CH₃ group show if it is attached to a C=O with no H?"
+    o: ["Doublet", "Singlet", "Triplet", "Quartet"]
+    a: 1
+    e: "No H on adjacent carbons, so n = 0 and it's a singlet (e.g. CH₃ in propanone)."
+  - q: "What is the ratio of peak areas in the ¹H NMR spectrum of ethyl ethanoate, CH₃COOCH₂CH₃?"
+    o: ["3:3:2", "3:2", "3:2:3", "1:1:1"]
+    a: 2
+    e: "CH₃CO (3H), OCH₂ (2H), CH₂CH₃ (3H): three environments in ratio 3:2:3."
+  - q: "How many H environments does 2-methylpropane, (CH₃)₃CH, have?"
+    o: ["4", "1", "3", "2"]
+    a: 3
+    e: "The three CH₃ groups are equivalent (9H), plus one CH (1H)."
+  - q: "What splitting does the CH in (CH₃)₂CHCl show?"
+    o: ["A heptet (7 lines)", "A doublet", "A triplet", "A singlet"]
+    a: 0
+    e: "6 neighbouring H, so n + 1 = 7."
+  - q: "Why are ¹³C NMR peak heights not used to count carbons?"
+    o: ["¹³C spectra have no peaks", "Peak heights aren't proportional to the number of carbons", "All carbons give the same peak", "TMS interferes"]
+    a: 1
+    e: "Only the number and position of peaks are used in ¹³C NMR at A-level."
+  - q: "A compound C₃H₆O gives one ¹H NMR peak (singlet). What is it?"
+    o: ["Propanal", "Propan-1-ol", "Propanone", "Prop-2-en-1-ol"]
+    a: 2
+    e: "Propanone has two equivalent CH₃ groups next to C=O, giving one singlet."
+  - q: "In ¹H NMR, what does chemical shift indicate?"
+    o: ["The number of H atoms", "The number of neighbouring H", "The molecular mass", "The type of chemical environment of the H atoms"]
+    a: 3
+    e: "Nearby electronegative atoms or groups shift peaks to higher δ."
+  - q: "What does the n in the n + 1 rule refer to?"
+    o: ["The number of H atoms on adjacent carbons", "The number of H atoms on the same carbon", "The number of carbons", "The number of peaks"]
+    a: 0
+    e: "Coupling happens between non-equivalent H on neighbouring carbons."
+  - q: "Which compound has 2 peaks in its ¹³C NMR spectrum?"
+    o: ["Propan-1-ol", "Ethanol", "Butane", "Pentane"]
+    a: 1
+    e: "Ethanol has two carbons in different environments."

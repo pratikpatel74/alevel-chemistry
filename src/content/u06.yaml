@@ -1,0 +1,128 @@
+id: "3.1.6"
+order: 6
+year: 1
+section: "3.1"
+spec: "3.1.6"
+title: "Chemical equilibria and Kc"
+desc: "Dynamic equilibrium, Le Chatelier's principle, industrial compromise conditions, and calculating and using the equilibrium constant Kc."
+practicals: []
+summary:
+  - h: "Dynamic equilibrium"
+    p:
+      - "Many reactions are **reversible** (⇌)."
+      - "In a **closed system**, a reversible reaction reaches **dynamic equilibrium**: the **forward and reverse rates are equal**, and the **concentrations** of reactants and products **stay constant**."
+  - h: "Le Chatelier's principle"
+    p:
+      - "If a factor affecting an equilibrium is changed, the **position of equilibrium shifts** to **oppose the change**."
+      - "**Concentration**: adding a reactant shifts equilibrium to the **right**, to use it up."
+      - "**Pressure** (gases): increasing pressure shifts equilibrium towards the side with **fewer moles of gas**."
+      - "**Temperature**: increasing temperature shifts equilibrium in the **endothermic** direction."
+      - "**Catalyst**: **no effect** on position. It speeds up both directions equally, so equilibrium is reached **faster**."
+  - h: "Industrial compromise"
+    p:
+      - "Examples: the **Haber process** (N₂ + 3H₂ ⇌ 2NH₃, ΔH negative) and making **ethanol** from ethene and steam, and methanol."
+      - "A **low temperature** gives a higher yield for an exothermic reaction, but too slow a rate. A **compromise temperature** is used."
+      - "**High pressure** gives a higher yield and rate, but is **expensive** and dangerous to maintain, so a compromise pressure is used."
+  - h: "Equilibrium constant Kc"
+    p:
+      - "For aA + bB ⇌ cC + dD: `Kc = [C]ᶜ[D]ᵈ ÷ [A]ᵃ[B]ᵇ`"
+      - "Square brackets mean **concentration at equilibrium** in mol dm⁻³."
+      - "Work out the units by cancelling the concentration units."
+      - "Use an **ICE table** (initial, change, equilibrium moles) to find equilibrium amounts, then divide by volume."
+      - "Kc is **only changed by temperature**. Changing concentration or pressure shifts the position, but Kc stays the same."
+      - "If the forward reaction is **exothermic**, increasing temperature **decreases** Kc. If **endothermic**, increasing temperature **increases** Kc."
+      - "A catalyst **doesn't change** Kc."
+pitfalls:
+  - "Dynamic equilibrium means rates are equal, **not** that concentrations are equal."
+  - "Kc changes **only** with temperature. That's a very common exam point."
+  - "Use **equilibrium** concentrations in Kc, not starting values."
+  - "Kc units vary: always work them out from the expression."
+questions:
+  - q: "What is dynamic equilibrium?"
+    o: ["When the reaction stops", "When the forward and reverse rates are equal and concentrations stay constant", "When concentrations of reactants and products are equal", "When all reactants become products"]
+    a: 1
+    e: "Both reactions continue at the same rate, so there is no overall change in concentrations."
+  - q: "Which condition is needed for dynamic equilibrium?"
+    o: ["A closed system", "An open beaker", "A catalyst", "High temperature"]
+    a: 0
+    e: "A closed system stops reactants or products escaping, so equilibrium can be established."
+  - q: "What is Le Chatelier's principle?"
+    o: ["Catalysts change equilibrium", "Equilibrium always lies to the right", "If a condition is changed, the position of equilibrium shifts to oppose the change", "Kc changes with pressure"]
+    a: 2
+    e: "The system responds to counteract any change made to it."
+  - q: "N₂ + 3H₂ ⇌ 2NH₃. What happens to the position of equilibrium if pressure increases?"
+    o: ["Shifts left", "No change", "Shifts to the side with more moles", "Shifts right, to the side with fewer moles of gas"]
+    a: 3
+    e: "There are 4 moles of gas on the left and 2 on the right. Higher pressure favours the side with fewer moles."
+  - q: "An equilibrium has an exothermic forward reaction. What happens if temperature increases?"
+    o: ["Equilibrium shifts left, in the endothermic direction", "Shifts right", "No change", "The reaction stops"]
+    a: 0
+    e: "Raising temperature favours the endothermic direction, which is the reverse reaction here."
+  - q: "What effect does a catalyst have on the position of equilibrium?"
+    o: ["Shifts it right", "No effect, but equilibrium is reached faster", "Shifts it left", "Increases yield"]
+    a: 1
+    e: "A catalyst speeds up the forward and reverse reactions equally."
+  - q: "H₂ + I₂ ⇌ 2HI. What is the effect of increasing pressure on the position of equilibrium?"
+    o: ["Shifts right", "Shifts left", "No effect, because there are equal moles of gas on both sides", "The reaction stops"]
+    a: 2
+    e: "2 moles of gas on each side, so pressure doesn't affect the position."
+  - q: "Why is a compromise temperature used in the Haber process?"
+    o: ["A high temperature gives the best yield", "Low temperature damages the catalyst", "Temperature doesn't matter", "A low temperature gives a higher yield, but the rate would be too slow"]
+    a: 3
+    e: "The forward reaction is exothermic. A compromise temperature gives an acceptable yield at a reasonable rate."
+  - q: "Why isn't a very high pressure used in industry, even when it would increase yield?"
+    o: ["It is expensive to produce and maintain, and is a safety risk", "It lowers the rate", "It reduces Kc", "It damages catalysts"]
+    a: 0
+    e: "High pressure needs strong equipment and lots of energy for compression, so a compromise is used."
+  - q: "What is the Kc expression for 2SO₂ + O₂ ⇌ 2SO₃?"
+    o: ["[SO₂]²[O₂] ÷ [SO₃]²", "[SO₃]² ÷ [SO₂]²[O₂]", "[SO₃] ÷ [SO₂][O₂]", "2[SO₃] ÷ 2[SO₂][O₂]"]
+    a: 1
+    e: "Products over reactants, each raised to the power of its coefficient."
+  - q: "What are the units of Kc for 2SO₂ + O₂ ⇌ 2SO₃?"
+    o: ["mol dm⁻³", "No units", "mol⁻¹ dm³", "mol² dm⁻⁶"]
+    a: 2
+    e: "(mol dm⁻³)² ÷ [(mol dm⁻³)² × mol dm⁻³] = 1 ÷ mol dm⁻³ = mol⁻¹ dm³."
+  - q: "Which change alters the value of Kc?"
+    o: ["Concentration", "Pressure", "A catalyst", "Temperature"]
+    a: 3
+    e: "Kc is constant at a given temperature. Only temperature changes its value."
+  - q: "For an endothermic forward reaction, what happens to Kc when temperature increases?"
+    o: ["Kc increases", "Kc decreases", "No change", "Kc becomes zero"]
+    a: 0
+    e: "Equilibrium shifts right, increasing products, so Kc increases."
+  - q: "For H₂ + I₂ ⇌ 2HI at equilibrium: [H₂] = 0.10, [I₂] = 0.10, [HI] = 0.80 mol dm⁻³. What is Kc?"
+    o: ["80", "64", "0.016", "8.0"]
+    a: 1
+    e: "Kc = 0.80² ÷ (0.10 × 0.10) = 0.64 ÷ 0.010 = 64. No units."
+  - q: "Extra reactant is added to an equilibrium mixture. What happens to Kc?"
+    o: ["It increases", "It decreases", "It stays the same, because the position shifts to restore the ratio", "It becomes zero"]
+    a: 2
+    e: "The equilibrium shifts right until the concentration ratio again equals Kc."
+  - q: "Why are ICE tables used in Kc calculations?"
+    o: ["To find the rate", "To find activation energy", "To calculate ΔH", "To find equilibrium amounts from starting amounts and the reaction ratio"]
+    a: 3
+    e: "Initial, Change, Equilibrium rows track how much of each substance reacts and remains."
+  - q: "1.0 mol of A and 1.0 mol of B react (A + B ⇌ C) in 1.0 dm³. At equilibrium, there is 0.60 mol of C. How much A remains?"
+    o: ["0.40 mol", "0.60 mol", "1.0 mol", "1.6 mol"]
+    a: 0
+    e: "0.60 mol of A reacted, so 1.0 − 0.60 = 0.40 mol remains."
+  - q: "Ethanol is made by C₂H₄(g) + H₂O(g) ⇌ C₂H₅OH(g), ΔH negative. Which conditions favour yield?"
+    o: ["High temperature, low pressure", "Low temperature, high pressure", "High temperature, high pressure", "Low temperature, low pressure"]
+    a: 1
+    e: "Exothermic, so lower temperature favours products. 2 moles of gas becomes 1, so high pressure favours products."
+  - q: "At dynamic equilibrium, which statement is true?"
+    o: ["Concentrations of reactants and products are equal", "No reactions happen", "Concentrations are constant, but reactions continue in both directions", "Only the forward reaction happens"]
+    a: 2
+    e: "Both reactions continue at equal rates. Concentrations are constant but usually not equal."
+  - q: "A product is continuously removed from an equilibrium mixture. What happens?"
+    o: ["Equilibrium shifts left", "Kc decreases", "Nothing", "Equilibrium shifts right, making more product"]
+    a: 3
+    e: "The system replaces the removed product by shifting to the right."
+  - q: "A Kc value is very large. What does this show?"
+    o: ["Equilibrium lies far to the right; mostly products", "Equilibrium lies far to the left", "The reaction is very fast", "The reaction is endothermic"]
+    a: 0
+    e: "A large Kc means the products' concentrations are much larger than the reactants'."
+  - q: "Does the position of equilibrium affect the rate of reaching equilibrium?"
+    o: ["Yes, always", "No, position and rate are separate; a catalyst affects only rate", "Only with a catalyst", "Only with pressure"]
+    a: 1
+    e: "Position describes where equilibrium lies. Rate describes how quickly it is reached."

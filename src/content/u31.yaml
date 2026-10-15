@@ -1,0 +1,128 @@
+id: "3.3.13"
+order: 31
+year: 2
+section: "3.3"
+spec: "3.3.13"
+title: "Amino acids, proteins and DNA"
+desc: "Amino acids as zwitterions, peptide bonds and hydrolysis, protein structure, enzymes and drug design, DNA structure and the action of cisplatin."
+practicals: [12]
+summary:
+  - h: "Amino acids"
+    p:
+      - "Amino acids have an **amine group** and a **carboxylic acid group**. Most are chiral (except glycine)."
+      - "At their **isoelectric point**, amino acids exist as **zwitterions**: H₃N⁺–CHR–COO⁻."
+      - "In **acid** (low pH), the COO⁻ is protonated: H₃N⁺–CHR–COOH. In **alkali** (high pH), the NH₃⁺ loses H⁺: H₂N–CHR–COO⁻."
+      - "Zwitterions explain the **high melting points** and solubility of amino acids (ionic attractions)."
+  - h: "Proteins"
+    p:
+      - "Amino acids join by **condensation** to form **peptide bonds**: –CONH–."
+      - "Proteins can be **hydrolysed** by heating with **6 mol dm⁻³ HCl** for 24 hours, giving amino acids. These can be separated and identified by **TLC** (developed with ninhydrin)."
+      - "**Primary** structure: sequence of amino acids. **Secondary**: α-helix and β-pleated sheet held by **hydrogen bonds**. **Tertiary**: 3D shape held by hydrogen bonds, **ionic** interactions and **disulfide bridges** (–S–S– between cysteine residues)."
+  - h: "Enzymes"
+    p:
+      - "Enzymes are proteins with a **stereospecific active site**: only one enantiomer of a substrate may fit."
+      - "**Inhibitors** with a similar shape to the substrate can **block the active site**."
+      - "**Drug design**: computer modelling is used to design drugs that fit active sites of target enzymes."
+  - h: "DNA"
+    p:
+      - "DNA is a polymer of **nucleotides**: a phosphate, **2-deoxyribose** sugar, and a base (A, T, C or G)."
+      - "Nucleotides are joined by **phosphodiester** links in a sugar-phosphate backbone."
+      - "Two strands form a **double helix**, held by **hydrogen bonds** between complementary base pairs: **A–T (2 H-bonds)** and **C–G (3 H-bonds)**."
+  - h: "Cisplatin"
+    p:
+      - "**Cisplatin**, Pt(NH₃)₂Cl₂, is an **anticancer** drug."
+      - "It binds to **DNA**: the two Cl⁻ ligands are replaced by **nitrogen atoms on guanine** bases (ligand substitution). This forms a cross-link, stopping DNA replication, so cancer cells can't divide."
+      - "Side effects: it also affects **healthy cells** that divide quickly (e.g. hair loss). Doses are minimised."
+pitfalls:
+  - "Write the zwitterion with **NH₃⁺** and **COO⁻**."
+  - "A–T forms **2** hydrogen bonds; C–G forms **3**."
+  - "Cisplatin works by **ligand substitution** with guanine N atoms, preventing replication."
+questions:
+  - q: "What is a zwitterion?"
+    o: ["An amino acid with no charges", "An ion with both a positive (NH₃⁺) and a negative (COO⁻) group, with no overall charge", "A negative ion only", "A protein"]
+    a: 1
+    e: "The amino acid's acid group donates H⁺ to its own amine group."
+  - q: "What form does an amino acid take in strongly acidic solution?"
+    o: ["H₃N⁺–CHR–COOH", "H₂N–CHR–COO⁻", "H₃N⁺–CHR–COO⁻", "H₂N–CHR–COOH"]
+    a: 0
+    e: "The COO⁻ is protonated, so the ion is positive overall."
+  - q: "What form does an amino acid take in strongly alkaline solution?"
+    o: ["H₃N⁺–CHR–COOH", "H₃N⁺–CHR–COO⁻", "H₂N–CHR–COO⁻", "H₂N–CHR–COOH"]
+    a: 2
+    e: "The NH₃⁺ loses H⁺, so the ion is negative overall."
+  - q: "Why do amino acids have relatively high melting points?"
+    o: ["They are covalent networks", "They have C=C bonds", "They are large polymers", "They exist as zwitterions with strong ionic attractions between them"]
+    a: 3
+    e: "Ionic attractions between zwitterions need a lot of energy to overcome."
+  - q: "What is the peptide link?"
+    o: ["–CONH–", "–COO–", "–O–", "–S–S–"]
+    a: 0
+    e: "Formed by condensation between the COOH of one amino acid and NH₂ of another."
+  - q: "How are proteins hydrolysed in the lab?"
+    o: ["With cold water", "By heating with 6 mol dm⁻³ HCl for about 24 hours", "With bromine water", "By distillation"]
+    a: 1
+    e: "Strong acid and long heating break all the peptide bonds."
+  - q: "How are amino acids from hydrolysed proteins identified?"
+    o: ["By IR only", "By titration", "By TLC, developed with ninhydrin, and comparing Rf values", "By measuring pH"]
+    a: 2
+    e: "Ninhydrin reveals amino acids as purple spots."
+  - q: "What holds the secondary structure of a protein?"
+    o: ["Peptide bonds", "Ionic bonds only", "Disulfide bridges", "Hydrogen bonds between C=O and N–H groups"]
+    a: 3
+    e: "Hydrogen bonding forms α-helices and β-pleated sheets."
+  - q: "Which bonds are involved in tertiary structure?"
+    o: ["Hydrogen bonds, ionic interactions and disulfide bridges", "Only peptide bonds", "Only van der Waals", "Glycosidic bonds"]
+    a: 0
+    e: "Interactions between R groups fold the chain into a 3D shape."
+  - q: "What is a disulfide bridge?"
+    o: ["An ionic bond", "A covalent S–S bond between two cysteine residues", "A hydrogen bond", "A peptide bond"]
+    a: 1
+    e: "The thiol groups of two cysteines can form an –S–S– link."
+  - q: "Why is an enzyme active site stereospecific?"
+    o: ["It is planar", "It reacts with all molecules", "Its 3D shape means only one enantiomer of a substrate fits", "It contains metal ions"]
+    a: 2
+    e: "Active sites are chiral, so the substrate's 3D arrangement matters."
+  - q: "How can a drug act as an enzyme inhibitor?"
+    o: ["By denaturing the enzyme", "By adding more substrate", "By raising temperature", "By having a similar shape to the substrate and binding to the active site"]
+    a: 3
+    e: "Computer modelling helps design such molecules."
+  - q: "What are the components of a DNA nucleotide?"
+    o: ["A phosphate, 2-deoxyribose and a base", "Ribose, phosphate and uracil", "An amino acid and sugar", "Glucose and phosphate"]
+    a: 0
+    e: "DNA nucleotides contain 2-deoxyribose."
+  - q: "How many hydrogen bonds form between cytosine and guanine?"
+    o: ["2", "3", "1", "4"]
+    a: 1
+    e: "C–G has three hydrogen bonds; A–T has two."
+  - q: "Which base pairs with adenine in DNA?"
+    o: ["Guanine", "Cytosine", "Thymine", "Uracil"]
+    a: 2
+    e: "A pairs with T through two hydrogen bonds."
+  - q: "What links nucleotides in a DNA strand?"
+    o: ["Peptide bonds", "Hydrogen bonds", "Ester bonds only", "Phosphodiester links"]
+    a: 3
+    e: "Sugar and phosphate join in a backbone."
+  - q: "How does cisplatin work as an anticancer drug?"
+    o: ["Its Cl ligands are replaced by N atoms on guanine in DNA, preventing replication", "It breaks peptide bonds", "It oxidises DNA", "It acts as an antibiotic"]
+    a: 0
+    e: "Cisplatin cross-links DNA strands, so the cell can't divide."
+  - q: "What type of reaction is cisplatin binding to DNA?"
+    o: ["Electrophilic addition", "Ligand substitution", "Hydrolysis", "Polymerisation"]
+    a: 1
+    e: "Guanine nitrogen atoms replace chloride ligands on the platinum."
+  - q: "Why does cisplatin cause side effects such as hair loss?"
+    o: ["It is acidic", "It contains chlorine", "It also prevents replication in healthy, rapidly dividing cells", "It destroys proteins"]
+    a: 2
+    e: "Doses are kept as low as possible to limit harm to healthy cells."
+  - q: "Which amino acid is not chiral?"
+    o: ["Alanine", "Serine", "Cysteine", "Glycine"]
+    a: 3
+    e: "Glycine's R group is H, so its central carbon has two H atoms."
+  - q: "What is the primary structure of a protein?"
+    o: ["The sequence of amino acids", "The α-helix", "The 3D shape", "Disulfide bridges"]
+    a: 0
+    e: "Primary structure is the order of amino acids in the chain."
+  - q: "What is the isoelectric point of an amino acid?"
+    o: ["The pH where it is fully protonated", "The pH at which it exists as a zwitterion with no overall charge", "Its melting point", "The pH of pure water"]
+    a: 1
+    e: "At this pH, the positive and negative charges balance."

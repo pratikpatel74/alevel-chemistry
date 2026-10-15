@@ -1,0 +1,140 @@
+id: "3.2.5"
+order: 23
+year: 2
+section: "3.2"
+spec: "3.2.5"
+title: "Transition metals"
+desc: "Characteristic properties, ligands and complex shapes, colour, variable oxidation states, redox titrations, catalysts and homogeneous and heterogeneous catalysis."
+practicals: []
+summary:
+  - h: "General properties"
+    p:
+      - "Transition metals (Ti to Cu) have an **incomplete d sub-level** in their atoms or ions."
+      - "Characteristic properties: **complex formation**, **coloured ions**, **variable oxidation states**, and **catalytic activity**."
+  - h: "Complexes and ligands"
+    p:
+      - "A **complex** is a central metal atom or ion surrounded by **ligands**."
+      - "A **ligand** is a molecule or ion that forms a **co-ordinate bond** with the metal by **donating a lone pair**."
+      - "**Co-ordination number**: the number of co-ordinate bonds to the central metal."
+      - "**Monodentate** ligands (one bond): H₂O, NH₃, Cl⁻. **Bidentate** (two bonds): ethane-1,2-diamine (en), ethanedioate (C₂O₄²⁻). **Multidentate**: EDTA⁴⁻ (six bonds)."
+      - "Haem in haemoglobin is a multidentate ligand around Fe²⁺. CO is toxic because it **replaces O₂** and binds more strongly."
+      - "**Chelate effect**: replacing monodentate ligands with multidentate ones increases the **number of particles**, so **entropy increases** and the reaction is feasible."
+  - h: "Shapes of complexes"
+    p:
+      - "Small ligands like H₂O and NH₃: **octahedral**, co-ordination number 6, 90°."
+      - "Larger ligands like **Cl⁻**: **tetrahedral**, co-ordination number 4, 109.5°."
+      - "**Square planar**: e.g. cisplatin, Pt(NH₃)₂Cl₂, 90°. **Linear**: e.g. [Ag(NH₃)₂]⁺ in Tollens' reagent."
+      - "Octahedral complexes can show **cis–trans** isomerism; those with bidentate ligands can show **optical** isomerism. Square planar can show cis–trans (cisplatin is the cis isomer)."
+  - h: "Colour"
+    p:
+      - "Ligands **split** the d orbitals into two energy levels. Electrons absorb visible light and are **excited** to the higher level: `ΔE = hν = hc/λ`."
+      - "The **colour seen** is the **complementary** colour to the light absorbed (the light transmitted)."
+      - "Changes in **oxidation state**, **co-ordination number** or **ligand** change ΔE and so change colour."
+      - "**Colorimetry** measures absorbance to find concentration, using a calibration curve."
+  - h: "Variable oxidation states and redox titrations"
+    p:
+      - "Examples: vanadium: VO₂⁺ (+5, yellow), VO²⁺ (+4, blue), V³⁺ (green), V²⁺ (violet), reduced by **zinc in acid**."
+      - "**Cr₂O₇²⁻** (orange, +6) can be reduced to **Cr³⁺** (green). Zinc reduces Cr³⁺ to Cr²⁺ (blue)."
+      - "The redox potential of a transition metal ion changes with **pH** and **ligand**. E.g. Ag⁺ is reduced to Ag in Tollens' reagent."
+      - "**Redox titrations**: MnO₄⁻ is purple and self-indicating: `MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺`. End point: first **permanent pale pink**."
+  - h: "Catalysts"
+    p:
+      - "Transition metals are good catalysts because they have **variable oxidation states**."
+      - "**Heterogeneous**: in a different phase from the reactants, e.g. **iron** in the Haber process, **V₂O₅** in the Contact process. Reaction happens at **active sites** on the surface. Supports increase surface area; **poisoning** (e.g. by sulfur) blocks sites."
+      - "Contact process with V₂O₅: `SO₂ + V₂O₅ → SO₃ + V₂O₄`, then `2V₂O₄ + O₂ → 2V₂O₅`."
+      - "**Homogeneous**: same phase, working through an **intermediate**. E.g. **Fe²⁺** catalyses the reaction between **I⁻ and S₂O₈²⁻**, which have a high Ea because both ions are negative and repel."
+      - "**Autocatalysis**: a product catalyses the reaction. E.g. **Mn²⁺** catalyses the reaction between MnO₄⁻ and C₂O₄²⁻."
+pitfalls:
+  - "A ligand donates a **lone pair**, forming a **co-ordinate (dative)** bond."
+  - "The colour seen is what is **transmitted**, not what is absorbed."
+  - "The chelate effect is explained by **entropy increase**, as there are more particles in the products."
+  - "Zn is not a transition metal: Zn²⁺ has a full 3d¹⁰ sub-level."
+questions:
+  - q: "What is the definition of a transition metal?"
+    o: ["Any metal in the d-block", "An element that forms at least one stable ion with an incomplete d sub-level", "A metal with variable charge", "Any coloured metal"]
+    a: 1
+    e: "Zinc and scandium are in the d-block but aren't classed as transition metals by this definition."
+  - q: "What is a ligand?"
+    o: ["A molecule or ion that donates a lone pair to form a co-ordinate bond with a metal", "A positive ion", "A metal atom", "A type of catalyst"]
+    a: 0
+    e: "Ligands must have at least one lone pair."
+  - q: "What is the co-ordination number of [Cu(H₂O)₆]²⁺?"
+    o: ["2", "4", "6", "8"]
+    a: 2
+    e: "Six water ligands each form one co-ordinate bond."
+  - q: "What shape is [CuCl₄]²⁻?"
+    o: ["Octahedral", "Square planar", "Linear", "Tetrahedral"]
+    a: 3
+    e: "Cl⁻ is a large ligand, so only four fit around Cu²⁺, in a tetrahedral arrangement."
+  - q: "Which is a bidentate ligand?"
+    o: ["Ethane-1,2-diamine", "Water", "Ammonia", "EDTA⁴⁻"]
+    a: 0
+    e: "Ethane-1,2-diamine (H₂NCH₂CH₂NH₂) has two N atoms, each donating a lone pair."
+  - q: "How many co-ordinate bonds does EDTA⁴⁻ form?"
+    o: ["2", "6", "4", "1"]
+    a: 1
+    e: "EDTA⁴⁻ is hexadentate: it wraps around the metal with six bonds."
+  - q: "Why is carbon monoxide toxic?"
+    o: ["It forms acid", "It destroys red blood cells", "It binds to the Fe²⁺ in haemoglobin more strongly than O₂, replacing it", "It reacts with water"]
+    a: 2
+    e: "CO prevents haemoglobin carrying oxygen."
+  - q: "What is the chelate effect?"
+    o: ["Multidentate ligands form weaker complexes", "Ligands get larger", "Colour change on ligand substitution", "Multidentate ligands replace monodentate ligands, increasing the number of particles and entropy"]
+    a: 3
+    e: "E.g. [Cu(H₂O)₆]²⁺ + EDTA⁴⁻ → [CuEDTA]²⁻ + 6H₂O: 2 particles become 7."
+  - q: "Cisplatin is used as an anticancer drug. What is its shape?"
+    o: ["Square planar", "Tetrahedral", "Octahedral", "Linear"]
+    a: 0
+    e: "Pt(NH₃)₂Cl₂ is square planar, with the two Cl on the same side (cis)."
+  - q: "What is the shape of [Ag(NH₃)₂]⁺?"
+    o: ["Square planar", "Linear", "Tetrahedral", "Octahedral"]
+    a: 1
+    e: "Two ligands at 180°. This is the active species in Tollens' reagent."
+  - q: "Why are transition metal complexes coloured?"
+    o: ["They emit light", "They contain s electrons", "Ligands split d orbitals; electrons absorb visible light to jump between levels, and the complementary colour is seen", "They reflect all light"]
+    a: 2
+    e: "Absorbed frequencies depend on ΔE between split d orbitals."
+  - q: "Which equation links the energy gap to the light absorbed?"
+    o: ["E = mc²", "pV = nRT", "q = mcΔT", "ΔE = hν"]
+    a: 3
+    e: "ΔE = hν = hc/λ, where h is Planck's constant."
+  - q: "Which change does NOT change the colour of a complex?"
+    o: ["Diluting the solution slightly with water (same ligands)", "Changing the ligand", "Changing the oxidation state", "Changing the co-ordination number"]
+    a: 0
+    e: "Dilution makes the colour paler but not a different colour, since ΔE is unchanged."
+  - q: "What colour is vanadium in the +4 oxidation state (VO²⁺)?"
+    o: ["Yellow", "Blue", "Green", "Violet"]
+    a: 1
+    e: "VO₂⁺ (+5) yellow, VO²⁺ (+4) blue, V³⁺ (+3) green, V²⁺ (+2) violet."
+  - q: "What is seen at the end point of a manganate(VII) titration with Fe²⁺?"
+    o: ["Colourless to orange", "Green to brown", "The first permanent pale pink colour", "Purple to green"]
+    a: 2
+    e: "Once all Fe²⁺ has reacted, excess MnO₄⁻ makes the solution pink. It's self-indicating."
+  - q: "In the titration MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺, 0.0010 mol MnO₄⁻ is used. How many moles of Fe²⁺ reacted?"
+    o: ["0.0010", "0.0002", "0.0080", "0.0050"]
+    a: 3
+    e: "The ratio is 1 MnO₄⁻ : 5 Fe²⁺, so 0.0050 mol."
+  - q: "Why are transition metals good catalysts?"
+    o: ["They have variable oxidation states", "They are very reactive", "They have full d sub-levels", "They are always solid"]
+    a: 0
+    e: "They can gain and lose electrons easily, forming intermediates that lower Ea."
+  - q: "What is a heterogeneous catalyst?"
+    o: ["A catalyst in the same phase as the reactants", "A catalyst in a different phase from the reactants", "A product that catalyses its own reaction", "An enzyme"]
+    a: 1
+    e: "E.g. solid iron catalysing gaseous N₂ and H₂ in the Haber process."
+  - q: "How does V₂O₅ act as a catalyst in the Contact process?"
+    o: ["It provides heat", "It is a reducing agent only", "It oxidises SO₂ to SO₃, being reduced to V₂O₄, which is then reoxidised by O₂", "It absorbs SO₃"]
+    a: 2
+    e: "The vanadium changes oxidation state and is regenerated."
+  - q: "Why is the reaction between I⁻ and S₂O₈²⁻ slow without a catalyst?"
+    o: ["It is endothermic", "The ions are too large", "Iodine is a solid", "Both ions are negative, so they repel, giving a high activation energy"]
+    a: 3
+    e: "Fe²⁺ catalyses it by reacting with S₂O₈²⁻ first, then Fe³⁺ reacts with I⁻."
+  - q: "What is autocatalysis?"
+    o: ["When a product of the reaction acts as a catalyst for the reaction", "When a catalyst is poisoned", "When no catalyst is needed", "When the catalyst is a solid"]
+    a: 0
+    e: "E.g. Mn²⁺ formed in the MnO₄⁻/C₂O₄²⁻ reaction speeds up the reaction."
+  - q: "How does catalyst poisoning reduce efficiency?"
+    o: ["It changes oxidation state", "Impurities bind to the active sites on the surface, blocking reactants", "It increases temperature", "It dissolves the catalyst"]
+    a: 1
+    e: "E.g. sulfur impurities poison the iron catalyst in the Haber process."

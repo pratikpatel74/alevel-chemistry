@@ -1,0 +1,125 @@
+id: "3.3.9"
+order: 27
+year: 2
+section: "3.3"
+spec: "3.3.9"
+title: "Carboxylic acids and derivatives"
+desc: "Carboxylic acids as weak acids, esterification and ester uses, hydrolysis of esters and fats, biodiesel, and nucleophilic addition–elimination of acyl chlorides and anhydrides."
+practicals: [10]
+summary:
+  - h: "Carboxylic acids"
+    p:
+      - "Carboxylic acids (–COOH) are **weak acids**: RCOOH ⇌ RCOO⁻ + H⁺."
+      - "They react with **carbonates** and **hydrogencarbonates** to release **CO₂**: `2RCOOH + Na₂CO₃ → 2RCOONa + H₂O + CO₂`."
+  - h: "Esters"
+    p:
+      - "**Esterification**: carboxylic acid + alcohol ⇌ ester + water, with a **concentrated sulfuric acid catalyst**, heated."
+      - "Naming: alcohol part first (e.g. ethyl), then acid part (-oate), e.g. **ethyl ethanoate** CH₃COOCH₂CH₃."
+      - "Uses of esters: **solvents**, **plasticisers**, **perfumes** and **food flavourings** (they have sweet, fruity smells)."
+  - h: "Hydrolysis of esters"
+    p:
+      - "**Acid hydrolysis**: heat with dilute acid. Reversible; gives a **carboxylic acid** and **alcohol**."
+      - "**Base hydrolysis**: heat with NaOH. Goes to completion; gives a **carboxylate salt** and alcohol."
+      - "**Fats and oils** are esters of **glycerol** (propane-1,2,3-triol) and **fatty acids**."
+      - "Base hydrolysis of fats gives **soap** (sodium salts of fatty acids) and glycerol."
+      - "**Biodiesel** is a mixture of **methyl esters** of long-chain fatty acids, made by reacting vegetable oils with **methanol** using a **catalyst**."
+  - h: "Acyl chlorides and acid anhydrides"
+    p:
+      - "**Acyl chlorides** (RCOCl) and **acid anhydrides** ((RCO)₂O) react by **nucleophilic addition–elimination**."
+      - "With **water** → carboxylic acid. With **alcohols** → esters. With **ammonia** → primary amides. With **primary amines** → N-substituted amides."
+      - "Acyl chlorides give **HCl** as a by-product (misty fumes). Anhydrides give a **carboxylic acid** as a by-product."
+      - "Mechanism: nucleophile attacks the δ+ carbon, C=O breaks (addition); then C=O reforms and Cl⁻ is lost (elimination), followed by loss of H⁺."
+      - "**Ethanoic anhydride** is preferred industrially for making **aspirin**: it is **cheaper**, **less corrosive**, reacts less violently, doesn't produce toxic HCl, and is less easily hydrolysed."
+pitfalls:
+  - "Name esters with the **alcohol** part first: methanol + propanoic acid gives **methyl propanoate**."
+  - "Base hydrolysis gives the **salt**, not the acid."
+  - "Addition–elimination: four curly arrows for acyl chlorides, including loss of H⁺ at the end."
+questions:
+  - q: "Why are carboxylic acids classed as weak acids?"
+    o: ["They are dilute", "They only partially dissociate in water", "They don't react with bases", "They have a high pH"]
+    a: 1
+    e: "Only a small proportion of molecules release H⁺."
+  - q: "What gas is produced when a carboxylic acid reacts with sodium hydrogencarbonate?"
+    o: ["Carbon dioxide", "Hydrogen", "Oxygen", "Chlorine"]
+    a: 0
+    e: "RCOOH + NaHCO₃ → RCOONa + H₂O + CO₂."
+  - q: "What is needed for esterification?"
+    o: ["NaOH", "UV light", "A concentrated sulfuric acid catalyst and heat", "Water"]
+    a: 2
+    e: "The acid catalyses the reversible reaction between acid and alcohol."
+  - q: "What is the name of the ester formed from methanol and propanoic acid?"
+    o: ["Propyl methanoate", "Methyl methanoate", "Propyl propanoate", "Methyl propanoate"]
+    a: 3
+    e: "The alcohol gives the first part (methyl), the acid gives the second (propanoate)."
+  - q: "Which is a use of esters?"
+    o: ["Food flavourings and perfumes", "Fuels for jets only", "Antacids", "Fertilisers"]
+    a: 0
+    e: "Esters have sweet, fruity smells and are also used as solvents and plasticisers."
+  - q: "What are the products of base hydrolysis of ethyl ethanoate with NaOH?"
+    o: ["Ethanoic acid and ethanol", "Sodium ethanoate and ethanol", "Ethene and ethanoic acid", "Sodium ethoxide"]
+    a: 1
+    e: "The carboxylic acid is deprotonated to form the sodium salt."
+  - q: "Why does base hydrolysis of esters go to completion, unlike acid hydrolysis?"
+    o: ["Esters are more reactive in base", "The ester is destroyed", "The carboxylate salt formed doesn't react with the alcohol, so the reaction isn't reversible", "Base is a better catalyst"]
+    a: 2
+    e: "Removing the acid as its salt stops the reverse reaction."
+  - q: "What is made by base hydrolysis of a fat?"
+    o: ["Biodiesel", "Margarine", "Ethanol", "Soap and glycerol"]
+    a: 3
+    e: "Sodium salts of fatty acids are soaps."
+  - q: "What is biodiesel?"
+    o: ["A mixture of methyl esters of long-chain fatty acids", "Ethanol from fermentation", "Crude oil fraction", "Glycerol"]
+    a: 0
+    e: "Vegetable oils react with methanol to form methyl esters."
+  - q: "What is formed when an acyl chloride reacts with water?"
+    o: ["An ester and HCl", "A carboxylic acid and HCl", "An amide", "An alcohol"]
+    a: 1
+    e: "RCOCl + H₂O → RCOOH + HCl. Misty fumes of HCl are seen."
+  - q: "What is formed when ethanoyl chloride reacts with ethanol?"
+    o: ["Ethanoic acid", "Ethanamide", "Ethyl ethanoate and HCl", "Ethanal"]
+    a: 2
+    e: "Acyl chlorides react with alcohols to give esters."
+  - q: "What is formed when ethanoyl chloride reacts with ammonia?"
+    o: ["Ethylamine", "Ethanoic acid", "Ethyl ethanoate", "Ethanamide"]
+    a: 3
+    e: "Acyl chloride + NH₃ gives a primary amide (and NH₄Cl with excess NH₃)."
+  - q: "What is formed when ethanoyl chloride reacts with methylamine?"
+    o: ["N-methylethanamide", "Ethanamide", "Methyl ethanoate", "Ethylamine"]
+    a: 0
+    e: "Primary amines give N-substituted amides."
+  - q: "What is the name of the mechanism for acyl chloride reactions?"
+    o: ["Nucleophilic substitution", "Nucleophilic addition–elimination", "Electrophilic addition", "Free-radical substitution"]
+    a: 1
+    e: "The nucleophile adds to the C=O, then Cl⁻ is eliminated."
+  - q: "What is the by-product when an acid anhydride reacts with an alcohol?"
+    o: ["HCl", "Water", "A carboxylic acid", "Ammonia"]
+    a: 2
+    e: "(RCO)₂O + R'OH → RCOOR' + RCOOH."
+  - q: "Why is ethanoic anhydride preferred to ethanoyl chloride for making aspirin industrially?"
+    o: ["It is more reactive", "It produces HCl", "It is more toxic", "It is cheaper, less corrosive, reacts less violently and doesn't produce HCl"]
+    a: 3
+    e: "These make it safer and more economical on a large scale."
+  - q: "What is glycerol?"
+    o: ["Propane-1,2,3-triol", "Ethane-1,2-diol", "A fatty acid", "A soap"]
+    a: 0
+    e: "Glycerol has three OH groups, which form ester bonds with fatty acids in fats."
+  - q: "Why are acyl chlorides very reactive towards nucleophiles?"
+    o: ["The C=O carbon is attached to two electronegative atoms (O and Cl), making it very δ+", "They have a C=C", "Cl is a nucleophile", "They are ionic"]
+    a: 0
+    e: "Both oxygen and chlorine withdraw electron density from the carbonyl carbon."
+  - q: "What is seen when ethanoyl chloride is added to water?"
+    o: ["Silver mirror", "Misty fumes of HCl", "A brick-red precipitate", "No reaction"]
+    a: 1
+    e: "The reaction is vigorous and HCl gas is released."
+  - q: "What are the products of acid hydrolysis of methyl ethanoate?"
+    o: ["Sodium ethanoate and methanol", "Ethanol and methanoic acid", "Ethanoic acid and methanol", "Methanoic acid and ethanol"]
+    a: 2
+    e: "Acid hydrolysis reverses esterification: ethanoic acid + methanol."
+  - q: "Why is the esterification reaction heated under reflux?"
+    o: ["To remove the ester", "To make it irreversible", "To cool it", "To heat for a long time without losing volatile reactants and products"]
+    a: 3
+    e: "Esterification is slow and the compounds are volatile."
+  - q: "What is the formula of ethyl ethanoate?"
+    o: ["CH₃COOCH₂CH₃", "CH₃CH₂COOCH₃", "HCOOCH₂CH₃", "CH₃COOCH₃"]
+    a: 0
+    e: "Ethanoate (CH₃COO–) attached to ethyl (–CH₂CH₃)."

@@ -1,0 +1,127 @@
+id: "3.1.7"
+order: 7
+year: 1
+section: "3.1"
+spec: "3.1.7"
+title: "Oxidation, reduction and redox equations"
+desc: "Oxidation and reduction in terms of electrons, oxidation states, oxidising and reducing agents, and writing and combining half-equations."
+practicals: []
+summary:
+  - h: "Definitions"
+    p:
+      - "**Oxidation** is the **loss of electrons**. **Reduction** is the **gain of electrons**. Remember **OIL RIG**."
+      - "An **oxidising agent** is an **electron acceptor**: it is itself **reduced**."
+      - "A **reducing agent** is an **electron donor**: it is itself **oxidised**."
+      - "A **redox** reaction involves both oxidation and reduction."
+  - h: "Oxidation states"
+    p:
+      - "Uncombined elements: **0**. E.g. Na, O₂."
+      - "The sum of oxidation states in a compound is **0**. In an ion, it equals the **charge**."
+      - "**Oxygen** is usually **−2** (−1 in peroxides, +2 in OF₂). **Hydrogen** is usually **+1** (−1 in metal hydrides). **Fluorine** is always **−1**."
+      - "Group 1 metals are **+1**, Group 2 are **+2**."
+      - "Roman numerals show oxidation state in names, e.g. iron(III) chloride, potassium manganate(VII)."
+      - "**Increase** in oxidation state means **oxidation**. **Decrease** means **reduction**."
+  - h: "Half-equations"
+    p:
+      - "A half-equation shows one process with electrons, e.g. `Fe²⁺ → Fe³⁺ + e⁻` (oxidation)."
+      - "To balance in acid: balance atoms other than O and H, then add **H₂O** to balance O, then add **H⁺** to balance H, then add **electrons** to balance charge."
+      - "Example: `MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O`"
+  - h: "Combining half-equations"
+    p:
+      - "Multiply each half-equation so the **number of electrons is the same** in both."
+      - "Add them together and **cancel electrons** (and any H⁺ or H₂O that appear on both sides)."
+      - "Example: `MnO₄⁻ + 8H⁺ + 5Fe²⁺ → Mn²⁺ + 4H₂O + 5Fe³⁺`"
+pitfalls:
+  - "The oxidising agent is **reduced**. Students often swap these."
+  - "Electrons go on the **left** in a reduction half-equation and on the **right** in an oxidation half-equation."
+  - "In the overall equation, electrons must **cancel completely**."
+  - "Check charges balance on both sides of every half-equation."
+questions:
+  - q: "What is oxidation in terms of electrons?"
+    o: ["Gain of electrons", "Loss of electrons", "Gain of protons", "Loss of oxygen"]
+    a: 1
+    e: "OIL RIG: Oxidation Is Loss of electrons; Reduction Is Gain."
+  - q: "What is an oxidising agent?"
+    o: ["An electron acceptor, which is itself reduced", "An electron donor, which is itself oxidised", "A substance that gains oxygen", "A catalyst"]
+    a: 0
+    e: "Oxidising agents take electrons from other species, so they are reduced."
+  - q: "What is a reducing agent?"
+    o: ["An electron acceptor", "A substance that loses protons", "An electron donor, which is itself oxidised", "A substance that gains electrons"]
+    a: 2
+    e: "Reducing agents give electrons to other species, so they are oxidised."
+  - q: "What is the oxidation state of an uncombined element?"
+    o: ["+1", "−1", "Depends on the group", "0"]
+    a: 3
+    e: "Elements on their own, e.g. Cl₂ or Mg, have an oxidation state of 0."
+  - q: "What is the oxidation state of Mn in MnO₄⁻?"
+    o: ["+7", "+6", "+4", "−1"]
+    a: 0
+    e: "4 × (−2) = −8. Total must be −1. So Mn = −1 + 8 = +7."
+  - q: "What is the oxidation state of S in H₂SO₄?"
+    o: ["+4", "+6", "−2", "+2"]
+    a: 1
+    e: "2(+1) + S + 4(−2) = 0. So S = +6."
+  - q: "What is the oxidation state of Cr in Cr₂O₇²⁻?"
+    o: ["+7", "+3", "+6", "+12"]
+    a: 2
+    e: "7 × (−2) = −14. Total −2, so 2Cr = +12, and each Cr = +6."
+  - q: "What is the oxidation state of hydrogen in NaH?"
+    o: ["+1", "0", "+2", "−1"]
+    a: 3
+    e: "In metal hydrides, hydrogen is −1, because the metal is +1."
+  - q: "What is the oxidation state of oxygen in H₂O₂?"
+    o: ["−1", "−2", "0", "+1"]
+    a: 0
+    e: "In peroxides, oxygen is −1: 2(+1) + 2(O) = 0, so O = −1."
+  - q: "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, which species is oxidised?"
+    o: ["Cu²⁺", "Zn", "Cu", "Zn²⁺"]
+    a: 1
+    e: "Zn loses 2 electrons (0 → +2), so it is oxidised."
+  - q: "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, what is the oxidising agent?"
+    o: ["Zn", "Zn²⁺", "Cu²⁺", "Cu"]
+    a: 2
+    e: "Cu²⁺ accepts electrons, oxidising Zn, and is itself reduced."
+  - q: "Which is a correctly balanced reduction half-equation?"
+    o: ["Cl₂ → 2Cl⁻ + 2e⁻", "Fe²⁺ + e⁻ → Fe³⁺", "Na → Na⁺ + e⁻", "Cl₂ + 2e⁻ → 2Cl⁻"]
+    a: 3
+    e: "Reduction is gain of electrons, so electrons are on the left. Charge balances: 0 + 2(−1) = 2(−1)."
+  - q: "Which half-equation shows the reduction of MnO₄⁻ in acid?"
+    o: ["MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O", "MnO₄⁻ + 4H⁺ + 3e⁻ → Mn²⁺ + 2H₂O", "MnO₄⁻ → Mn²⁺ + 4O + 5e⁻", "MnO₄⁻ + 5e⁻ → Mn²⁺"]
+    a: 0
+    e: "Mn goes from +7 to +2 (5 electrons). 4 O → 4H₂O needs 8H⁺. Charges: −1 + 8 − 5 = +2 on both sides."
+  - q: "How do you balance oxygen atoms in a half-equation in acidic solution?"
+    o: ["Add O₂", "Add H₂O", "Add OH⁻", "Add electrons"]
+    a: 1
+    e: "Add water to the side lacking oxygen, then H⁺ to balance hydrogen."
+  - q: "When combining two half-equations, what must be equal?"
+    o: ["The number of atoms of oxygen", "The number of H⁺ ions", "The number of electrons in each", "The charges on each side"]
+    a: 2
+    e: "Multiply the half-equations so electrons lost equal electrons gained, then cancel them."
+  - q: "Fe²⁺ → Fe³⁺ + e⁻ and MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. How many Fe²⁺ react per MnO₄⁻?"
+    o: ["1", "2", "8", "5"]
+    a: 3
+    e: "MnO₄⁻ gains 5 electrons. Each Fe²⁺ loses 1, so 5 Fe²⁺ are needed."
+  - q: "What does an increase in oxidation state show?"
+    o: ["Oxidation", "Reduction", "Neutralisation", "No reaction"]
+    a: 0
+    e: "Losing electrons makes the oxidation state more positive."
+  - q: "What is the name of Fe₂O₃ using oxidation states?"
+    o: ["Iron(II) oxide", "Iron(III) oxide", "Iron(VI) oxide", "Diiron trioxide(II)"]
+    a: 1
+    e: "3 × (−2) = −6, shared by 2 Fe, so each Fe is +3: iron(III) oxide."
+  - q: "What is the oxidation state of N in NH₄⁺?"
+    o: ["+3", "+5", "−3", "−4"]
+    a: 2
+    e: "N + 4(+1) = +1, so N = −3."
+  - q: "In Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂, what happens to bromide ions?"
+    o: ["They are reduced", "They act as oxidising agents", "They gain electrons", "They are oxidised"]
+    a: 3
+    e: "Br⁻ (−1) becomes Br₂ (0), losing electrons, so bromide is oxidised."
+  - q: "Balance the half-equation: Cr₂O₇²⁻ + ?H⁺ + ?e⁻ → 2Cr³⁺ + 7H₂O"
+    o: ["14H⁺ and 6e⁻", "7H⁺ and 3e⁻", "14H⁺ and 3e⁻", "7H⁺ and 6e⁻"]
+    a: 0
+    e: "7H₂O needs 14H⁺. Charge left: −2 + 14 = +12. Right: +6. So add 6e⁻ to the left."
+  - q: "What is the oxidation state of Cl in ClO₃⁻?"
+    o: ["+3", "+5", "−1", "+7"]
+    a: 1
+    e: "Cl + 3(−2) = −1, so Cl = +5."

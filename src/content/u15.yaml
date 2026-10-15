@@ -1,0 +1,129 @@
+id: "3.3.5"
+order: 15
+year: 1
+section: "3.3"
+spec: "3.3.5"
+title: "Alcohols"
+desc: "Making ethanol by fermentation and hydration, carbon neutrality, classifying alcohols, oxidation with acidified dichromate, and dehydration to alkenes."
+practicals: [5]
+summary:
+  - h: "Making ethanol"
+    p:
+      - "**Fermentation**: `C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂`. Uses **yeast**, **anaerobic** conditions, about **35 °C**. Slow, gives impure ethanol (needs distilling), but uses **renewable** sugar."
+      - "**Hydration of ethene**: `C₂H₄ + H₂O ⇌ C₂H₅OH`. **Steam**, **phosphoric acid catalyst**, about **300 °C** and **60–70 atm**. Fast, pure product, continuous, but uses **non-renewable** crude oil."
+      - "This is acid-catalysed electrophilic addition."
+  - h: "Bioethanol and carbon neutrality"
+    p:
+      - "**Bioethanol** from fermentation is described as **carbon-neutral**: the CO₂ taken in by plants in photosynthesis equals the CO₂ released by fermentation and combustion."
+      - "Equations: photosynthesis 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂; fermentation releases 2CO₂; combustion of 2 ethanol releases 4CO₂. Net 6CO₂ in, 6CO₂ out."
+      - "In practice it isn't fully carbon-neutral, because of energy used for **farming, transport, fertilisers and distillation**."
+  - h: "Classification"
+    p:
+      - "**Primary**: the carbon bearing OH is attached to **one** other carbon (e.g. ethanol)."
+      - "**Secondary**: attached to **two** other carbons (e.g. propan-2-ol)."
+      - "**Tertiary**: attached to **three** other carbons (e.g. 2-methylpropan-2-ol)."
+  - h: "Oxidation with acidified potassium dichromate(VI)"
+    p:
+      - "Oxidising agent: **K₂Cr₂O₇** acidified with **H₂SO₄**. Colour change **orange → green** (Cr₂O₇²⁻ → Cr³⁺). Use [O] in equations."
+      - "**Primary** alcohols → **aldehydes** (distil off immediately) → **carboxylic acids** (heat under **reflux** with excess oxidising agent)."
+      - "**Secondary** alcohols → **ketones** (heat under reflux)."
+      - "**Tertiary** alcohols are **not oxidised**: no colour change."
+      - "Tell aldehydes from ketones with **Tollens'** (silver mirror) or **Fehling's** (brick-red precipitate). Only aldehydes react."
+  - h: "Dehydration (elimination)"
+    p:
+      - "Alcohols can be dehydrated to **alkenes** by heating with a **concentrated acid catalyst** (H₂SO₄ or H₃PO₄)."
+      - "This gives a way to make alkenes, and so polymers, **without using crude oil**."
+      - "Mechanism: the OH is **protonated**, water leaves forming a **carbocation**, then H⁺ is lost from a neighbouring carbon to form C=C."
+pitfalls:
+  - "**Distil** to stop at the aldehyde. **Reflux** to go all the way to the carboxylic acid."
+  - "Tertiary alcohols **don't** oxidise. That's how to distinguish them."
+  - "Carbon-neutral claims: always mention the energy used in **farming, transport and processing**."
+questions:
+  - q: "What are the conditions for fermentation?"
+    o: ["Phosphoric acid, 300 °C", "Yeast, anaerobic, about 35 °C", "UV light", "Nickel catalyst, high pressure"]
+    a: 1
+    e: "Yeast enzymes convert sugar to ethanol and CO₂ without oxygen at a warm temperature."
+  - q: "What is the equation for fermentation of glucose?"
+    o: ["C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂", "C₂H₄ + H₂O → C₂H₅OH", "C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O", "C₂H₅OH → C₂H₄ + H₂O"]
+    a: 0
+    e: "One glucose gives two ethanol and two carbon dioxide."
+  - q: "What are the conditions for making ethanol by hydration of ethene?"
+    o: ["Yeast at 35 °C", "UV light", "Steam, phosphoric acid catalyst, about 300 °C and 60–70 atm", "Aqueous NaOH"]
+    a: 2
+    e: "Ethene and steam react on a phosphoric acid catalyst."
+  - q: "Which is an advantage of hydration over fermentation?"
+    o: ["Uses renewable raw materials", "Lower temperature", "Batch process", "Faster rate and a purer product"]
+    a: 3
+    e: "Hydration is fast, continuous and gives pure ethanol, but uses non-renewable crude oil."
+  - q: "Why is bioethanol described as carbon-neutral?"
+    o: ["The CO₂ absorbed by plants in photosynthesis equals the CO₂ released in fermentation and combustion", "It releases no CO₂", "It is made from crude oil", "It absorbs CO₂ when burned"]
+    a: 0
+    e: "The carbon released was recently taken from the atmosphere by the growing crop."
+  - q: "Why is bioethanol not truly carbon-neutral in practice?"
+    o: ["It releases CO", "Energy from fossil fuels is used for farming, transport, fertilisers and distillation", "Plants don't absorb CO₂", "Fermentation produces no CO₂"]
+    a: 1
+    e: "These processes release extra CO₂ not balanced by photosynthesis."
+  - q: "What type of alcohol is propan-2-ol?"
+    o: ["Primary", "Tertiary", "Secondary", "Quaternary"]
+    a: 2
+    e: "The carbon with the OH is bonded to two other carbons."
+  - q: "What type of alcohol is 2-methylpropan-2-ol?"
+    o: ["Primary", "Secondary", "Phenol", "Tertiary"]
+    a: 3
+    e: "The C–OH carbon is attached to three other carbons."
+  - q: "What colour change shows acidified potassium dichromate has oxidised an alcohol?"
+    o: ["Orange to green", "Green to orange", "Purple to colourless", "Blue to brick-red"]
+    a: 0
+    e: "Cr₂O₇²⁻ (orange) is reduced to Cr³⁺ (green)."
+  - q: "How is an aldehyde obtained from a primary alcohol?"
+    o: ["Heat under reflux with excess oxidising agent", "Warm with acidified dichromate and distil off the aldehyde as it forms", "Add yeast", "Heat with concentrated acid"]
+    a: 1
+    e: "Distilling immediately removes the aldehyde before it can be oxidised further."
+  - q: "How is a carboxylic acid obtained from a primary alcohol?"
+    o: ["Distil immediately", "Add bromine water", "Heat under reflux with excess acidified dichromate", "Heat with ethanolic KOH"]
+    a: 2
+    e: "Reflux keeps the aldehyde in the mixture so it is fully oxidised to the acid."
+  - q: "What is the product when a secondary alcohol is oxidised?"
+    o: ["Aldehyde", "Carboxylic acid", "Alkene", "Ketone"]
+    a: 3
+    e: "Secondary alcohols are oxidised to ketones, which aren't oxidised further."
+  - q: "What happens when a tertiary alcohol is warmed with acidified dichromate?"
+    o: ["No reaction: the solution stays orange", "It turns green", "It forms a ketone", "It forms an aldehyde"]
+    a: 0
+    e: "Tertiary alcohols have no H on the C–OH carbon, so they aren't oxidised."
+  - q: "What is seen when an aldehyde is warmed with Tollens' reagent?"
+    o: ["Brick-red precipitate", "A silver mirror", "Orange to green", "No change"]
+    a: 1
+    e: "Ag⁺ is reduced to silver metal, coating the tube."
+  - q: "What is seen when an aldehyde is warmed with Fehling's solution?"
+    o: ["Silver mirror", "Orange to green", "Blue to brick-red precipitate", "Effervescence"]
+    a: 2
+    e: "Cu²⁺ (blue) is reduced to Cu₂O, a brick-red precipitate."
+  - q: "What are the conditions for dehydrating an alcohol to an alkene?"
+    o: ["Aqueous NaOH", "Yeast", "UV light", "Heat with a concentrated acid catalyst such as H₂SO₄ or H₃PO₄"]
+    a: 3
+    e: "The acid catalyses elimination of water."
+  - q: "Why is dehydration of alcohols useful?"
+    o: ["It produces alkenes, and so polymers, without using crude oil", "It makes ethanol", "It removes CO₂", "It makes ketones"]
+    a: 0
+    e: "Ethanol from fermentation can be dehydrated to ethene, a renewable route to polymers."
+  - q: "What does [O] represent in organic oxidation equations?"
+    o: ["An oxygen molecule", "Oxygen from the oxidising agent", "Ozone", "Water"]
+    a: 1
+    e: "[O] is shorthand for the oxygen supplied by the oxidising agent."
+  - q: "Write the equation for oxidising ethanol to ethanal."
+    o: ["C₂H₅OH + 2[O] → CH₃COOH + H₂O", "C₂H₅OH → C₂H₄ + H₂O", "C₂H₅OH + [O] → CH₃CHO + H₂O", "C₂H₅OH + O₂ → CO₂ + H₂O"]
+    a: 2
+    e: "Ethanol loses two H atoms, which combine with [O] to form water."
+  - q: "What is the product of oxidising propan-1-ol under reflux with excess oxidising agent?"
+    o: ["Propanal", "Propanone", "Propene", "Propanoic acid"]
+    a: 3
+    e: "Primary alcohol → aldehyde → carboxylic acid under reflux."
+  - q: "Why is reflux used for long reactions with volatile organic liquids?"
+    o: ["Vapour condenses and returns to the flask, so reactants and products aren't lost", "It removes the product", "It cools the reaction", "It speeds up the reaction"]
+    a: 0
+    e: "The vertical condenser returns vapour, allowing prolonged heating."
+  - q: "What is the first step in the mechanism for acid-catalysed dehydration of an alcohol?"
+    o: ["Loss of water", "Protonation of the OH group by the acid", "Formation of a C=C", "Attack by OH⁻"]
+    a: 1
+    e: "The OH is protonated, turning it into a good leaving group (water)."

@@ -1,0 +1,128 @@
+id: "3.3.2"
+order: 12
+year: 1
+section: "3.3"
+spec: "3.3.2"
+title: "Alkanes"
+desc: "Fractional distillation of crude oil, cracking, combustion and pollutants, catalytic converters, and free-radical chlorination of alkanes."
+practicals: []
+summary:
+  - h: "Fractional distillation"
+    p:
+      - "Alkanes are **saturated hydrocarbons**, mostly from **crude oil**."
+      - "Crude oil is separated by **fractional distillation**: it is heated and vaporised, and the vapour rises up a column that is **hotter at the bottom and cooler at the top**."
+      - "Fractions **condense** at different heights according to their **boiling points**. Longer chains have higher boiling points (stronger van der Waals forces)."
+  - h: "Cracking"
+    p:
+      - "**Cracking** breaks **C–C bonds** in long alkanes to make shorter, **more useful** alkanes and **alkenes**."
+      - "**Thermal cracking**: **high temperature** (up to 1000 °C) and **high pressure** (up to 7000 kPa). Produces a **high proportion of alkenes**."
+      - "**Catalytic cracking**: **zeolite** catalyst, **slight pressure** and **high temperature** (about 450 °C). Produces **motor fuels** and **aromatic hydrocarbons**."
+      - "Cracking is economically important because demand for shorter fractions (petrol) is higher than supply."
+  - h: "Combustion and pollution"
+    p:
+      - "**Complete combustion**: alkane + oxygen → CO₂ + H₂O."
+      - "**Incomplete combustion** (limited oxygen): produces **carbon monoxide** (toxic: binds to haemoglobin) and **carbon** (soot, particulates)."
+      - "**Sulfur** impurities burn to **SO₂**, causing **acid rain**. SO₂ is removed from power station flue gases using **CaO or CaCO₃**."
+      - "In engines, high temperatures make **nitrogen oxides** (NOₓ) from N₂ and O₂. **Unburned hydrocarbons** also form. NOₓ and hydrocarbons can form photochemical smog."
+      - "**Catalytic converters** (platinum, palladium, rhodium) remove CO, NOₓ and unburned hydrocarbons, e.g. `2CO + 2NO → 2CO₂ + N₂`."
+      - "CO₂, methane and water vapour are **greenhouse gases**, contributing to global warming."
+  - h: "Chlorination: free-radical substitution"
+    p:
+      - "Alkanes react with chlorine in **UV light**."
+      - "**Initiation**: `Cl₂ → 2Cl•` (UV light causes homolytic fission)."
+      - "**Propagation**: `Cl• + CH₄ → HCl + •CH₃`, then `•CH₃ + Cl₂ → CH₃Cl + Cl•` (the radical is regenerated)."
+      - "**Termination**: two radicals combine, e.g. `Cl• + •CH₃ → CH₃Cl`, `•CH₃ + •CH₃ → C₂H₆`."
+      - "Further substitution gives a **mixture** of products, e.g. CH₂Cl₂, CHCl₃, CCl₄."
+pitfalls:
+  - "Fractional distillation is a **physical** process. Cracking is a **chemical** reaction."
+  - "In propagation, the radical used up must be **regenerated** in the next step."
+  - "Thermal: high temperature, high pressure, alkenes. Catalytic: zeolite, slight pressure, aromatics and motor fuels."
+questions:
+  - q: "What is an alkane?"
+    o: ["An unsaturated hydrocarbon", "A saturated hydrocarbon containing only single bonds", "A compound with an OH group", "A hydrocarbon with a C=C bond"]
+    a: 1
+    e: "Alkanes contain only C–C and C–H single bonds."
+  - q: "How does fractional distillation separate crude oil?"
+    o: ["By differences in boiling point: fractions condense at different heights in a column with a temperature gradient", "By chemical reactions", "By cracking", "By filtration"]
+    a: 0
+    e: "The column is hotter at the bottom. Substances condense where the temperature falls below their boiling point."
+  - q: "Why do longer-chain alkanes have higher boiling points?"
+    o: ["Stronger covalent bonds", "Hydrogen bonding", "More electrons and greater surface contact, so stronger van der Waals forces", "They are ionic"]
+    a: 2
+    e: "Larger molecules have stronger induced dipole–dipole forces between them."
+  - q: "What is cracking?"
+    o: ["Separating crude oil by boiling point", "Burning alkanes", "Adding hydrogen to alkenes", "Breaking C–C bonds in long alkanes to form shorter alkanes and alkenes"]
+    a: 3
+    e: "Cracking converts less useful long chains into more useful shorter molecules."
+  - q: "What conditions are used for thermal cracking?"
+    o: ["High temperature and high pressure", "Zeolite catalyst and slight pressure", "UV light", "Low temperature and low pressure"]
+    a: 0
+    e: "Thermal cracking uses up to 1000 °C and up to 7000 kPa, and gives a high proportion of alkenes."
+  - q: "What catalyst is used in catalytic cracking?"
+    o: ["Platinum", "Zeolite", "Nickel", "Iron"]
+    a: 1
+    e: "Zeolite catalysts are used at around 450 °C and slight pressure."
+  - q: "What are the main products of catalytic cracking?"
+    o: ["Mostly alkenes", "Only methane", "Motor fuels and aromatic hydrocarbons", "Alcohols"]
+    a: 2
+    e: "Catalytic cracking produces branched alkanes, cycloalkanes and aromatics, useful in motor fuels."
+  - q: "Why is cracking economically important?"
+    o: ["It produces crude oil", "It removes sulfur", "It makes fuels cheaper to burn", "Demand for shorter chains (e.g. petrol) and alkenes is greater than supply from crude oil"]
+    a: 3
+    e: "Crude oil contains more long-chain fractions than needed. Cracking converts them to more valuable products."
+  - q: "Balance: C₁₀H₂₂ → C₈H₁₈ + ?"
+    o: ["C₂H₄", "C₂H₆", "CH₄", "C₃H₆"]
+    a: 0
+    e: "Carbon: 10 − 8 = 2. Hydrogen: 22 − 18 = 4. So C₂H₄ (ethene)."
+  - q: "Why is carbon monoxide toxic?"
+    o: ["It causes acid rain", "It binds to haemoglobin, reducing oxygen transport", "It is a greenhouse gas", "It forms smog only"]
+    a: 1
+    e: "CO binds strongly to haemoglobin, so less oxygen reaches body tissues."
+  - q: "What causes nitrogen oxides to form in car engines?"
+    o: ["Sulfur impurities in fuel", "Incomplete combustion", "High temperatures cause N₂ and O₂ from the air to react", "Cracking"]
+    a: 2
+    e: "The heat of combustion provides enough energy for nitrogen and oxygen to react."
+  - q: "How are SO₂ emissions reduced at power stations?"
+    o: ["Catalytic converters", "Cracking", "Burning more fuel", "Reacting SO₂ with calcium oxide or calcium carbonate"]
+    a: 3
+    e: "SO₂ is acidic, so it reacts with basic calcium compounds (flue gas desulfurisation)."
+  - q: "What reaction occurs in a catalytic converter?"
+    o: ["2CO + 2NO → 2CO₂ + N₂", "CO + H₂O → CO₂ + H₂", "N₂ + O₂ → 2NO", "C + O₂ → CO₂"]
+    a: 0
+    e: "Toxic CO and NO react on the catalyst surface to form CO₂ and N₂."
+  - q: "What is needed for chlorine to react with methane?"
+    o: ["A catalyst", "UV light", "High pressure", "An acid"]
+    a: 1
+    e: "UV light provides energy for homolytic fission of Cl₂ into chlorine radicals."
+  - q: "What is the initiation step in the chlorination of methane?"
+    o: ["Cl• + CH₄ → HCl + •CH₃", "•CH₃ + Cl₂ → CH₃Cl + Cl•", "Cl₂ → 2Cl•", "Cl• + Cl• → Cl₂"]
+    a: 2
+    e: "UV light splits Cl₂ homolytically into two chlorine radicals."
+  - q: "Which step is a propagation step?"
+    o: ["Cl₂ → 2Cl•", "Cl• + •CH₃ → CH₃Cl", "•CH₃ + •CH₃ → C₂H₆", "Cl• + CH₄ → HCl + •CH₃"]
+    a: 3
+    e: "In propagation, a radical reacts with a molecule to form a new radical."
+  - q: "What happens in a termination step?"
+    o: ["Two radicals combine to form a molecule", "A radical is formed", "UV light breaks a bond", "A radical reacts with a molecule"]
+    a: 0
+    e: "Termination removes radicals, ending the chain reaction."
+  - q: "Why does chlorination of methane give a mixture of products?"
+    o: ["Methane is impure", "Further substitution occurs: chlorine radicals react with CH₃Cl to give CH₂Cl₂ and so on", "Chlorine is a catalyst", "It is reversible"]
+    a: 1
+    e: "Products like CH₃Cl still have C–H bonds that can be substituted by more chlorine."
+  - q: "What is the product of complete combustion of propane?"
+    o: ["CO and H₂O", "C and H₂O", "CO₂ and H₂O", "CO₂ and H₂"]
+    a: 2
+    e: "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O."
+  - q: "Which gases from burning fuels contribute to global warming?"
+    o: ["SO₂ and NO", "CO and particulates", "N₂ and O₂", "CO₂, methane and water vapour"]
+    a: 3
+    e: "Greenhouse gases absorb infrared radiation, trapping heat."
+  - q: "Why are particulates from incomplete combustion harmful?"
+    o: ["They can cause respiratory problems and global dimming", "They destroy ozone", "They cause acid rain", "They are greenhouse gases"]
+    a: 0
+    e: "Fine carbon particles can be breathed in and damage the lungs."
+  - q: "Is fractional distillation a physical or chemical process?"
+    o: ["Chemical", "Physical: no bonds within molecules are broken", "Both", "Neither"]
+    a: 1
+    e: "It separates substances by boiling point without changing them chemically."

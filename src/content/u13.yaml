@@ -1,0 +1,126 @@
+id: "3.3.3"
+order: 13
+year: 1
+section: "3.3"
+spec: "3.3.3"
+title: "Halogenoalkanes"
+desc: "The polar C–X bond, nucleophilic substitution with OH⁻, CN⁻ and NH₃, elimination to alkenes, and ozone depletion by CFCs."
+practicals: []
+summary:
+  - h: "Structure and reactivity"
+    p:
+      - "Halogenoalkanes contain a **polar C–X bond**: halogens are more electronegative, so carbon is **δ+**."
+      - "The δ+ carbon is attacked by **nucleophiles**."
+      - "Reactivity depends on **bond enthalpy**, not polarity. The **C–I** bond is **weakest**, so iodoalkanes react **fastest**. C–F is strongest and least reactive."
+  - h: "Nucleophilic substitution"
+    p:
+      - "A nucleophile's **lone pair** attacks the δ+ carbon. The C–X bond breaks **heterolytically**, and X⁻ leaves."
+      - "**OH⁻**: aqueous NaOH or KOH, heated under reflux. Forms an **alcohol**."
+      - "**CN⁻**: KCN in **ethanol**, heated under reflux. Forms a **nitrile**, adding **one carbon** to the chain."
+      - "**NH₃**: **excess**, concentrated, in **ethanol**, heated in a sealed tube. Forms a **primary amine**. Excess NH₃ reduces further substitution."
+  - h: "Elimination"
+    p:
+      - "**OH⁻** acts as a **base**, removing an H⁺ from a carbon next to the C–X carbon. A **C=C** forms and X⁻ leaves."
+      - "Conditions: **KOH in ethanol** (no water), heated."
+      - "Substitution and elimination **compete**. Aqueous, warm conditions favour substitution (OH⁻ as a nucleophile). Ethanolic, hot conditions favour elimination (OH⁻ as a base)."
+      - "Elimination from unsymmetrical halogenoalkanes can give a mixture of alkenes, including E/Z isomers."
+  - h: "Ozone depletion"
+    p:
+      - "**Ozone** (O₃) in the upper atmosphere absorbs harmful **UV radiation**, which can cause skin cancer."
+      - "**CFCs** (chlorofluorocarbons) break down in UV light to form **chlorine radicals**: `CF₂Cl₂ → •CF₂Cl + Cl•`."
+      - "Cl• **catalyses** ozone decomposition: `Cl• + O₃ → ClO• + O₂`, then `ClO• + O₃ → 2O₂ + Cl•`. Overall: `2O₃ → 3O₂`."
+      - "One chlorine radical can destroy thousands of ozone molecules because it is regenerated."
+      - "Scientists' research provided evidence for legislation (e.g. the Montreal Protocol) banning CFCs. **HFCs** (no chlorine) are used as alternatives."
+pitfalls:
+  - "Reactivity of halogenoalkanes follows **bond enthalpy** (C–I fastest), not bond polarity."
+  - "Same reagent, different conditions: **aqueous** → substitution, **ethanolic** → elimination."
+  - "Curly arrows: from the nucleophile's **lone pair** to the δ+ carbon, and from the **C–X bond** to X."
+questions:
+  - q: "Why is the carbon in a C–Br bond δ+?"
+    o: ["Carbon is more electronegative than bromine", "Bromine is more electronegative, pulling electron density away from carbon", "Carbon has a lone pair", "The bond is ionic"]
+    a: 1
+    e: "The halogen attracts the bonding electrons more strongly, so the carbon becomes partially positive."
+  - q: "Which halogenoalkane reacts fastest in nucleophilic substitution?"
+    o: ["Iodoalkane", "Chloroalkane", "Fluoroalkane", "Bromoalkane"]
+    a: 0
+    e: "The C–I bond has the lowest bond enthalpy, so it breaks most easily."
+  - q: "What is the reactivity of halogenoalkanes mainly determined by?"
+    o: ["Bond polarity", "Molecular mass", "Carbon–halogen bond enthalpy", "Boiling point"]
+    a: 2
+    e: "Although C–F is the most polar, it is the strongest bond, so fluoroalkanes are least reactive."
+  - q: "What is formed when bromoethane is heated under reflux with aqueous NaOH?"
+    o: ["Ethene", "Ethylamine", "Propanenitrile", "Ethanol"]
+    a: 3
+    e: "OH⁻ substitutes for Br⁻, forming ethanol."
+  - q: "What is formed when bromoethane reacts with KCN in ethanol?"
+    o: ["Propanenitrile", "Ethanenitrile", "Ethanol", "Ethene"]
+    a: 0
+    e: "CN⁻ substitutes for Br⁻, adding a carbon: CH₃CH₂CN, propanenitrile."
+  - q: "Why is excess ammonia used to make a primary amine from a halogenoalkane?"
+    o: ["To speed up the reaction", "To reduce further substitution forming secondary and tertiary amines", "To act as a solvent", "To favour elimination"]
+    a: 1
+    e: "The primary amine is itself a nucleophile. Excess NH₃ makes it more likely the halogenoalkane reacts with NH₃ instead."
+  - q: "In nucleophilic substitution, where does the first curly arrow start?"
+    o: ["From the halogen", "From the C–H bond", "From the nucleophile's lone pair to the δ+ carbon", "From the carbon to the nucleophile"]
+    a: 2
+    e: "The nucleophile donates its lone pair to the δ+ carbon."
+  - q: "What conditions favour elimination over substitution?"
+    o: ["Aqueous NaOH, warm", "Excess ammonia", "KCN in ethanol", "KOH in ethanol, heated"]
+    a: 3
+    e: "Ethanolic, hot conditions favour OH⁻ acting as a base, forming an alkene."
+  - q: "In elimination, what role does OH⁻ play?"
+    o: ["Base: it removes an H⁺", "Nucleophile", "Electrophile", "Catalyst"]
+    a: 0
+    e: "OH⁻ takes an H⁺ from a carbon adjacent to the C–X carbon, forming water and a C=C."
+  - q: "What is formed when 2-bromopropane is heated with ethanolic KOH?"
+    o: ["Propan-2-ol", "Propene", "Propanenitrile", "Propylamine"]
+    a: 1
+    e: "Elimination removes HBr, forming propene."
+  - q: "Why can elimination from 2-bromobutane give more than one product?"
+    o: ["It is a primary halogenoalkane", "Substitution happens too", "H can be removed from either neighbouring carbon, giving but-1-ene or but-2-ene (with E/Z isomers)", "Bromine is removed twice"]
+    a: 2
+    e: "Different H atoms can be removed, giving positional isomers, and but-2-ene shows E/Z isomerism."
+  - q: "Why is ozone in the upper atmosphere important?"
+    o: ["It causes global warming", "It produces oxygen", "It removes CO₂", "It absorbs harmful UV radiation"]
+    a: 3
+    e: "Ozone absorbs UV that would otherwise increase the risk of skin cancer."
+  - q: "How do CFCs produce chlorine radicals?"
+    o: ["UV light breaks the C–Cl bond homolytically", "They react with water", "They are ionic", "Heat breaks the C–F bond"]
+    a: 0
+    e: "C–Cl is weaker than C–F, so UV light breaks it, forming Cl•."
+  - q: "Which equations show chlorine radicals destroying ozone?"
+    o: ["Cl₂ → 2Cl•", "Cl• + O₃ → ClO• + O₂, then ClO• + O₃ → 2O₂ + Cl•", "O₃ → O₂ + O", "2Cl• → Cl₂"]
+    a: 1
+    e: "Cl• is regenerated in the second step, so it acts as a catalyst."
+  - q: "Why can one chlorine radical destroy thousands of ozone molecules?"
+    o: ["It is very large", "It is not destroyed", "It is regenerated in the propagation cycle, acting as a catalyst", "It makes more chlorine"]
+    a: 2
+    e: "The chain continues until two radicals happen to meet and terminate."
+  - q: "What is the overall equation for ozone depletion?"
+    o: ["O₃ → O₂ + O", "Cl• + O₃ → ClO• + O₂", "O₂ + O → O₃", "2O₃ → 3O₂"]
+    a: 3
+    e: "Adding the two propagation steps and cancelling gives 2O₃ → 3O₂."
+  - q: "Why are HFCs used instead of CFCs?"
+    o: ["They contain no chlorine, so they don't form chlorine radicals that destroy ozone", "They are cheaper", "They are better greenhouse gases", "They absorb UV"]
+    a: 0
+    e: "C–F bonds are too strong to break in UV, and there's no C–Cl bond."
+  - q: "What type of solvent is used for the reaction of a halogenoalkane with KCN?"
+    o: ["Water", "Ethanol", "Hexane", "Acid"]
+    a: 1
+    e: "KCN in ethanol, heated under reflux."
+  - q: "What type of reaction is halogenoalkane + OH⁻(aq) → alcohol + X⁻?"
+    o: ["Electrophilic addition", "Elimination", "Nucleophilic substitution", "Free-radical substitution"]
+    a: 2
+    e: "A nucleophile replaces the halogen atom."
+  - q: "What is the purpose of the Montreal Protocol?"
+    o: ["To reduce CO₂ emissions", "To ban plastics", "To limit nitrogen oxides", "To phase out ozone-depleting substances such as CFCs"]
+    a: 3
+    e: "Scientific evidence on ozone depletion led to international agreement to ban CFCs."
+  - q: "What forms when 1-bromopropane reacts with excess ethanolic ammonia?"
+    o: ["Propylamine (propan-1-amine)", "Propene", "Propanol", "Propanenitrile"]
+    a: 0
+    e: "NH₃ acts as a nucleophile, substituting Br and forming a primary amine."
+  - q: "Which product forms when the conditions are aqueous NaOH and warm?"
+    o: ["An alkene", "An alcohol", "A nitrile", "An amine"]
+    a: 1
+    e: "In water, OH⁻ mainly acts as a nucleophile, so substitution gives an alcohol."

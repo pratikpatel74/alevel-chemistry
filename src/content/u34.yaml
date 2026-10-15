@@ -1,0 +1,123 @@
+id: "3.3.16"
+order: 34
+year: 2
+section: "3.3"
+spec: "3.3.16"
+title: "Chromatography"
+desc: "Stationary and mobile phases, thin-layer, column and gas chromatography, Rf values and retention times, and combining GC with mass spectrometry."
+practicals: [12]
+summary:
+  - h: "Principles"
+    p:
+      - "Chromatography separates and identifies components of a mixture."
+      - "All types have a **stationary phase** and a **mobile phase**."
+      - "Separation depends on the balance between **solubility in the mobile phase** and **retention by the stationary phase** (e.g. adsorption)."
+  - h: "Thin-layer chromatography (TLC)"
+    p:
+      - "Stationary phase: a thin layer of **silica** or **alumina** on a plate. Mobile phase: a **solvent**."
+      - "`Rf = distance moved by spot ÷ distance moved by solvent front`"
+      - "Colourless spots are revealed by **UV light** or chemicals such as **ninhydrin** (amino acids) or iodine."
+      - "Identify substances by comparing Rf values with known samples run under the **same conditions**."
+  - h: "Column chromatography"
+    p:
+      - "A column packed with silica or alumina (stationary phase). A solvent (mobile phase, the **eluent**) is run through."
+      - "Components travel at different rates and are collected separately as **fractions**. Used to **purify** products."
+  - h: "Gas chromatography (GC)"
+    p:
+      - "Mobile phase: an **inert carrier gas** (e.g. helium or nitrogen). Stationary phase: a **liquid or solid** coating inside a long, coiled column in an oven."
+      - "Each component has a characteristic **retention time**: the time from injection to detection."
+      - "**Peak area** is proportional to the **amount** of that component."
+      - "**GC–MS**: GC separates components, then **mass spectrometry** identifies each one."
+pitfalls:
+  - "Rf values depend on conditions: compare only with standards run on the **same plate** with the **same solvent**."
+  - "In GC, retention time **identifies**, and peak **area** gives relative **amount**."
+  - "Draw the TLC origin in **pencil**, with the solvent level **below** it."
+questions:
+  - q: "What two phases are involved in all types of chromatography?"
+    o: ["Solid and liquid phases only", "A stationary phase and a mobile phase", "Gas and liquid phases only", "Polar and non-polar phases"]
+    a: 1
+    e: "Components are distributed between the stationary and mobile phases."
+  - q: "What determines how far a substance moves in chromatography?"
+    o: ["The balance between solubility in the mobile phase and retention by the stationary phase", "Its colour", "Its mass only", "Temperature only"]
+    a: 0
+    e: "Substances that are more soluble in the mobile phase and less retained travel further."
+  - q: "What is the stationary phase in TLC?"
+    o: ["A solvent", "An inert gas", "A thin layer of silica or alumina on a plate", "Water"]
+    a: 2
+    e: "The solid coating adsorbs components to different extents."
+  - q: "A spot moves 2.4 cm and the solvent front moves 6.0 cm. What is the Rf value?"
+    o: ["2.5", "3.6", "0.25", "0.40"]
+    a: 3
+    e: "Rf = 2.4 ÷ 6.0 = 0.40."
+  - q: "How can colourless spots of amino acids be seen on a TLC plate?"
+    o: ["Spray with ninhydrin, or view under UV light", "Add water", "Heat to 500 °C", "Add bromine water"]
+    a: 0
+    e: "Ninhydrin reacts with amino acids to give purple spots."
+  - q: "Why is the origin line drawn in pencil?"
+    o: ["It's easier to see", "Ink would dissolve in the solvent and move up the plate", "Pencil is cheaper", "To mark the solvent front"]
+    a: 1
+    e: "Graphite doesn't dissolve, so it doesn't interfere."
+  - q: "Why must the solvent level be below the origin line?"
+    o: ["To speed up the solvent", "To make spots visible", "So the samples don't dissolve into the solvent pool instead of moving up the plate", "To keep the plate dry"]
+    a: 2
+    e: "Spots in the solvent would wash off the plate."
+  - q: "What is column chromatography mainly used for?"
+    o: ["Measuring Rf values", "Measuring retention time", "Identifying gases", "Separating and purifying products, collected as fractions"]
+    a: 3
+    e: "Components are collected separately as they come out of the column."
+  - q: "What is the mobile phase in gas chromatography?"
+    o: ["An inert carrier gas such as helium or nitrogen", "Silica", "Water", "A liquid solvent"]
+    a: 0
+    e: "The gas carries the vaporised sample through the column."
+  - q: "What is retention time in GC?"
+    o: ["The time the oven is on", "The time from injection to detection of a component", "The time for the solvent front to move", "The time to vaporise the sample"]
+    a: 1
+    e: "Each compound has a characteristic retention time under given conditions."
+  - q: "In a gas chromatogram, what does the area under each peak show?"
+    o: ["The identity of the component", "The retention time", "The relative amount of that component", "The boiling point"]
+    a: 2
+    e: "Larger area means more of that substance."
+  - q: "What is the advantage of GC–MS?"
+    o: ["It is cheaper than TLC", "It doesn't need a sample", "It only measures Rf", "GC separates the mixture and MS identifies each component"]
+    a: 3
+    e: "The mass spectrum of each separated compound can be matched to a database."
+  - q: "Why must Rf values be compared under the same conditions?"
+    o: ["Rf depends on the solvent, plate and temperature", "Rf never changes", "Rf depends on the amount of sample", "Rf depends on the pencil used"]
+    a: 0
+    e: "Different conditions change how far substances move."
+  - q: "What is the stationary phase in gas chromatography?"
+    o: ["The carrier gas", "A liquid or solid coating inside the column", "A paper strip", "The sample"]
+    a: 1
+    e: "Components interact differently with this coating."
+  - q: "Why is a lid placed on the TLC tank?"
+    o: ["To keep light out", "To heat the plate", "To keep the atmosphere saturated with solvent vapour so the solvent doesn't evaporate from the plate", "To stop spots dissolving"]
+    a: 2
+    e: "A saturated atmosphere gives even, reproducible solvent movement."
+  - q: "A mixture gives three spots on a TLC plate. What does this show?"
+    o: ["It is pure", "It is one compound", "The solvent is wrong", "It contains at least three components"]
+    a: 3
+    e: "Some components might have the same Rf, so there could be more."
+  - q: "Which substance would have a longer retention time in GC?"
+    o: ["One that is more strongly retained by the stationary phase", "One that is less soluble in the stationary phase", "One with a lower boiling point", "The carrier gas"]
+    a: 0
+    e: "Stronger interaction with the stationary phase slows its movement through the column."
+  - q: "What is the eluent in column chromatography?"
+    o: ["The stationary phase", "The solvent (mobile phase) that runs through the column", "The collected product", "The packing material"]
+    a: 1
+    e: "The eluent carries components down the column."
+  - q: "How can TLC check whether a product is pure?"
+    o: ["By measuring its mass", "By measuring retention time", "A pure substance gives a single spot", "By its colour"]
+    a: 2
+    e: "Extra spots show impurities."
+  - q: "Why might two different substances give the same Rf value?"
+    o: ["They are identical", "The plate is damaged", "Rf values are always unique", "They have similar affinities for the stationary and mobile phases in that solvent"]
+    a: 3
+    e: "Running with a different solvent may separate them."
+  - q: "Why is the GC column coiled and kept in an oven?"
+    o: ["The long column improves separation, and the oven keeps the sample as a gas", "To make it cheaper", "To cool the gas", "To increase pressure"]
+    a: 0
+    e: "Length gives more time for separation; heat keeps components vaporised."
+  - q: "Which is a use of GC–MS?"
+    o: ["Measuring pH", "Detecting drugs in blood or urine, or pollutants in air or water", "Finding Kc", "Measuring bond enthalpies"]
+    a: 1
+    e: "GC–MS is used in forensics, drug testing and environmental analysis."

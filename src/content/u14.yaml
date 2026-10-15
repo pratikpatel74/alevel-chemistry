@@ -1,0 +1,124 @@
+id: "3.3.4"
+order: 14
+year: 1
+section: "3.3"
+spec: "3.3.4"
+title: "Alkenes"
+desc: "The C=C bond, electrophilic addition with HBr, Br₂ and H₂SO₄, carbocation stability and major products, the bromine water test, and addition polymers."
+practicals: [6]
+summary:
+  - h: "Structure"
+    p:
+      - "Alkenes are **unsaturated** hydrocarbons with at least one **C=C** double bond. General formula **CₙH₂ₙ**."
+      - "The C=C is a region of **high electron density**, so it is attacked by **electrophiles**."
+  - h: "Electrophilic addition"
+    p:
+      - "**HBr**: the δ+ H is attracted to the C=C. Electrons from the C=C form a bond to H, and the H–Br bond breaks heterolytically. A **carbocation** forms, and Br⁻ attacks it. Product: a **bromoalkane**."
+      - "**Br₂**: as Br₂ approaches the C=C, the electron density induces a **dipole** in Br₂. The δ+ Br is attacked. Product: a **dibromoalkane**."
+      - "**Test for alkenes**: shake with **bromine water**. **Orange → colourless**."
+      - "**Concentrated H₂SO₄**: adds across the C=C to form an **alkyl hydrogensulfate**, which reacts with water to give an **alcohol**."
+  - h: "Carbocation stability and major products"
+    p:
+      - "With unsymmetrical alkenes such as propene, two products are possible."
+      - "**Tertiary** carbocations are **more stable** than secondary, which are more stable than **primary**. Alkyl groups **push electrons** towards the positive carbon (positive inductive effect)."
+      - "The **major product** comes from the **more stable carbocation**. E.g. propene + HBr gives mainly **2-bromopropane**."
+  - h: "Addition polymers"
+    p:
+      - "Alkenes form **addition polymers**: the C=C bonds open and monomers join into long saturated chains."
+      - "Draw the **repeating unit** with brackets and extension bonds, e.g. poly(chloroethene) from chloroethene."
+      - "Polymers are **unreactive** because the backbone is **saturated** (C–C and C–H bonds) and non-polar."
+      - "**PVC**: rigid, used for window frames and pipes. Adding **plasticisers** pushes chains apart, making it **flexible** (e.g. cable insulation)."
+      - "Addition polymers are hard to dispose of because they **don't biodegrade**."
+pitfalls:
+  - "In the HBr mechanism, the first curly arrow starts at the **C=C** and goes to the **H**. A second arrow goes from H–Br to Br."
+  - "The **major product** comes from the more stable carbocation: tertiary > secondary > primary."
+  - "Draw the repeat unit with the **extension bonds** going through the brackets, and no C=C."
+questions:
+  - q: "What is the general formula of the alkenes?"
+    o: ["CₙH₂ₙ₊₂", "CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙH₂ₙ₊₁"]
+    a: 1
+    e: "Alkenes with one C=C have the general formula CₙH₂ₙ."
+  - q: "Why does the C=C bond attract electrophiles?"
+    o: ["It is a region of high electron density", "It is positively charged", "It has no electrons", "It is very weak"]
+    a: 0
+    e: "The double bond has four electrons, making it electron-rich."
+  - q: "What is seen when bromine water is shaken with an alkene?"
+    o: ["Colourless to orange", "No change", "Orange to colourless", "A white precipitate"]
+    a: 2
+    e: "Bromine adds across the C=C, so the orange colour disappears."
+  - q: "What is the product when ethene reacts with HBr?"
+    o: ["1,2-dibromoethane", "Ethanol", "Ethane", "Bromoethane"]
+    a: 3
+    e: "HBr adds across the C=C: CH₂=CH₂ + HBr → CH₃CH₂Br."
+  - q: "What is the product when ethene reacts with Br₂?"
+    o: ["1,2-dibromoethane", "Bromoethane", "Bromoethene", "Ethanol"]
+    a: 0
+    e: "A bromine atom adds to each carbon of the double bond."
+  - q: "How does Br₂, a non-polar molecule, act as an electrophile?"
+    o: ["It is already polar", "The C=C's electron density induces a dipole in the Br₂ molecule", "It forms Br⁻ ions first", "It reacts with water first"]
+    a: 1
+    e: "As Br₂ approaches the C=C, electrons in Br₂ are repelled, making the nearer Br δ+."
+  - q: "What is the intermediate in electrophilic addition of HBr?"
+    o: ["A free radical", "An anion", "A carbocation", "An alkyne"]
+    a: 2
+    e: "After H adds to one carbon, the other carbon is left with a positive charge."
+  - q: "Which carbocation is most stable?"
+    o: ["Primary", "Secondary", "Methyl", "Tertiary"]
+    a: 3
+    e: "More alkyl groups push electron density towards the positive carbon, stabilising it."
+  - q: "What is the major product when propene reacts with HBr?"
+    o: ["2-bromopropane", "1-bromopropane", "1,2-dibromopropane", "Propan-2-ol"]
+    a: 0
+    e: "The secondary carbocation is more stable than the primary, so 2-bromopropane is the major product."
+  - q: "Why do alkyl groups stabilise carbocations?"
+    o: ["They withdraw electrons", "They push electron density towards the positive carbon (positive inductive effect)", "They form hydrogen bonds", "They are charged"]
+    a: 1
+    e: "Electron-releasing alkyl groups spread the positive charge."
+  - q: "How are alcohols made from alkenes using sulfuric acid?"
+    o: ["Directly with dilute acid only", "With a nickel catalyst", "The alkene reacts with concentrated H₂SO₄ to form an alkyl hydrogensulfate, which is then hydrolysed with water", "With bromine water"]
+    a: 2
+    e: "H₂SO₄ adds across the C=C, then water replaces the hydrogensulfate group with OH."
+  - q: "What is an addition polymer?"
+    o: ["A polymer formed with loss of water", "A polymer of amino acids", "A polymer with C=C bonds", "A long saturated chain formed when alkene monomers join by opening their C=C bonds"]
+    a: 3
+    e: "No atoms are lost: all the monomer atoms are in the polymer."
+  - q: "Which monomer makes poly(chloroethene)?"
+    o: ["CH₂=CHCl", "CH₃CH₂Cl", "CHCl=CHCl", "CH₂=CH₂"]
+    a: 0
+    e: "Chloroethene, CH₂=CHCl, is the monomer for PVC."
+  - q: "Why are addition polymers unreactive?"
+    o: ["They contain C=C bonds", "Their backbone is saturated and non-polar", "They are ionic", "They contain oxygen"]
+    a: 1
+    e: "Strong, non-polar C–C and C–H bonds aren't easily attacked."
+  - q: "What is the effect of adding a plasticiser to PVC?"
+    o: ["It makes it more rigid", "It makes it biodegradable", "It pushes polymer chains apart, making it flexible", "It removes chlorine"]
+    a: 2
+    e: "Plasticiser molecules get between chains, weakening the forces between them so they can slide."
+  - q: "Why is the disposal of addition polymers a problem?"
+    o: ["They are toxic", "They dissolve in water", "They react with air", "They are not biodegradable"]
+    a: 3
+    e: "Their unreactive saturated chains aren't broken down by microorganisms."
+  - q: "In the HBr mechanism, where does the first curly arrow start?"
+    o: ["From the C=C double bond to the H of HBr", "From Br to H", "From H to the C=C", "From Br⁻ to the carbocation"]
+    a: 0
+    e: "Electrons from the C=C form a new bond with the δ+ H."
+  - q: "Why does the bromine water test work for alkenes but not alkanes?"
+    o: ["Alkanes are ionic", "Alkenes have a C=C that bromine can add across", "Alkanes are more reactive", "Bromine reacts only with water"]
+    a: 1
+    e: "Alkanes are saturated and don't undergo addition with bromine in the dark."
+  - q: "But-1-ene reacts with HBr. Which is the major product?"
+    o: ["1-bromobutane", "1,2-dibromobutane", "2-bromobutane", "Butan-2-ol"]
+    a: 2
+    e: "A secondary carbocation forms on carbon 2, which is more stable, so 2-bromobutane is major."
+  - q: "What type of reaction is alkene + HBr?"
+    o: ["Nucleophilic substitution", "Elimination", "Free-radical substitution", "Electrophilic addition"]
+    a: 3
+    e: "An electrophile adds to the C=C, forming a single product."
+  - q: "What is the repeating unit of poly(propene)?"
+    o: ["–CH₂–CH(CH₃)–", "–CH₂–CH₂–", "–CH=CH(CH₃)–", "–CH₂–CH₂–CH₂–"]
+    a: 0
+    e: "Propene is CH₂=CHCH₃. The double bond opens, leaving CH₃ as a side group."
+  - q: "Rigid PVC without plasticiser is used for:"
+    o: ["Cable insulation", "Window frames and drainpipes", "Food wrap", "Clothing"]
+    a: 1
+    e: "Unplasticised PVC is rigid. Flexible plasticised PVC is used for cable insulation."

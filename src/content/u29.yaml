@@ -1,0 +1,123 @@
+id: "3.3.11"
+order: 29
+year: 2
+section: "3.3"
+spec: "3.3.11"
+title: "Amines"
+desc: "Primary, secondary and tertiary amines, preparing amines, base strength, nucleophilic reactions and quaternary ammonium salts."
+practicals: []
+summary:
+  - h: "Classification"
+    p:
+      - "**Primary** amines: one alkyl or aryl group on N (RNH₂). **Secondary**: two (R₂NH). **Tertiary**: three (R₃N). **Quaternary ammonium ions**: four (R₄N⁺)."
+      - "Quaternary ammonium salts with long chains are used as **cationic surfactants** in fabric softeners and hair conditioners."
+  - h: "Preparation"
+    p:
+      - "**Aliphatic amines**: halogenoalkane + **excess ammonia** (nucleophilic substitution). Excess NH₃ limits further substitution."
+      - "Or reduce a **nitrile** with LiAlH₄, or H₂ with a nickel catalyst: `RCN + 4[H] → RCH₂NH₂`. This gives only the primary amine."
+      - "**Aromatic amines**: reduce nitro compounds with **tin and concentrated HCl**, then NaOH: `C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O`."
+  - h: "Base properties"
+    p:
+      - "Amines are **bases**: the **lone pair** on N accepts a proton."
+      - "Base strength depends on how available the lone pair is."
+      - "**Primary aliphatic amines** are **stronger** bases than ammonia: alkyl groups **push electron density** onto N (positive inductive effect)."
+      - "**Aromatic amines** (e.g. phenylamine) are **weaker** than ammonia: the N lone pair is **delocalised into the benzene ring**, so less available."
+      - "Order: primary aliphatic amine > ammonia > phenylamine."
+  - h: "Nucleophilic properties"
+    p:
+      - "Amines are **nucleophiles** (N lone pair)."
+      - "Primary amines react with halogenoalkanes to form secondary amines, then tertiary amines, then quaternary ammonium salts."
+      - "Amines react with **acyl chlorides** and **acid anhydrides** by nucleophilic addition–elimination to form **N-substituted amides**."
+pitfalls:
+  - "Explain base strength by **availability of the N lone pair**: inductive effect (stronger) vs delocalisation into the ring (weaker)."
+  - "Nitrile reduction adds a **CH₂**: ethanenitrile gives **ethylamine**."
+  - "Further substitution happens because the amine product is itself a nucleophile."
+questions:
+  - q: "What is a primary amine?"
+    o: ["N bonded to two carbon groups", "N bonded to one carbon group and two hydrogens", "N with four carbon groups", "An amide"]
+    a: 1
+    e: "Primary amines have the form RNH₂."
+  - q: "What is a quaternary ammonium ion?"
+    o: ["N bonded to four carbon groups, with a positive charge", "NH₄⁺ only", "A neutral amine", "N with a lone pair"]
+    a: 0
+    e: "R₄N⁺ has no lone pair, so it can't act as a base or nucleophile."
+  - q: "What are quaternary ammonium salts used for?"
+    o: ["Explosives", "Fuels", "Cationic surfactants in fabric softeners and hair conditioners", "Antacids"]
+    a: 2
+    e: "The positive head sticks to negatively charged surfaces, and the long chain gives softness."
+  - q: "Why is excess ammonia used to make a primary amine from a halogenoalkane?"
+    o: ["It is a catalyst", "It increases temperature", "It removes HCl", "To reduce further substitution forming secondary and tertiary amines"]
+    a: 3
+    e: "Excess NH₃ makes the halogenoalkane more likely to meet NH₃ than the amine product."
+  - q: "How can a primary amine be made without a mixture of products?"
+    o: ["Reduce a nitrile with LiAlH₄ or H₂ with a nickel catalyst", "React a halogenoalkane with limited NH₃", "Oxidise an alcohol", "Hydrolyse an ester"]
+    a: 0
+    e: "Nitrile reduction only gives the primary amine."
+  - q: "What is formed when ethanenitrile is reduced?"
+    o: ["Methylamine", "Ethylamine", "Ethanamide", "Ethanol"]
+    a: 1
+    e: "CH₃CN + 4[H] → CH₃CH₂NH₂."
+  - q: "How is phenylamine made from nitrobenzene?"
+    o: ["Heat with NaOH", "React with NH₃", "Reduce with tin and concentrated HCl, then add NaOH", "Oxidise with KMnO₄"]
+    a: 2
+    e: "Sn/HCl reduces the nitro group; NaOH frees the amine from its salt."
+  - q: "Why are amines bases?"
+    o: ["They release OH⁻ directly", "They donate H⁺", "They contain oxygen", "The lone pair on nitrogen can accept a proton"]
+    a: 3
+    e: "RNH₂ + H⁺ → RNH₃⁺."
+  - q: "Why is ethylamine a stronger base than ammonia?"
+    o: ["The ethyl group pushes electron density onto N, making the lone pair more available", "Ethylamine is larger", "Ammonia has no lone pair", "Ethylamine is more soluble"]
+    a: 0
+    e: "The positive inductive effect increases electron density on nitrogen."
+  - q: "Why is phenylamine a weaker base than ammonia?"
+    o: ["It has no lone pair", "The N lone pair is delocalised into the benzene ring, so it is less available", "It is a gas", "Benzene pushes electrons onto N"]
+    a: 1
+    e: "Delocalisation reduces electron density on N."
+  - q: "What is the order of base strength?"
+    o: ["Phenylamine > ammonia > ethylamine", "Ammonia > ethylamine > phenylamine", "Ethylamine > ammonia > phenylamine", "All are equal"]
+    a: 2
+    e: "Inductive effect strengthens; delocalisation weakens."
+  - q: "What is formed when ethylamine reacts with hydrochloric acid?"
+    o: ["Ethanol", "Ethanamide", "Chloroethane", "Ethylammonium chloride"]
+    a: 3
+    e: "CH₃CH₂NH₂ + HCl → CH₃CH₂NH₃⁺Cl⁻."
+  - q: "Why do amines act as nucleophiles?"
+    o: ["They have a lone pair on nitrogen", "They are positively charged", "They have a C=O", "They are acids"]
+    a: 0
+    e: "The lone pair can attack δ+ carbons."
+  - q: "What is formed when ethylamine reacts with ethanoyl chloride?"
+    o: ["Ethyl ethanoate", "N-ethylethanamide", "Ethanamide", "Diethylamine"]
+    a: 1
+    e: "Nucleophilic addition–elimination gives an N-substituted amide."
+  - q: "Why does a halogenoalkane with ammonia give a mixture of amines?"
+    o: ["Ammonia decomposes", "The halogenoalkane is unstable", "The amine products are also nucleophiles and react further with the halogenoalkane", "Water is present"]
+    a: 2
+    e: "Primary → secondary → tertiary → quaternary."
+  - q: "What is (CH₃)₂NH?"
+    o: ["Primary amine", "Tertiary amine", "Quaternary ammonium ion", "Secondary amine"]
+    a: 3
+    e: "N is bonded to two carbon groups."
+  - q: "Why can't a quaternary ammonium ion act as a base?"
+    o: ["It has no lone pair on nitrogen", "It is negatively charged", "It is too large", "It contains oxygen"]
+    a: 0
+    e: "All four N bonds are used, so there is no lone pair to accept H⁺."
+  - q: "Which amine is tertiary?"
+    o: ["CH₃NH₂", "(CH₃)₃N", "(CH₃)₂NH", "(CH₃)₄N⁺"]
+    a: 1
+    e: "Trimethylamine has three carbon groups on N."
+  - q: "Write the equation for reducing nitrobenzene to phenylamine."
+    o: ["C₆H₅NO₂ + 2[H] → C₆H₅NH₂ + O₂", "C₆H₅NO₂ + H₂O → C₆H₅NH₂", "C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O", "C₆H₅NO₂ → C₆H₅NH₂ + NO"]
+    a: 2
+    e: "Six [H] remove both oxygens as water and add two H to N."
+  - q: "Phenylamine is used to make which products?"
+    o: ["Fuels", "Soaps", "Explosives only", "Dyes"]
+    a: 3
+    e: "Aromatic amines are important in making azo dyes."
+  - q: "Which reagent reduces a nitrile to an amine?"
+    o: ["LiAlH₄", "K₂Cr₂O₇", "NaOH", "H₂SO₄"]
+    a: 0
+    e: "LiAlH₄ (or H₂ with Ni) supplies hydrogen to reduce C≡N to CH₂NH₂."
+  - q: "What is formed when excess chloromethane reacts with ammonia?"
+    o: ["Methylamine only", "Tetramethylammonium chloride", "Methanol", "Methanamide"]
+    a: 1
+    e: "With excess halogenoalkane, substitution continues all the way to the quaternary salt."

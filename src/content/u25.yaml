@@ -1,0 +1,118 @@
+id: "3.3.7"
+order: 25
+year: 2
+section: "3.3"
+spec: "3.3.7"
+title: "Optical isomerism"
+desc: "Chiral centres, enantiomers, plane-polarised light, racemic mixtures, and why some reactions give racemic products."
+practicals: []
+summary:
+  - h: "Chirality"
+    p:
+      - "**Optical isomerism** is a form of stereoisomerism."
+      - "It happens when a molecule has a **chiral centre**: a carbon atom bonded to **four different groups**."
+      - "The two isomers are **enantiomers**: **non-superimposable mirror images**."
+      - "Draw enantiomers in 3D using wedge and dashed bonds, as mirror images of each other."
+  - h: "Properties of enantiomers"
+    p:
+      - "Enantiomers have **identical** physical and chemical properties, except they **rotate plane-polarised light** in **opposite directions** (by the same angle)."
+      - "They may also interact differently with other chiral molecules, such as **enzymes** and receptors in the body. This matters for drugs (e.g. thalidomide)."
+  - h: "Racemic mixtures"
+    p:
+      - "A **racemic mixture (racemate)** contains **equal amounts** of both enantiomers."
+      - "It has **no effect** on plane-polarised light, because the rotations cancel."
+      - "Reactions that go through a **planar** intermediate or group give racemic mixtures. E.g. nucleophilic addition of **HCN** to a **planar C=O** group: CN⁻ can attack **from either side** with **equal probability**."
+      - "Similarly, a planar **carbocation** intermediate can be attacked from either side."
+pitfalls:
+  - "A chiral centre needs **four different** groups. Two CH₂ chain groups of different length still count as different."
+  - "Enantiomers rotate light in **opposite** directions. A racemate is **optically inactive**."
+  - "Explain racemates by the **planar** group and **equal probability** of attack from either side."
+questions:
+  - q: "What is a chiral centre?"
+    o: ["A carbon with a double bond", "A carbon atom bonded to four different groups", "A carbon with two identical groups", "Any carbon in a ring"]
+    a: 1
+    e: "A carbon with four different groups has two non-superimposable arrangements."
+  - q: "What are enantiomers?"
+    o: ["Non-superimposable mirror images", "Structural isomers", "E/Z isomers", "Identical molecules"]
+    a: 0
+    e: "Enantiomers are optical isomers: mirror images that can't be overlaid."
+  - q: "How do enantiomers differ in their physical properties?"
+    o: ["Different boiling points", "Different densities", "They rotate plane-polarised light in opposite directions", "Different solubilities in water"]
+    a: 2
+    e: "Otherwise their physical and chemical properties are the same."
+  - q: "What is a racemic mixture?"
+    o: ["A mixture of structural isomers", "A pure enantiomer", "A mixture of E and Z isomers", "An equal mixture of two enantiomers"]
+    a: 3
+    e: "Equal amounts of each enantiomer."
+  - q: "Why is a racemic mixture optically inactive?"
+    o: ["The rotations of the two enantiomers cancel out", "It contains no chiral molecules", "It absorbs light", "It isn't a mixture"]
+    a: 0
+    e: "One enantiomer rotates light clockwise and the other anticlockwise by the same amount."
+  - q: "Which molecule has a chiral centre?"
+    o: ["Propan-2-ol, CH₃CH(OH)CH₃", "Butan-2-ol, CH₃CH(OH)CH₂CH₃", "Ethanol", "Propanone"]
+    a: 1
+    e: "In butan-2-ol, carbon 2 has H, OH, CH₃ and C₂H₅: four different groups."
+  - q: "Why does propan-2-ol not show optical isomerism?"
+    o: ["It has a C=C", "It has an OH group", "Its central carbon has two identical CH₃ groups", "It is too small"]
+    a: 2
+    e: "Two identical groups mean the mirror image is superimposable."
+  - q: "Why does nucleophilic addition of HCN to ethanal give a racemic mixture?"
+    o: ["Ethanal is chiral", "HCN is chiral", "The product isn't chiral", "The C=O is planar, so CN⁻ can attack from either side with equal probability"]
+    a: 3
+    e: "Equal attack from above and below gives equal amounts of each enantiomer."
+  - q: "Why might the two enantiomers of a drug have different effects in the body?"
+    o: ["Enzymes and receptors are chiral, so they interact differently with each enantiomer", "They have different molecular formulae", "One enantiomer is always toxic", "They have different boiling points"]
+    a: 0
+    e: "Biological molecules are chiral, so shape matters. Thalidomide is a famous example."
+  - q: "What type of isomerism is optical isomerism?"
+    o: ["Structural isomerism", "Stereoisomerism", "Chain isomerism", "Position isomerism"]
+    a: 1
+    e: "Same structural formula, different arrangement in space."
+  - q: "How many chiral centres does 2-hydroxypropanoic acid (lactic acid), CH₃CH(OH)COOH, have?"
+    o: ["0", "2", "1", "3"]
+    a: 2
+    e: "Carbon 2 has H, OH, CH₃ and COOH."
+  - q: "How are enantiomers drawn to show their 3D shape?"
+    o: ["As skeletal formulae only", "With all bonds in the plane", "With double bonds", "As mirror images using wedge and dashed bonds"]
+    a: 3
+    e: "Wedges come out of the page and dashes go back, showing the tetrahedral arrangement."
+  - q: "What would happen to plane-polarised light passed through a single pure enantiomer?"
+    o: ["It would be rotated", "Nothing", "It would be absorbed", "It would be split"]
+    a: 0
+    e: "A pure enantiomer is optically active."
+  - q: "Which statement about enantiomers' chemical properties is correct?"
+    o: ["They react completely differently with all reagents", "They are identical, except in reactions with other chiral molecules", "One is always more reactive", "Only one can be oxidised"]
+    a: 1
+    e: "With non-chiral reagents, enantiomers react identically."
+  - q: "Why might a reaction via a planar carbocation produce a racemic mixture?"
+    o: ["The carbocation is chiral", "The nucleophile is chiral", "The nucleophile can attack the planar carbocation from either side equally", "The carbocation is tetrahedral"]
+    a: 2
+    e: "Equal attack from both faces gives both enantiomers equally."
+  - q: "Which of these has a chiral centre?"
+    o: ["CH₃CH₂Cl", "CH₂Cl₂", "CH₃CHCl₂", "CH₃CHClCH₂CH₃"]
+    a: 3
+    e: "In 2-chlorobutane, carbon 2 has H, Cl, CH₃ and C₂H₅."
+  - q: "Why is it important to make single enantiomers of some drugs?"
+    o: ["The other enantiomer may be inactive or harmful", "Racemates can't be made", "Single enantiomers are cheaper", "They have higher boiling points"]
+    a: 0
+    e: "Only one enantiomer may fit the target receptor; the other could cause side effects."
+  - q: "Can a molecule with a C=C also show optical isomerism?"
+    o: ["No, never", "Yes, if it also has a carbon with four different groups", "Only if it is a ring", "Only E isomers can"]
+    a: 1
+    e: "A molecule can show both E/Z and optical isomerism if it has both features."
+  - q: "What is meant by 'non-superimposable'?"
+    o: ["The molecules have different formulas", "The molecules are identical", "The mirror images can't be placed on top of each other so all atoms match", "The molecules are planar"]
+    a: 2
+    e: "Like left and right hands: mirror images that can't be overlaid."
+  - q: "How many optical isomers does a molecule with one chiral centre have?"
+    o: ["1", "3", "4", "2"]
+    a: 3
+    e: "One chiral centre gives a pair of enantiomers."
+  - q: "Butanone reacts with HCN. Is the product optically active?"
+    o: ["No, because a racemic mixture forms", "Yes, one enantiomer forms", "No, because the product has no chiral centre", "Yes, because HCN is chiral"]
+    a: 0
+    e: "The product has a chiral centre, but attack on the planar C=O from both sides gives equal amounts."
+  - q: "Which instrument detects optical activity?"
+    o: ["Mass spectrometer", "Polarimeter", "pH meter", "Colorimeter"]
+    a: 1
+    e: "A polarimeter measures the rotation of plane-polarised light."

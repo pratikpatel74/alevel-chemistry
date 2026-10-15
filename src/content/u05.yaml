@@ -1,0 +1,129 @@
+id: "3.1.5"
+order: 5
+year: 1
+section: "3.1"
+spec: "3.1.5"
+title: "Kinetics"
+desc: "Collision theory, activation energy, the Maxwell–Boltzmann distribution, and the effect of temperature, concentration, pressure and catalysts on rate."
+practicals: [3]
+summary:
+  - h: "Collision theory"
+    p:
+      - "Reactions only happen when particles **collide** with **sufficient energy** (at least the **activation energy**) and the correct orientation."
+      - "**Activation energy (Ea)**: the **minimum energy** particles need to collide for a reaction to occur."
+      - "Most collisions don't lead to a reaction."
+      - "**Rate of reaction**: the change in concentration (or amount) of a reactant or product per unit time. Found from the **gradient** of a concentration–time graph."
+  - h: "Maxwell–Boltzmann distribution"
+    p:
+      - "Shows the distribution of **molecular energies** in a gas. The curve starts at the **origin**, has a peak (most probable energy), and **never touches the x-axis** at high energy."
+      - "The **area under the curve** equals the total number of molecules."
+      - "Molecules to the right of **Ea** have enough energy to react."
+  - h: "Effect of temperature"
+    p:
+      - "At a **higher temperature**, the curve's peak moves to the **right** and is **lower**. The area stays the same."
+      - "Many **more molecules have energy ≥ Ea**, so many more collisions are successful per second."
+      - "A small temperature rise causes a **large** increase in rate. This is mainly because of the energy distribution, not just more frequent collisions."
+  - h: "Effect of concentration and pressure"
+    p:
+      - "Higher **concentration** (solutions) or **pressure** (gases) means more particles in a given volume."
+      - "So collisions are **more frequent**, and there are more successful collisions per second."
+      - "The Maxwell–Boltzmann curve **doesn't change shape** with concentration (only temperature changes it)."
+  - h: "Catalysts"
+    p:
+      - "A **catalyst** increases the rate of a reaction **without being changed in chemical composition** or amount."
+      - "It provides an **alternative reaction route** with a **lower activation energy**."
+      - "On the Maxwell–Boltzmann distribution, Ea moves **left**, so more molecules have enough energy to react. The curve itself doesn't change."
+pitfalls:
+  - "The Maxwell–Boltzmann curve must start at the **origin** and must **not touch** the x-axis at high energies."
+  - "At higher temperature, the area under the curve stays the **same**, because the number of molecules hasn't changed."
+  - "Catalysts don't give particles more energy. They **lower Ea** via a different route."
+  - "Say 'more **successful** collisions per **second** (unit time)', not just 'more collisions'."
+questions:
+  - q: "What is activation energy?"
+    o: ["The energy released in a reaction", "The minimum energy particles need to collide for a reaction to occur", "The average energy of molecules", "The energy of a catalyst"]
+    a: 1
+    e: "Only collisions with energy at least equal to Ea can result in a reaction."
+  - q: "Why do most collisions not lead to a reaction?"
+    o: ["The particles don't have enough energy (less than Ea) or the wrong orientation", "Particles never collide", "Reactions only happen in solution", "Catalysts are needed for every reaction"]
+    a: 0
+    e: "Most collisions have energy below Ea, so the particles just bounce apart."
+  - q: "On a Maxwell–Boltzmann distribution, what does the area under the curve represent?"
+    o: ["The activation energy", "The average energy", "The total number of molecules", "The rate of reaction"]
+    a: 2
+    e: "Each part of the area counts molecules with that energy, so the total area is the total number of molecules."
+  - q: "Where does the Maxwell–Boltzmann curve start?"
+    o: ["At the activation energy", "At the peak", "On the y-axis above zero", "At the origin, because no molecules have zero energy"]
+    a: 3
+    e: "No molecules have zero energy, so the curve starts at the origin."
+  - q: "How does the Maxwell–Boltzmann curve change at a higher temperature?"
+    o: ["The peak moves right and is lower; the area stays the same", "The peak moves left and is higher", "The area doubles", "Ea moves to the left"]
+    a: 0
+    e: "The energies spread out, so the peak is lower and further right, but the number of molecules is the same."
+  - q: "Why does increasing temperature increase the rate of reaction?"
+    o: ["It lowers the activation energy", "More molecules have energy greater than or equal to Ea, so there are more successful collisions per second", "It increases the concentration", "It adds a catalyst"]
+    a: 1
+    e: "The main effect is that a larger proportion of molecules exceed Ea. Collisions also become more frequent."
+  - q: "Why does increasing concentration increase rate?"
+    o: ["Molecules have more energy", "Activation energy decreases", "There are more particles in the same volume, so more frequent collisions", "The temperature rises"]
+    a: 2
+    e: "More particles per unit volume means more collisions per second, so more successful collisions."
+  - q: "How does increasing the pressure of a gas affect rate?"
+    o: ["It decreases rate", "It changes Ea", "It has no effect", "It increases rate, because particles are closer together and collide more often"]
+    a: 3
+    e: "Higher pressure is like higher concentration for gases."
+  - q: "How does a catalyst increase the rate of a reaction?"
+    o: ["It provides an alternative route with a lower activation energy", "It gives molecules more energy", "It increases temperature", "It is used up in the reaction"]
+    a: 0
+    e: "With a lower Ea, a larger proportion of molecules have enough energy to react."
+  - q: "On a Maxwell–Boltzmann diagram, how is the effect of a catalyst shown?"
+    o: ["The curve moves right", "Ea is moved to the left; the curve stays the same", "The peak gets higher", "The area increases"]
+    a: 1
+    e: "The catalyst lowers Ea, so more of the area under the existing curve lies beyond it."
+  - q: "Does a catalyst get used up in a reaction?"
+    o: ["Yes, completely", "Yes, partly", "No, it is not changed in chemical composition or amount", "Only at high temperature"]
+    a: 2
+    e: "A catalyst takes part but is regenerated, so it remains unchanged at the end."
+  - q: "How is the rate of reaction found from a concentration–time graph?"
+    o: ["From the area under the graph", "From the y-intercept", "From the x-intercept", "From the gradient (drawing a tangent at a point)"]
+    a: 3
+    e: "Rate is change in concentration per unit time, which is the gradient."
+  - q: "Why does a small increase in temperature cause a large increase in rate?"
+    o: ["Because the proportion of molecules with energy ≥ Ea increases greatly", "Because collision frequency doubles", "Because Ea decreases", "Because pressure rises"]
+    a: 0
+    e: "The high-energy tail of the distribution grows a lot, so many more molecules exceed Ea."
+  - q: "Does the Maxwell–Boltzmann curve touch the x-axis at high energy?"
+    o: ["Yes, at the activation energy", "No, it approaches the axis but never reaches it", "Yes, at twice the mean energy", "It touches it at the peak"]
+    a: 1
+    e: "There is no maximum energy a molecule can have, so the curve never reaches zero."
+  - q: "In RP3, sodium thiosulfate reacts with acid to form a precipitate. What is measured?"
+    o: ["The mass of sulfur", "The volume of gas", "The time for a cross under the flask to disappear", "The pH"]
+    a: 2
+    e: "Sulfur makes the solution cloudy. The time until the cross can't be seen is recorded."
+  - q: "In RP3, what is used as a measure of rate?"
+    o: ["Time", "Temperature", "Volume", "1/time"]
+    a: 3
+    e: "A faster reaction takes less time, so rate is proportional to 1/time."
+  - q: "What is the main limitation of the 'disappearing cross' method?"
+    o: ["Judging when the cross disappears is subjective", "The reaction is too fast to measure", "No gas is produced", "Sulfur is soluble"]
+    a: 0
+    e: "Different people judge the end point differently. A light sensor would be more objective."
+  - q: "What is meant by the rate of a reaction?"
+    o: ["The total amount of product", "The change in concentration of a reactant or product per unit time", "The activation energy", "The time for a reaction to start"]
+    a: 1
+    e: "Rate measures how quickly concentration changes, e.g. in mol dm⁻³ s⁻¹."
+  - q: "Why does a powder react faster than a lump of the same solid?"
+    o: ["It has a higher Ea", "It has more energy", "It has a larger surface area, so more frequent collisions", "It has fewer particles"]
+    a: 2
+    e: "More particles are exposed at the surface, so collisions happen more often."
+  - q: "A catalyst is added to a reversible reaction. Which statement is correct?"
+    o: ["It increases yield", "It changes ΔH", "It only speeds up the forward reaction", "It speeds up the forward and reverse reactions equally"]
+    a: 3
+    e: "A catalyst lowers Ea for both directions, so equilibrium is reached faster but its position doesn't change."
+  - q: "Which change shifts the Maxwell–Boltzmann curve itself?"
+    o: ["Changing temperature", "Adding a catalyst", "Increasing concentration", "Increasing pressure"]
+    a: 0
+    e: "Only temperature changes the distribution of molecular energies."
+  - q: "Why does a catalyst save energy in industry?"
+    o: ["It produces heat", "Reactions can be carried out at lower temperatures with a good rate", "It reduces pressure", "It is never replaced"]
+    a: 1
+    e: "A lower Ea means a good rate is reached without as much heating."

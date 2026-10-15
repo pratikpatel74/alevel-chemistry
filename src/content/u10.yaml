@@ -1,0 +1,131 @@
+id: "3.2.3"
+order: 10
+year: 1
+section: "3.2"
+spec: "3.2.3"
+title: "Group 7, the halogens"
+desc: "Trends in electronegativity and boiling point, oxidising ability, reducing ability of halide ions with sulfuric acid, silver nitrate tests, and uses of chlorine."
+practicals: [4]
+summary:
+  - h: "Physical trends"
+    p:
+      - "**Electronegativity decreases** down the group: atomic radius and shielding increase, so the nucleus attracts bonding electrons less."
+      - "**Boiling point increases** down the group: larger molecules with **more electrons**, so stronger van der Waals forces."
+      - "Colours: chlorine is a pale green gas, bromine a red-brown liquid, iodine a grey solid (purple vapour)."
+  - h: "Oxidising ability"
+    p:
+      - "**Oxidising ability decreases** down the group. Chlorine is the strongest oxidising agent."
+      - "A more reactive halogen **displaces** a less reactive halide from solution, e.g. `Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂`."
+      - "In aqueous solution, Br₂ appears **orange/yellow** and I₂ appears **brown**."
+  - h: "Reducing ability of halide ions"
+    p:
+      - "**Reducing ability increases** down the group: larger ions lose electrons more easily."
+      - "With **concentrated sulfuric acid**:"
+      - "**NaCl**: only an acid–base reaction. **Misty fumes** of HCl. No redox."
+      - "**NaBr**: HBr fumes, then Br⁻ reduces H₂SO₄ to **SO₂**. **Orange/brown** bromine vapour."
+      - "**NaI**: HI fumes, then I⁻ reduces H₂SO₄ to **SO₂**, **S** (yellow solid) and **H₂S** (bad egg smell). **Purple/black** iodine."
+  - h: "Silver nitrate test for halide ions"
+    p:
+      - "Add **dilute nitric acid** first (to remove carbonate and hydroxide ions), then **silver nitrate**."
+      - "**Cl⁻**: **white** precipitate (AgCl). Dissolves in **dilute ammonia**."
+      - "**Br⁻**: **cream** precipitate (AgBr). Dissolves in **concentrated ammonia**."
+      - "**I⁻**: **yellow** precipitate (AgI). **Insoluble** in ammonia."
+  - h: "Uses of chlorine and chlorate(I)"
+    p:
+      - "Chlorine with water: `Cl₂ + H₂O ⇌ HCl + HClO`. This is a **disproportionation** reaction: chlorine is oxidised (to +1) and reduced (to −1) at the same time."
+      - "In sunlight: `2Cl₂ + 2H₂O → 4HCl + O₂`."
+      - "Chlorine is used in **water treatment** to kill bacteria. Benefits outweigh the risks (toxic gas, can form chlorinated hydrocarbons)."
+      - "Chlorine with **cold, dilute NaOH**: `Cl₂ + 2NaOH → NaClO + NaCl + H₂O`. Sodium chlorate(I) (NaClO) is used as **bleach**."
+pitfalls:
+  - "Oxidising ability of halogens **decreases** down. Reducing ability of halide ions **increases** down. Opposite trends."
+  - "Use **nitric** acid, not hydrochloric, before silver nitrate."
+  - "In the sulfuric acid reactions, give the reduction products of sulfur with their oxidation states: SO₂ (+4), S (0), H₂S (−2)."
+questions:
+  - q: "How does electronegativity change down Group 7?"
+    o: ["Increases", "Decreases", "Stays the same", "Increases then decreases"]
+    a: 1
+    e: "Larger atoms with more shielding attract bonding electrons less strongly."
+  - q: "Why does boiling point increase down Group 7?"
+    o: ["Molecules get larger with more electrons, so van der Waals forces get stronger", "Covalent bonds get stronger", "Hydrogen bonding increases", "Electronegativity increases"]
+    a: 0
+    e: "More electrons give larger temporary dipoles and stronger forces between molecules."
+  - q: "Which halogen is the strongest oxidising agent?"
+    o: ["Iodine", "Bromine", "Chlorine", "Astatine"]
+    a: 2
+    e: "Oxidising ability decreases down the group. Chlorine (of Cl, Br, I) gains electrons most readily."
+  - q: "Chlorine water is added to potassium bromide solution. What is observed?"
+    o: ["No change", "A white precipitate", "A purple solution", "The solution turns orange/yellow as bromine forms"]
+    a: 3
+    e: "Cl₂ + 2Br⁻ → 2Cl⁻ + Br₂. Chlorine displaces bromine."
+  - q: "Why doesn't iodine react with sodium chloride solution?"
+    o: ["Iodine is a weaker oxidising agent than chlorine", "Iodine is insoluble", "Chloride is a stronger reducing agent", "Iodine is a metal"]
+    a: 0
+    e: "A halogen can only displace a less reactive halide. Iodine is less reactive than chlorine."
+  - q: "How does the reducing ability of halide ions change down the group?"
+    o: ["Decreases", "Increases", "Stays the same", "Halides are not reducing agents"]
+    a: 1
+    e: "Larger halide ions lose their outer electron more easily, so I⁻ is the strongest reducing agent."
+  - q: "What is seen when concentrated H₂SO₄ is added to solid NaCl?"
+    o: ["Purple fumes", "A yellow solid", "Misty fumes of HCl only", "A smell of bad eggs"]
+    a: 2
+    e: "Cl⁻ is too weak a reducing agent to reduce H₂SO₄, so only an acid–base reaction occurs."
+  - q: "What are the sulfur-containing products when concentrated H₂SO₄ reacts with NaI?"
+    o: ["SO₂ only", "None", "SO₃", "SO₂, S and H₂S"]
+    a: 3
+    e: "I⁻ is a strong reducing agent and reduces sulfur from +6 to +4 (SO₂), 0 (S) and −2 (H₂S)."
+  - q: "What is seen when concentrated H₂SO₄ reacts with NaBr?"
+    o: ["Misty fumes and orange/brown bromine vapour", "Purple fumes", "No change", "A smell of bad eggs"]
+    a: 0
+    e: "HBr fumes form, then Br⁻ reduces H₂SO₄ to SO₂ and is oxidised to Br₂."
+  - q: "Why is dilute nitric acid added before silver nitrate in the halide test?"
+    o: ["To make the precipitate dissolve", "To remove carbonate ions and other ions that would also form precipitates", "To add chloride ions", "To change the colour"]
+    a: 1
+    e: "Carbonate and hydroxide ions would form precipitates with Ag⁺ and give false results."
+  - q: "What colour precipitate does bromide give with silver nitrate?"
+    o: ["White", "Yellow", "Cream", "Black"]
+    a: 2
+    e: "AgBr is cream. AgCl is white, AgI is yellow."
+  - q: "A halide precipitate dissolves in dilute ammonia. Which ion was present?"
+    o: ["Iodide", "Bromide", "Fluoride", "Chloride"]
+    a: 3
+    e: "AgCl dissolves in dilute ammonia. AgBr needs concentrated ammonia, and AgI doesn't dissolve."
+  - q: "What colour precipitate does iodide give with silver nitrate?"
+    o: ["Yellow", "White", "Cream", "Brown"]
+    a: 0
+    e: "AgI is yellow and doesn't dissolve in ammonia."
+  - q: "What type of reaction happens when chlorine reacts with water?"
+    o: ["Neutralisation", "Disproportionation", "Displacement", "Hydrolysis only"]
+    a: 1
+    e: "Chlorine (0) is both oxidised to +1 (in HClO) and reduced to −1 (in HCl)."
+  - q: "Why is chlorine added to drinking water?"
+    o: ["To improve taste", "To add colour", "To kill bacteria", "To add minerals"]
+    a: 2
+    e: "Chlorine and HClO kill harmful microorganisms. The health benefits outweigh the risks."
+  - q: "What is a risk of using chlorine in water treatment?"
+    o: ["It makes water acidic", "It removes oxygen", "It makes water hard", "Chlorine is toxic, and it can form harmful chlorinated hydrocarbons"]
+    a: 3
+    e: "Chlorine gas is toxic, and it can react with organic matter to form chlorinated compounds."
+  - q: "What forms when chlorine reacts with cold, dilute sodium hydroxide?"
+    o: ["Sodium chlorate(I), sodium chloride and water", "Sodium chloride and hydrogen", "Hydrochloric acid", "Sodium chlorate(V) only"]
+    a: 0
+    e: "Cl₂ + 2NaOH → NaClO + NaCl + H₂O. NaClO is used as bleach."
+  - q: "What is the oxidation state of Cl in NaClO?"
+    o: ["−1", "+1", "0", "+5"]
+    a: 1
+    e: "Na (+1) + Cl + O (−2) = 0, so Cl = +1."
+  - q: "What forms when chlorine water is left in sunlight?"
+    o: ["HClO only", "Chloride ions only", "HCl and oxygen", "Cl₂ gas"]
+    a: 2
+    e: "2Cl₂ + 2H₂O → 4HCl + O₂. Chlorine is lost from water in sunlight."
+  - q: "Which halide ion is the strongest reducing agent?"
+    o: ["F⁻", "Cl⁻", "Br⁻", "I⁻"]
+    a: 3
+    e: "I⁻ is largest, so its outer electrons are least strongly held and most easily lost."
+  - q: "What is the oxidation state change of sulfur when H₂S forms from H₂SO₄?"
+    o: ["+6 to −2", "+6 to +4", "+6 to 0", "+4 to −2"]
+    a: 0
+    e: "S in H₂SO₄ is +6, and in H₂S it's −2, so it gains 8 electrons."
+  - q: "Bromine water is added to potassium iodide solution. What is the ionic equation?"
+    o: ["Br₂ + 2Cl⁻ → 2Br⁻ + Cl₂", "Br₂ + 2I⁻ → 2Br⁻ + I₂", "I₂ + 2Br⁻ → 2I⁻ + Br₂", "No reaction"]
+    a: 1
+    e: "Bromine is a stronger oxidising agent than iodine, so it displaces iodide."

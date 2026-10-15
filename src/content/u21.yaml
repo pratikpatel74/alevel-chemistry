@@ -1,0 +1,133 @@
+id: "3.1.12"
+order: 21
+year: 2
+section: "3.1"
+spec: "3.1.12"
+title: "Acids and bases"
+desc: "Brønsted–Lowry acids and bases, pH of strong acids and bases, Kw, Ka and pKa for weak acids, titration curves, indicators and buffers."
+practicals: [9]
+summary:
+  - h: "Brønsted–Lowry theory"
+    p:
+      - "An **acid** is a **proton (H⁺) donor**. A **base** is a **proton acceptor**."
+      - "Acid–base equilibria involve the **transfer of protons**."
+  - h: "pH and strong acids"
+    p:
+      - "`pH = −log₁₀[H⁺]` and `[H⁺] = 10^(−pH)`."
+      - "**Strong acids** fully dissociate, so [H⁺] = [acid] for monoprotic acids like HCl."
+      - "**Ionic product of water**: `Kw = [H⁺][OH⁻]` = 1.00 × 10⁻¹⁴ mol² dm⁻⁶ at 298 K. In pure water, [H⁺] = [OH⁻], so `Kw = [H⁺]²`."
+      - "For a **strong base**: find [OH⁻], then `[H⁺] = Kw ÷ [OH⁻]`, then pH."
+      - "Kw increases with temperature (dissociation of water is endothermic). Pure water is still neutral at higher temperature even though pH < 7."
+  - h: "Weak acids"
+    p:
+      - "**Weak acids** only **partially dissociate**: HA ⇌ H⁺ + A⁻."
+      - "`Ka = [H⁺][A⁻] ÷ [HA]`. Units mol dm⁻³. `pKa = −log₁₀ Ka`."
+      - "A **larger Ka** (smaller pKa) means a **stronger** acid."
+      - "Assume [H⁺] = [A⁻] and [HA] at equilibrium ≈ initial [HA], so `[H⁺] = √(Ka × [HA])`."
+  - h: "Titration curves and indicators"
+    p:
+      - "pH curves show a **vertical section** at the equivalence point."
+      - "Strong acid–strong base: vertical section about pH 3 to 11. Weak acid–strong base: equivalence point **above 7**. Strong acid–weak base: **below 7**. Weak–weak: no sharp vertical section."
+      - "Choose an **indicator** whose colour change range lies **within the vertical section**. **Phenolphthalein** (8.2–10) for weak acid–strong base. **Methyl orange** (3.1–4.4) for strong acid–weak base."
+      - "At the **half-equivalence point** of a weak acid–strong base titration, **pH = pKa**."
+  - h: "Buffers"
+    p:
+      - "A **buffer** **resists changes in pH** when small amounts of acid or base are added, or on dilution."
+      - "**Acidic buffer**: a weak acid and its salt (e.g. ethanoic acid and sodium ethanoate). Added H⁺ reacts with A⁻; added OH⁻ reacts with HA (and the equilibrium shifts)."
+      - "**Basic buffer**: a weak base and its salt (e.g. ammonia and ammonium chloride)."
+      - "For a buffer, `[H⁺] = Ka × [HA] ÷ [A⁻]`."
+      - "Uses: blood (carbonic acid/hydrogencarbonate buffer), shampoos, biological reagents."
+pitfalls:
+  - "For strong bases, use **Kw** to get [H⁺]. Don't calculate pOH unless asked."
+  - "In buffer calculations, the salt provides **[A⁻]**, not the acid."
+  - "pH values are given to **2 decimal places**."
+  - "Weak acid approximations: [H⁺] = [A⁻] and [HA] unchanged. State them if asked."
+questions:
+  - q: "What is a Brønsted–Lowry acid?"
+    o: ["A proton acceptor", "A proton donor", "An electron pair acceptor", "A substance that produces OH⁻"]
+    a: 1
+    e: "Brønsted–Lowry acids donate H⁺ ions."
+  - q: "What is the pH of 0.010 mol dm⁻³ HCl?"
+    o: ["2.00", "1.00", "0.01", "12.00"]
+    a: 0
+    e: "HCl is strong, so [H⁺] = 0.010. pH = −log(0.010) = 2.00."
+  - q: "What is [H⁺] in a solution of pH 3.50?"
+    o: ["3.50 mol dm⁻³", "−3.50 mol dm⁻³", "3.16 × 10⁻⁴ mol dm⁻³", "0.35 mol dm⁻³"]
+    a: 2
+    e: "[H⁺] = 10⁻³·⁵⁰ = 3.16 × 10⁻⁴ mol dm⁻³."
+  - q: "What is the value of Kw at 298 K?"
+    o: ["1.00 × 10⁻⁷ mol dm⁻³", "7.00", "1.00 × 10¹⁴", "1.00 × 10⁻¹⁴ mol² dm⁻⁶"]
+    a: 3
+    e: "Kw = [H⁺][OH⁻] = 1.00 × 10⁻¹⁴ mol² dm⁻⁶ at 298 K."
+  - q: "What is the pH of 0.10 mol dm⁻³ NaOH? (Kw = 1.00 × 10⁻¹⁴)"
+    o: ["13.00", "1.00", "7.00", "14.00"]
+    a: 0
+    e: "[OH⁻] = 0.10. [H⁺] = 1.00 × 10⁻¹⁴ ÷ 0.10 = 1.00 × 10⁻¹³. pH = 13.00."
+  - q: "Why is pure water at 50 °C still neutral, even though its pH is below 7?"
+    o: ["It contains acid", "[H⁺] still equals [OH⁻]", "Kw decreases", "It contains more OH⁻"]
+    a: 1
+    e: "Neutral means equal [H⁺] and [OH⁻]. Kw increases with temperature, so both increase equally."
+  - q: "What is a weak acid?"
+    o: ["A dilute acid", "An acid that fully dissociates", "An acid that only partially dissociates in water", "An acid with pH 7"]
+    a: 2
+    e: "Weak acids set up an equilibrium with only a small proportion of molecules dissociated."
+  - q: "What is the Ka expression for HA ⇌ H⁺ + A⁻?"
+    o: ["[HA] ÷ [H⁺][A⁻]", "[H⁺] × [HA]", "[H⁺] ÷ [A⁻]", "[H⁺][A⁻] ÷ [HA]"]
+    a: 3
+    e: "Products over reactants, as for any equilibrium constant."
+  - q: "Ka of a weak acid is 1.74 × 10⁻⁵ mol dm⁻³ and its concentration is 0.100 mol dm⁻³. What is the pH?"
+    o: ["2.88", "4.76", "1.00", "5.76"]
+    a: 0
+    e: "[H⁺] = √(1.74 × 10⁻⁵ × 0.100) = 1.32 × 10⁻³. pH = 2.88."
+  - q: "Which acid is the strongest?"
+    o: ["pKa = 4.8", "pKa = 3.1", "pKa = 9.2", "pKa = 6.4"]
+    a: 1
+    e: "A smaller pKa means a larger Ka, so the acid dissociates more."
+  - q: "What is pKa?"
+    o: ["log Ka", "Ka²", "−log₁₀ Ka", "1/Ka"]
+    a: 2
+    e: "pKa = −log₁₀ Ka, just as pH = −log₁₀[H⁺]."
+  - q: "At the half-equivalence point of a weak acid–strong base titration, what is true?"
+    o: ["pH = 7", "pH = 14", "Ka = 1", "pH = pKa"]
+    a: 3
+    e: "Half the acid has reacted, so [HA] = [A⁻], and Ka = [H⁺]."
+  - q: "Which indicator suits a weak acid–strong base titration?"
+    o: ["Phenolphthalein", "Methyl orange", "Either", "Neither"]
+    a: 0
+    e: "The equivalence point is above 7, and phenolphthalein changes in the range 8.2–10."
+  - q: "Which indicator suits a strong acid–weak base titration?"
+    o: ["Phenolphthalein", "Methyl orange", "Universal indicator", "Litmus"]
+    a: 1
+    e: "The vertical section is in the acidic range, matching methyl orange (3.1–4.4)."
+  - q: "Why is no indicator suitable for a weak acid–weak base titration?"
+    o: ["The pH stays at 7", "The reaction is too fast", "There is no sharp vertical section in the pH curve", "Weak acids don't react with bases"]
+    a: 2
+    e: "The pH changes gradually, so no indicator changes colour sharply at the equivalence point."
+  - q: "What is a buffer?"
+    o: ["A strong acid", "A solution with pH 7", "A catalyst", "A solution that resists changes in pH when small amounts of acid or base are added"]
+    a: 3
+    e: "Buffers keep pH almost constant."
+  - q: "What does an acidic buffer contain?"
+    o: ["A weak acid and its salt", "A strong acid and its salt", "A strong acid and strong base", "Water only"]
+    a: 0
+    e: "E.g. ethanoic acid and sodium ethanoate."
+  - q: "How does an ethanoic acid/ethanoate buffer respond to added H⁺?"
+    o: ["H⁺ reacts with ethanoic acid", "H⁺ reacts with ethanoate ions (CH₃COO⁻) to form ethanoic acid", "pH falls sharply", "H⁺ reacts with water"]
+    a: 1
+    e: "The large reservoir of A⁻ removes added H⁺, so [H⁺] barely changes."
+  - q: "A buffer has [HA] = 0.20 and [A⁻] = 0.40 mol dm⁻³, with Ka = 1.8 × 10⁻⁵. What is [H⁺]?"
+    o: ["3.6 × 10⁻⁵", "1.8 × 10⁻⁵", "9.0 × 10⁻⁶", "7.2 × 10⁻⁶"]
+    a: 2
+    e: "[H⁺] = Ka × [HA] ÷ [A⁻] = 1.8 × 10⁻⁵ × 0.20 ÷ 0.40 = 9.0 × 10⁻⁶."
+  - q: "Which buffer system controls blood pH?"
+    o: ["Ammonia/ammonium", "Ethanoic acid/ethanoate", "Phosphoric acid only", "Carbonic acid/hydrogencarbonate"]
+    a: 3
+    e: "H₂CO₃ ⇌ H⁺ + HCO₃⁻ keeps blood pH close to 7.4."
+  - q: "How does a buffer respond to added OH⁻?"
+    o: ["OH⁻ reacts with HA (or H⁺), and more HA dissociates to replace H⁺", "OH⁻ reacts with A⁻", "pH rises sharply", "Nothing happens"]
+    a: 0
+    e: "The weak acid neutralises the hydroxide, keeping [H⁺] nearly constant."
+  - q: "What is the pH of a solution with [H⁺] = 2.5 × 10⁻⁴ mol dm⁻³?"
+    o: ["4.00", "3.60", "2.50", "10.40"]
+    a: 1
+    e: "pH = −log(2.5 × 10⁻⁴) = 3.60."

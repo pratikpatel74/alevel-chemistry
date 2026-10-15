@@ -1,0 +1,133 @@
+id: "3.1.8"
+order: 17
+year: 2
+section: "3.1"
+spec: "3.1.8"
+title: "Thermodynamics"
+desc: "Born–Haber cycles, lattice enthalpy, enthalpies of solution and hydration, perfect ionic model, entropy and Gibbs free-energy change."
+practicals: []
+summary:
+  - h: "Key enthalpy definitions"
+    p:
+      - "**Enthalpy of atomisation**: forming 1 mole of **gaseous atoms** from the element in its standard state. Always endothermic."
+      - "**First electron affinity**: 1 mole of gaseous atoms each **gains one electron** to form 1 mole of gaseous 1− ions. Usually **exothermic**. Second electron affinity is **endothermic** (adding an electron to a negative ion)."
+      - "**Lattice enthalpy of formation**: forming 1 mole of solid ionic compound **from its gaseous ions**. Exothermic. (Lattice enthalpy of **dissociation** is the reverse and endothermic.)"
+      - "**Enthalpy of hydration**: gaseous ions dissolving in water to form 1 mole of aqueous ions. Exothermic."
+      - "**Enthalpy of solution**: 1 mole of an ionic solid dissolving in water."
+  - h: "Born–Haber cycles"
+    p:
+      - "A Hess's law cycle linking the **enthalpy of formation** of an ionic compound to the steps of forming its gaseous ions and the **lattice enthalpy**."
+      - "Steps for NaCl: atomise Na, ionise Na, atomise Cl (½ bond enthalpy), electron affinity of Cl, then lattice formation."
+      - "`ΔfH = ΔatH(metal) + IE + ΔatH(non-metal) + EA + ΔLH(formation)`"
+  - h: "Perfect ionic model"
+    p:
+      - "Theoretical lattice enthalpies assume a **perfect ionic model**: spherical ions with no covalent character."
+      - "If the experimental (Born–Haber) value is **more exothermic** than the theoretical value, the compound has some **covalent character**. This happens when a small, highly charged cation **polarises** a large anion."
+      - "Lattice enthalpy is **more exothermic** for **smaller** ions with **higher charge**."
+  - h: "Dissolving"
+    p:
+      - "`ΔsolH = ΔLH(dissociation) + Σ ΔhydH`"
+      - "Hydration enthalpy is more exothermic for small, highly charged ions (stronger attraction to water's δ+ or δ− ends)."
+  - h: "Entropy and free energy"
+    p:
+      - "**Entropy (S)**: a measure of **disorder**, or the number of ways particles and energy can be arranged. Units **J K⁻¹ mol⁻¹**."
+      - "Entropy increases from solid → liquid → gas, and when more moles of gas form."
+      - "`ΔS = ΣS(products) − ΣS(reactants)`"
+      - "**Gibbs free energy**: `ΔG = ΔH − TΔS`. Convert ΔS to **kJ** (divide by 1000) to match ΔH."
+      - "A reaction is **feasible** when **ΔG ≤ 0**."
+      - "The temperature at which a reaction becomes feasible: set ΔG = 0, so `T = ΔH ÷ ΔS`."
+      - "A feasible reaction may still not happen if its **activation energy** is too high (kinetic barrier)."
+pitfalls:
+  - "Units: ΔH in kJ mol⁻¹, ΔS in J K⁻¹ mol⁻¹. **Divide ΔS by 1000** before using ΔG = ΔH − TΔS."
+  - "State whether you mean lattice enthalpy of **formation** (exothermic) or **dissociation** (endothermic)."
+  - "For Cl₂, atomisation is **½ × bond enthalpy**, because it's per mole of Cl atoms."
+  - "Second electron affinity is **endothermic**, because of repulsion between the electron and a negative ion."
+questions:
+  - q: "What is the enthalpy of atomisation of chlorine?"
+    o: ["The energy to form 1 mole of Cl₂ molecules", "The enthalpy change to form 1 mole of gaseous Cl atoms from Cl₂ in its standard state", "The energy to ionise chlorine", "The bond enthalpy of Cl₂"]
+    a: 1
+    e: "It is half the Cl–Cl bond enthalpy, because one Cl₂ gives two Cl atoms."
+  - q: "Why is the second electron affinity of oxygen endothermic?"
+    o: ["Energy is needed to overcome repulsion between the O⁻ ion and the incoming electron", "Oxygen is a metal", "Oxygen has too many protons", "Electrons are released"]
+    a: 0
+    e: "Adding an electron to a negative ion requires energy to overcome repulsion."
+  - q: "What is lattice enthalpy of formation?"
+    o: ["Forming 1 mole of solid from its elements", "Breaking 1 mole of solid into gaseous ions", "Forming 1 mole of solid ionic compound from its gaseous ions", "Dissolving 1 mole of solid in water"]
+    a: 2
+    e: "Lattice formation is exothermic as strong ionic bonds form."
+  - q: "Which change makes lattice enthalpy more exothermic?"
+    o: ["Larger ions with smaller charge", "Larger ions only", "Lower charge only", "Smaller ions with higher charge"]
+    a: 3
+    e: "Smaller ions get closer, and higher charges attract more strongly."
+  - q: "Experimental lattice enthalpy is more exothermic than the perfect ionic model predicts. What does this show?"
+    o: ["The compound has some covalent character", "The compound is purely ionic", "The data are wrong", "The ions are large"]
+    a: 0
+    e: "Polarisation of the anion by the cation adds extra (covalent) bonding."
+  - q: "Which cation polarises anions most strongly?"
+    o: ["Large, low-charge cation", "Small, highly charged cation", "Negative ion", "Large, highly charged cation"]
+    a: 1
+    e: "High charge density distorts the anion's electron cloud."
+  - q: "How is enthalpy of solution calculated?"
+    o: ["ΔsolH = lattice formation + hydration", "ΔsolH = hydration − lattice dissociation", "ΔsolH = lattice dissociation + sum of hydration enthalpies", "ΔsolH = atomisation + ionisation"]
+    a: 2
+    e: "Breaking the lattice (endothermic) then hydrating the ions (exothermic)."
+  - q: "Lattice dissociation of NaCl = +787; hydration Na⁺ = −406; hydration Cl⁻ = −378 kJ mol⁻¹. What is ΔsolH?"
+    o: ["−3 kJ mol⁻¹", "+1571 kJ mol⁻¹", "−784 kJ mol⁻¹", "+3 kJ mol⁻¹"]
+    a: 3
+    e: "787 + (−406) + (−378) = +3 kJ mol⁻¹."
+  - q: "What is entropy?"
+    o: ["A measure of disorder, or the number of ways particles and energy can be arranged", "Heat energy", "Activation energy", "Bond strength"]
+    a: 0
+    e: "Higher disorder means higher entropy."
+  - q: "Which change has the largest increase in entropy?"
+    o: ["Water freezing", "A solid turning into a gas", "Gas condensing", "Liquid turning into solid"]
+    a: 1
+    e: "Gases are much more disordered than solids."
+  - q: "What are the units of entropy?"
+    o: ["kJ mol⁻¹", "J mol⁻¹", "J K⁻¹ mol⁻¹", "K mol⁻¹"]
+    a: 2
+    e: "Entropy values are in J K⁻¹ mol⁻¹, so they must be converted to kJ in ΔG calculations."
+  - q: "What is the Gibbs free-energy equation?"
+    o: ["ΔG = ΔS − TΔH", "ΔG = ΔH + TΔS", "ΔG = TΔH − ΔS", "ΔG = ΔH − TΔS"]
+    a: 3
+    e: "ΔG combines enthalpy and entropy to predict feasibility."
+  - q: "When is a reaction feasible?"
+    o: ["When ΔG ≤ 0", "When ΔH > 0", "When ΔS < 0", "When ΔG > 0"]
+    a: 0
+    e: "A negative (or zero) ΔG means the reaction can happen."
+  - q: "ΔH = +178 kJ mol⁻¹ and ΔS = +161 J K⁻¹ mol⁻¹. Above what temperature is the reaction feasible?"
+    o: ["1.1 K", "1106 K", "28 658 K", "0.9 K"]
+    a: 1
+    e: "T = ΔH ÷ ΔS = 178 ÷ 0.161 = 1106 K. Convert ΔS to kJ first."
+  - q: "A reaction has negative ΔH and positive ΔS. When is it feasible?"
+    o: ["Only at high temperature", "Only at low temperature", "At all temperatures", "Never"]
+    a: 2
+    e: "ΔH − TΔS is always negative, because −TΔS is negative and ΔH is negative."
+  - q: "A reaction has positive ΔH and negative ΔS. When is it feasible?"
+    o: ["At all temperatures", "Only at high temperature", "Only at low temperature", "Never"]
+    a: 3
+    e: "Both terms make ΔG positive, so it is never feasible."
+  - q: "Why might a feasible reaction (ΔG < 0) not happen at room temperature?"
+    o: ["The activation energy is too high, so the rate is very slow", "ΔS is negative", "ΔH is positive", "It needs a catalyst to become feasible"]
+    a: 0
+    e: "Feasibility says nothing about rate. A high Ea is a kinetic barrier."
+  - q: "In a Born–Haber cycle for NaCl, which step is exothermic?"
+    o: ["Atomisation of Na", "First electron affinity of Cl", "First ionisation energy of Na", "Atomisation of Cl"]
+    a: 1
+    e: "Chlorine releases energy when it gains an electron."
+  - q: "Why is the hydration enthalpy of Mg²⁺ more exothermic than that of Na⁺?"
+    o: ["Mg²⁺ is larger", "Na⁺ has a higher charge", "Mg²⁺ is smaller with a higher charge, so it attracts water molecules more strongly", "Mg²⁺ forms hydrogen bonds"]
+    a: 2
+    e: "Higher charge density gives stronger ion–dipole attractions."
+  - q: "How is ΔS for a reaction calculated?"
+    o: ["ΣS(reactants) − ΣS(products)", "ΔH ÷ T", "ΔG − ΔH", "ΣS(products) − ΣS(reactants)"]
+    a: 3
+    e: "Products minus reactants, each multiplied by its number of moles."
+  - q: "Which reaction has a positive ΔS? "
+    o: ["CaCO₃(s) → CaO(s) + CO₂(g)", "N₂(g) + 3H₂(g) → 2NH₃(g)", "H₂O(g) → H₂O(l)", "2Mg(s) + O₂(g) → 2MgO(s)"]
+    a: 0
+    e: "A gas is produced from a solid, so disorder increases."
+  - q: "In a Born–Haber cycle, what is the enthalpy of atomisation of chlorine if the Cl–Cl bond enthalpy is +242 kJ mol⁻¹?"
+    o: ["+242 kJ mol⁻¹", "+121 kJ mol⁻¹", "+484 kJ mol⁻¹", "−121 kJ mol⁻¹"]
+    a: 1
+    e: "Atomisation forms one mole of Cl atoms, which is half a mole of Cl–Cl bonds broken."

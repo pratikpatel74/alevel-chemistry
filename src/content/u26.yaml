@@ -1,0 +1,123 @@
+id: "3.3.8"
+order: 26
+year: 2
+section: "3.3"
+spec: "3.3.8"
+title: "Aldehydes and ketones"
+desc: "Oxidation of aldehydes, Tollens' and Fehling's tests, reduction with NaBH₄, and nucleophilic addition of HCN with the hazards of KCN."
+practicals: [6]
+summary:
+  - h: "Structure"
+    p:
+      - "**Aldehydes** have a **C=O** at the **end** of the chain (–CHO). **Ketones** have a **C=O** within the chain."
+      - "The C=O bond is **polar**: carbon is δ+, so it is attacked by **nucleophiles**."
+  - h: "Oxidation"
+    p:
+      - "**Aldehydes** are **readily oxidised** to **carboxylic acids** (e.g. by acidified K₂Cr₂O₇). **Ketones** are **not easily oxidised**."
+      - "**Tollens' reagent** ([Ag(NH₃)₂]⁺): aldehydes give a **silver mirror**. Ag⁺ is reduced to Ag."
+      - "**Fehling's solution** (Cu²⁺ complex): aldehydes give a **brick-red precipitate** of Cu₂O. Cu²⁺ is reduced to Cu⁺."
+      - "Ketones give **no change** with either."
+  - h: "Reduction"
+    p:
+      - "**NaBH₄** (sodium tetrahydridoborate(III)) in aqueous or alcoholic solution reduces carbonyls."
+      - "Aldehydes → **primary alcohols**. Ketones → **secondary alcohols**. Use [H] in equations, e.g. `CH₃CHO + 2[H] → CH₃CH₂OH`."
+      - "Mechanism: **nucleophilic addition**. The **H⁻ (hydride ion)** from NaBH₄ attacks the δ+ carbon. The C=O bond breaks, forming an O⁻ intermediate, which is protonated by water."
+  - h: "Nucleophilic addition of HCN"
+    p:
+      - "Carbonyls react with **KCN** followed by **dilute acid** to form **hydroxynitriles**, e.g. ethanal → 2-hydroxypropanenitrile."
+      - "Mechanism: **CN⁻** attacks the δ+ carbon. The C=O breaks. The O⁻ intermediate gains H⁺ (from HCN or the acid)."
+      - "The product is a **racemic mixture** when a chiral centre forms, because the carbonyl group is **planar**."
+      - "**Hazards**: KCN is **highly toxic**. HCN is a toxic gas. Use a fume cupboard; KCN is used rather than HCN gas because it is easier to handle safely, but it still requires great care."
+pitfalls:
+  - "NaBH₄ reduction uses the **hydride ion (H⁻)** as nucleophile. Show [H] in equations."
+  - "Aldehyde tests: Tollens' (silver mirror) and Fehling's (brick-red). Ketones: negative."
+  - "Name hydroxynitriles counting the CN carbon: ethanal + HCN gives **2-hydroxypropanenitrile**."
+questions:
+  - q: "Where is the C=O group in an aldehyde?"
+    o: ["In the middle of the chain", "At the end of the chain", "Attached to an OH", "In a ring"]
+    a: 1
+    e: "Aldehydes have –CHO at the end of the carbon chain."
+  - q: "Why is the carbon in C=O attacked by nucleophiles?"
+    o: ["Oxygen is more electronegative, making the carbon δ+", "Carbon has a lone pair", "The bond is non-polar", "Carbon is negatively charged"]
+    a: 0
+    e: "The polar bond makes carbon electron-deficient."
+  - q: "What is the product when an aldehyde is oxidised?"
+    o: ["A ketone", "An alcohol", "A carboxylic acid", "An alkene"]
+    a: 2
+    e: "Aldehydes are oxidised to carboxylic acids."
+  - q: "What is seen when an aldehyde is warmed with Tollens' reagent?"
+    o: ["A brick-red precipitate", "Orange to green", "No change", "A silver mirror"]
+    a: 3
+    e: "Ag⁺ is reduced to silver metal."
+  - q: "What is seen when a ketone is warmed with Fehling's solution?"
+    o: ["No change: the solution stays blue", "A brick-red precipitate", "A silver mirror", "Effervescence"]
+    a: 0
+    e: "Ketones aren't easily oxidised, so Fehling's stays blue."
+  - q: "What reducing agent is used to reduce carbonyls to alcohols?"
+    o: ["KMnO₄", "NaBH₄", "K₂Cr₂O₇", "H₂SO₄"]
+    a: 1
+    e: "NaBH₄ provides hydride ions (H⁻)."
+  - q: "What is formed when propanone is reduced with NaBH₄?"
+    o: ["Propan-1-ol", "Propanal", "Propan-2-ol", "Propanoic acid"]
+    a: 2
+    e: "Ketones are reduced to secondary alcohols."
+  - q: "What is the nucleophile in the reduction of a carbonyl by NaBH₄?"
+    o: ["BH₄⁻ as a whole", "Na⁺", "H₂O", "The hydride ion, H⁻"]
+    a: 3
+    e: "H⁻ attacks the δ+ carbon, then the O⁻ formed is protonated."
+  - q: "What type of mechanism is the reaction of a carbonyl with KCN and acid?"
+    o: ["Nucleophilic addition", "Electrophilic addition", "Nucleophilic substitution", "Elimination"]
+    a: 0
+    e: "CN⁻ adds to the C=O carbon."
+  - q: "What is the product when ethanal reacts with KCN then dilute acid?"
+    o: ["Ethanenitrile", "2-hydroxypropanenitrile", "Propanal", "1-hydroxyethanenitrile"]
+    a: 1
+    e: "The CN adds a carbon: CH₃CH(OH)CN, 2-hydroxypropanenitrile."
+  - q: "Why does the reaction of ethanal with HCN give a racemic mixture?"
+    o: ["Ethanal is chiral", "CN⁻ is chiral", "The planar C=O can be attacked from either side with equal probability", "The product has no chiral centre"]
+    a: 2
+    e: "Equal attack from both faces produces equal amounts of each enantiomer."
+  - q: "Why is KCN hazardous?"
+    o: ["It is explosive", "It is radioactive", "It is corrosive only", "It is highly toxic, and can release toxic HCN gas with acid"]
+    a: 3
+    e: "Cyanide stops cellular respiration. Work in a fume cupboard with great care."
+  - q: "Write the equation for reducing ethanal with NaBH₄."
+    o: ["CH₃CHO + 2[H] → CH₃CH₂OH", "CH₃CHO + [O] → CH₃COOH", "CH₃CHO + H₂O → CH₃CH₂OH + [O]", "CH₃CHO → CH₂=CH₂ + H₂O"]
+    a: 0
+    e: "[H] represents the reducing agent's hydrogen."
+  - q: "What is reduced in the Fehling's test?"
+    o: ["The aldehyde", "Cu²⁺ to Cu⁺ (Cu₂O)", "Ag⁺", "Water"]
+    a: 1
+    e: "The aldehyde is oxidised; Cu²⁺ is reduced to brick-red Cu₂O."
+  - q: "What is reduced in Tollens' test?"
+    o: ["The aldehyde", "Ammonia", "Ag⁺ to Ag", "OH⁻"]
+    a: 2
+    e: "Silver ions gain electrons to form silver metal."
+  - q: "Which compound would give a silver mirror with Tollens' reagent?"
+    o: ["Propanone", "Propan-2-ol", "Butanone", "Butanal"]
+    a: 3
+    e: "Butanal is an aldehyde, so it is oxidised by Tollens'."
+  - q: "In the mechanism of nucleophilic addition, what happens after CN⁻ attacks the carbon?"
+    o: ["The C=O π bond breaks, forming an O⁻ intermediate, which is then protonated", "The carbon loses H⁺", "Water leaves", "A carbocation forms"]
+    a: 0
+    e: "The electrons from C=O move onto oxygen, then O⁻ picks up H⁺."
+  - q: "What is formed when an aldehyde is reduced?"
+    o: ["A secondary alcohol", "A primary alcohol", "A ketone", "A carboxylic acid"]
+    a: 1
+    e: "Aldehydes give primary alcohols on reduction."
+  - q: "Why can't ketones be easily oxidised?"
+    o: ["They have no C=O", "They are too large", "They have no H atom attached to the carbonyl carbon", "They are ionic"]
+    a: 2
+    e: "Oxidising would need breaking a C–C bond, which mild oxidising agents can't do."
+  - q: "Why is KCN used rather than HCN gas in the lab?"
+    o: ["KCN isn't toxic", "HCN is a better nucleophile", "KCN is cheaper only", "HCN is a highly toxic gas that is harder to contain; KCN is a solid, though still very toxic"]
+    a: 3
+    e: "KCN supplies CN⁻ ions directly; acid is then added to protonate the intermediate."
+  - q: "Which test distinguishes propanal from propanone?"
+    o: ["Warm with Fehling's: propanal gives a brick-red precipitate", "Add bromine water", "Add sodium carbonate", "Measure the boiling point only"]
+    a: 0
+    e: "Only the aldehyde (propanal) is oxidised by Fehling's."
+  - q: "What is the systematic name of NaBH₄?"
+    o: ["Sodium borohydride(V)", "Sodium tetrahydridoborate(III)", "Boron sodium hydride", "Sodium hydride borate"]
+    a: 1
+    e: "Boron is in the +3 oxidation state."

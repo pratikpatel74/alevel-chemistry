@@ -1,0 +1,14 @@
+meta:
+  subject: "Chemistry"
+  code: "7405"
+  title: "AQA Chemistry Study Hub"
+  prefix: "chem_"
+  rpBlurb: "All 12 AQA required practicals: method, key measurements and the exam questions they lead to."
+  rpIntro: "Practicals 1–6 are Year 1 content and 7–12 are Year 2. Questions on them can appear on any paper."
+plan:
+  - {code: "3.1", name: "Physical chemistry", year: 1, units: 7}
+  - {code: "3.2", name: "Inorganic chemistry", year: 1, units: 3}
+  - {code: "3.3", name: "Organic chemistry", year: 1, units: 6}
+  - {code: "3.1", name: "Physical chemistry", year: 2, units: 5}
+  - {code: "3.2", name: "Inorganic chemistry", year: 2, units: 3}
+  - {code: "3.3", name: "Organic chemistry", year: 2, units: 10}

@@ -1,0 +1,124 @@
+id: "3.1.9"
+order: 18
+year: 2
+section: "3.1"
+spec: "3.1.9"
+title: "Rate equations"
+desc: "Rate equations and orders, the rate constant k, determining orders from data and graphs, rate-determining steps, and the Arrhenius equation."
+practicals: [7]
+summary:
+  - h: "Rate equations"
+    p:
+      - "`rate = k[A]ᵐ[B]ⁿ`, where m and n are the **orders** with respect to A and B, and k is the **rate constant**."
+      - "**Overall order** = m + n."
+      - "Orders can only be found by **experiment**, not from the balanced equation."
+      - "**Zero order**: rate doesn't depend on concentration. **First order**: doubling concentration **doubles** rate. **Second order**: doubling concentration **quadruples** rate."
+  - h: "Finding orders"
+    p:
+      - "**Initial rates method**: change one concentration at a time and compare initial rates."
+      - "**Concentration–time graphs**: zero order gives a **straight line**; first order gives a curve with a **constant half-life**."
+      - "**Rate–concentration graphs**: zero order is horizontal; first order is a straight line through the origin; second order is a curve (parabola)."
+  - h: "The rate constant k"
+    p:
+      - "Units of k depend on the overall order. Rearrange the rate equation: e.g. second order overall, `k = rate ÷ [A][B]`, units **mol⁻¹ dm³ s⁻¹**."
+      - "k **increases** with **temperature**."
+      - "**Arrhenius equation**: `k = A e^(−Ea/RT)`. Taking logs: `ln k = ln A − Ea/RT`."
+      - "Plot **ln k** against **1/T**: a straight line with gradient **−Ea/R**, so Ea = −gradient × R."
+  - h: "Rate-determining step"
+    p:
+      - "The **rate-determining step** is the **slowest** step in a mechanism."
+      - "Species in the rate equation (and their powers) appear in the rate-determining step or steps before it."
+      - "Example: if rate = k[(CH₃)₃CBr], only the halogenoalkane is in the slow step, suggesting an Sɴ1 mechanism."
+pitfalls:
+  - "Orders come from **experimental data**, never from equation coefficients."
+  - "Work out k's units every time. They change with overall order."
+  - "In ln k vs 1/T, Ea = −gradient × R, then convert J to kJ if needed."
+questions:
+  - q: "In rate = k[A]²[B], what is the overall order?"
+    o: ["2", "3", "1", "4"]
+    a: 1
+    e: "Overall order = 2 + 1 = 3."
+  - q: "A reaction is first order in X. What happens to the rate if [X] is tripled?"
+    o: ["It triples", "It increases 9 times", "It stays the same", "It doubles"]
+    a: 0
+    e: "First order: rate is directly proportional to concentration."
+  - q: "A reaction is second order in Y. What happens to the rate if [Y] doubles?"
+    o: ["Doubles", "Stays the same", "Increases 4 times", "Increases 8 times"]
+    a: 2
+    e: "Rate ∝ [Y]², so 2² = 4 times faster."
+  - q: "What does zero order mean?"
+    o: ["The reaction doesn't happen", "Rate doubles with concentration", "The reactant is a catalyst", "Changing the concentration of that reactant has no effect on rate"]
+    a: 3
+    e: "A zero-order reactant doesn't appear in the rate equation."
+  - q: "How can orders of reaction be found?"
+    o: ["Only by experiment", "From the balanced equation", "From ΔH", "From Kc"]
+    a: 0
+    e: "Orders reflect the mechanism and must be determined experimentally."
+  - q: "What is the shape of a concentration–time graph for a zero-order reactant?"
+    o: ["A curve with constant half-life", "A straight line with negative gradient", "A horizontal line", "An upward curve"]
+    a: 1
+    e: "The rate is constant, so concentration falls at a constant rate."
+  - q: "Which feature of a concentration–time graph shows first order?"
+    o: ["A straight line", "A horizontal line", "A constant half-life", "An increasing gradient"]
+    a: 2
+    e: "First-order reactions have the same half-life whatever the starting concentration."
+  - q: "What is the shape of a rate–concentration graph for a first-order reactant?"
+    o: ["Horizontal line", "A curve", "A vertical line", "A straight line through the origin"]
+    a: 3
+    e: "Rate is directly proportional to concentration."
+  - q: "rate = k[A][B]. Concentrations in mol dm⁻³, rate in mol dm⁻³ s⁻¹. What are the units of k?"
+    o: ["mol⁻¹ dm³ s⁻¹", "s⁻¹", "mol dm⁻³ s⁻¹", "mol⁻² dm⁶ s⁻¹"]
+    a: 0
+    e: "k = rate ÷ [A][B] = (mol dm⁻³ s⁻¹) ÷ (mol dm⁻³)² = mol⁻¹ dm³ s⁻¹."
+  - q: "What are the units of k for a first-order reaction overall?"
+    o: ["mol dm⁻³ s⁻¹", "s⁻¹", "mol⁻¹ dm³ s⁻¹", "No units"]
+    a: 1
+    e: "k = rate ÷ [A] = (mol dm⁻³ s⁻¹) ÷ (mol dm⁻³) = s⁻¹."
+  - q: "How does increasing temperature affect k?"
+    o: ["k decreases", "k stays the same", "k increases", "k becomes zero"]
+    a: 2
+    e: "More molecules exceed Ea at higher temperature, so k increases."
+  - q: "What is the Arrhenius equation?"
+    o: ["k = A e^(Ea/RT)", "k = Ea/RT", "k = A + Ea/RT", "k = A e^(−Ea/RT)"]
+    a: 3
+    e: "k depends exponentially on Ea and temperature."
+  - q: "In a plot of ln k against 1/T, what is the gradient?"
+    o: ["−Ea/R", "Ea/R", "ln A", "−R/Ea"]
+    a: 0
+    e: "ln k = ln A − (Ea/R)(1/T), so the gradient is −Ea/R."
+  - q: "A plot of ln k against 1/T has a gradient of −6000 K. What is Ea? (R = 8.31 J K⁻¹ mol⁻¹)"
+    o: ["722 J mol⁻¹", "49.9 kJ mol⁻¹", "6.00 kJ mol⁻¹", "−49.9 kJ mol⁻¹"]
+    a: 1
+    e: "Ea = −gradient × R = 6000 × 8.31 = 49 860 J mol⁻¹ ≈ 49.9 kJ mol⁻¹."
+  - q: "What is the rate-determining step?"
+    o: ["The fastest step", "The first step", "The slowest step in a mechanism", "The final step"]
+    a: 2
+    e: "The overall rate can't be faster than the slowest step."
+  - q: "rate = k[(CH₃)₃CBr]. What does this suggest about the mechanism with OH⁻?"
+    o: ["OH⁻ is in the rate-determining step", "The reaction is second order", "Both reactants collide in the slow step", "Only the halogenoalkane is involved in the rate-determining step"]
+    a: 3
+    e: "OH⁻ is zero order, so it reacts after the slow step (Sɴ1)."
+  - q: "Experiment 1: [A] = 0.1, rate = 2.0 × 10⁻³. Experiment 2: [A] = 0.2, rate = 8.0 × 10⁻³. What is the order in A?"
+    o: ["2", "1", "0", "4"]
+    a: 0
+    e: "Doubling [A] multiplies rate by 4, so the order is 2."
+  - q: "Experiment 1: [B] = 0.1, rate = 3.0 × 10⁻⁴. Experiment 2: [B] = 0.3, rate = 3.0 × 10⁻⁴. What is the order in B?"
+    o: ["1", "0", "2", "3"]
+    a: 1
+    e: "Tripling [B] doesn't change the rate, so B is zero order."
+  - q: "In the initial rates method, why is only one concentration changed at a time?"
+    o: ["To save chemicals", "To keep the temperature constant", "So that the effect of each reactant on rate can be found separately", "To increase rate"]
+    a: 2
+    e: "If two changed, you couldn't tell which caused the change in rate."
+  - q: "rate = k[NO]²[O₂]. Which species could be in the rate-determining step?"
+    o: ["Only O₂", "Only NO", "None", "Two NO and one O₂ (or species formed from them in earlier steps)"]
+    a: 3
+    e: "The rate equation shows what is involved up to and including the slow step."
+  - q: "Why does a catalyst increase k?"
+    o: ["It lowers Ea, which increases k in the Arrhenius equation", "It raises temperature", "It increases concentration", "It changes the orders"]
+    a: 0
+    e: "A smaller Ea makes e^(−Ea/RT) larger, so k increases."
+  - q: "In a clock reaction, what is used as a measure of the initial rate?"
+    o: ["The time taken", "1/time for a set amount of product to form", "The final concentration", "The temperature"]
+    a: 1
+    e: "A faster reaction reaches the colour change sooner, so rate ∝ 1/t."

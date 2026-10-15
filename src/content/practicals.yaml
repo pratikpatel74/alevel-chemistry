@@ -1,0 +1,242 @@
+- n: 1
+  year: 1
+  unit: "3.1.2"
+  spec: "3.1.2"
+  title: "Make up a volumetric solution and carry out a simple acid–base titration"
+  aim: "Prepare a standard solution of known concentration, then use it in a titration to find the concentration of another solution."
+  method:
+    - "Weigh the solid accurately in a weighing boat, transfer to a beaker, then **reweigh the boat** to find the exact mass transferred (weighing by difference)."
+    - "Dissolve in distilled water, transfer to a **volumetric flask**, rinse the beaker and funnel into the flask, and make up to the mark so the **bottom of the meniscus** sits on the line. Invert several times to mix."
+    - "Rinse the **pipette** with the solution it will measure, then transfer exactly 25.0 cm³ into a conical flask. Add 2–3 drops of indicator."
+    - "Rinse the **burette** with the titrant, fill it, remove air from the tip, and record the start reading."
+    - "Run in the titrant, swirling, adding **dropwise** near the end point. Record the end reading to the nearest 0.05 cm³."
+    - "Repeat until you have **concordant titres** (within 0.10 cm³) and calculate the mean of these."
+  iv: "Not applicable (measurement task)"
+  dv: "Titre volume"
+  cv: "Volume of solution in the conical flask, indicator used, temperature"
+  exam:
+    - "Use a **white tile** under the flask to see the colour change clearly."
+    - "Phenolphthalein (colourless in acid, pink in alkali) or methyl orange (red in acid, yellow in alkali) for strong acid–strong base titrations."
+    - "**Percentage uncertainty** = (uncertainty ÷ measured value) × 100. A burette reading has ±0.05 cm³, and a titre uses two readings, so ±0.10 cm³."
+    - "Moles = concentration × volume (in dm³). Divide cm³ by 1000."
+
+- n: 2
+  year: 1
+  unit: "3.1.4"
+  spec: "3.1.4"
+  title: "Measurement of an enthalpy change"
+  aim: "Measure the temperature change of a reaction in solution (e.g. neutralisation or displacement) and calculate ΔH."
+  method:
+    - "Put a known volume of one solution into a **polystyrene cup** (insulates and has low heat capacity), in a beaker for stability."
+    - "Record the temperature every 30 s for a few minutes to get a steady starting temperature."
+    - "Add the second reactant at a recorded time (e.g. 3 minutes), stir, and keep recording temperature every 30 s for several minutes."
+    - "Plot temperature against time. **Extrapolate** the cooling line back to the time of mixing to find the maximum temperature change, correcting for heat loss."
+    - "Calculate `q = m c ΔT`, then `ΔH = −q ÷ moles of limiting reactant`."
+  iv: "Not applicable (measurement task)"
+  dv: "Temperature change"
+  cv: "Volumes and concentrations, insulation, stirring"
+  exam:
+    - "Assume the solution has the density and specific heat capacity of water: 1.00 g cm⁻³ and 4.18 J g⁻¹ K⁻¹."
+    - "Main source of error is **heat loss** to the surroundings, so experimental values are usually less exothermic than data-book values."
+    - "Give ΔH in kJ mol⁻¹ with a **sign**: negative for exothermic."
+    - "For combustion of fuels, use a spirit burner and a copper calorimeter; heat loss is much larger."
+
+- n: 3
+  year: 1
+  unit: "3.1.5"
+  spec: "3.1.5"
+  title: "Investigation of how the rate of a reaction changes with temperature"
+  aim: "Measure the time for a reaction to reach a fixed point at several temperatures, e.g. sodium thiosulfate with hydrochloric acid producing a sulfur precipitate."
+  method:
+    - "Heat the sodium thiosulfate solution in a water bath to the chosen temperature, and record the actual temperature."
+    - "Place the flask over a paper marked with a cross. Add the acid and start the timer."
+    - "Stop the timer when the cross can no longer be seen through the cloudy sulfur."
+    - "Repeat at several temperatures, e.g. 20 to 60 °C."
+    - "Rate is proportional to **1/time**. Plot 1/t against temperature."
+  iv: "Temperature"
+  dv: "Time for the cross to disappear (rate ∝ 1/t)"
+  cv: "Volumes and concentrations of both solutions, same observer, same cross"
+  exam:
+    - "Higher temperature means more particles have energy ≥ **Ea** (Maxwell–Boltzmann), so more successful collisions per second."
+    - "Judging when the cross disappears is subjective. A light sensor or colorimeter would be better."
+    - "Sulfur dioxide is produced, so do the experiment in a well-ventilated room."
+
+- n: 4
+  year: 1
+  unit: "3.2.2"
+  spec: "3.2.2 / 3.2.3"
+  title: "Simple test-tube reactions to identify cations and anions in aqueous solution"
+  aim: "Identify Group 2 ions, NH₄⁺, halide ions, OH⁻, CO₃²⁻ and SO₄²⁻ using test-tube reactions."
+  method:
+    - "**Group 2 ions**: add NaOH(aq). Mg²⁺ gives a white precipitate. Ca²⁺ gives a slight white precipitate. Ba²⁺ gives none (Ba(OH)₂ is soluble)."
+    - "**Group 2 with sulfate**: add dilute H₂SO₄. Ba²⁺ gives a dense white precipitate (BaSO₄). Mg²⁺ none."
+    - "**NH₄⁺**: warm with NaOH(aq). Ammonia gas turns **damp red litmus blue**."
+    - "**OH⁻**: red litmus turns blue (or universal indicator shows a high pH)."
+    - "**CO₃²⁻**: add dilute acid. Effervescence; the gas (CO₂) turns **limewater milky**."
+    - "**SO₄²⁻**: add acidified BaCl₂(aq). A **white precipitate** of BaSO₄ forms."
+    - "**Halides**: add dilute nitric acid, then silver nitrate. Cl⁻ white, Br⁻ cream, I⁻ yellow precipitate."
+  iv: "Not applicable (identification task)"
+  dv: "Observations"
+  cv: "Not applicable"
+  exam:
+    - "Do the tests in order: carbonate, then sulfate, then halide, so earlier ions don't interfere."
+    - "Acidify before adding BaCl₂ or AgNO₃ to remove **carbonate** ions, which would also form precipitates."
+    - "Use **nitric** acid (not HCl) before AgNO₃, because HCl adds Cl⁻."
+    - "Confirm silver halides with ammonia: AgCl dissolves in dilute NH₃, AgBr in concentrated NH₃, AgI not at all."
+
+- n: 5
+  year: 1
+  unit: "3.3.5"
+  spec: "3.3.5"
+  title: "Distillation of a product from a reaction"
+  aim: "Oxidise ethanol with acidified potassium dichromate(VI) and distil off the aldehyde (ethanal) as it forms."
+  method:
+    - "Add acidified potassium dichromate to a flask and warm gently. Add ethanol dropwise."
+    - "Set up for **distillation**, with the thermometer bulb level with the side arm, and water flowing **in at the bottom** of the condenser."
+    - "Collect the distillate in a flask cooled in ice."
+    - "For the carboxylic acid instead, use excess oxidising agent and heat under **reflux** first, then distil."
+  iv: "Not applicable (preparation)"
+  dv: "Product collected"
+  cv: "Not applicable"
+  exam:
+    - "Distilling off ethanal immediately stops it being further oxidised to ethanoic acid."
+    - "**Reflux** lets you heat for a long time without losing volatile substances: vapour condenses and drips back."
+    - "Orange Cr₂O₇²⁻ turns green Cr³⁺ as it oxidises the alcohol."
+    - "Add **anti-bumping granules** for smooth boiling. Never heat a sealed system."
+
+- n: 6
+  year: 1
+  unit: "3.3.6"
+  spec: "3.3.6"
+  title: "Tests for alcohol, aldehyde, alkene and carboxylic acid"
+  aim: "Identify functional groups using simple chemical tests."
+  method:
+    - "**Alkene**: shake with bromine water. **Orange to colourless**."
+    - "**Primary or secondary alcohol**: warm with acidified K₂Cr₂O₇. **Orange to green**. Tertiary alcohols: no change."
+    - "**Aldehyde**: warm with **Tollens' reagent**: a **silver mirror** forms. Or with **Fehling's solution**: **blue to brick-red** precipitate. Ketones: no change."
+    - "**Carboxylic acid**: add sodium carbonate or sodium hydrogencarbonate. **Effervescence**; CO₂ turns limewater milky."
+  iv: "Not applicable (identification task)"
+  dv: "Observations"
+  cv: "Not applicable"
+  exam:
+    - "Heat with a **water bath**, not a Bunsen burner, because organic compounds are flammable."
+    - "Tollens' reagent is made fresh: silver nitrate plus a little NaOH, then dilute ammonia until the precipitate dissolves."
+    - "Aldehydes are oxidised in both tests. Ketones aren't, which is how to tell them apart."
+
+- n: 7
+  year: 2
+  unit: "3.1.9"
+  spec: "3.1.9"
+  title: "Measuring the rate of reaction: by an initial rate method and by a continuous monitoring method"
+  aim: "Find the order of reaction with respect to a reactant, e.g. using an iodine clock reaction (initial rate) or measuring gas volume over time (continuous monitoring)."
+  method:
+    - "**Initial rate (clock)**: vary the concentration of one reactant while keeping others constant. Time how long until a sudden colour change (e.g. blue-black with starch). Initial rate ∝ 1/t."
+    - "**Continuous monitoring**: measure a property over time, e.g. gas volume in a gas syringe, mass loss, or colour with a colorimeter."
+    - "Plot concentration against time and draw **tangents** to find rates at different concentrations."
+    - "Plot rate against concentration (or log rate against log concentration) to find the order."
+  iv: "Concentration of one reactant"
+  dv: "Rate (1/t or gradient of a tangent)"
+  cv: "Temperature, concentrations of other reactants, total volume"
+  exam:
+    - "Keep **total volume constant** by adding water, so only one concentration changes."
+    - "Zero order: rate doesn't change with concentration. First order: rate doubles when concentration doubles. Second order: rate quadruples."
+    - "On a concentration–time graph, a straight line means zero order, and constant half-life means first order."
+
+- n: 8
+  year: 2
+  unit: "3.1.11"
+  spec: "3.1.11"
+  title: "Measuring the EMF of an electrochemical cell"
+  aim: "Build cells from two half-cells joined by a salt bridge and measure the EMF with a high-resistance voltmeter."
+  method:
+    - "Clean metal electrodes with emery paper to remove oxide, then rinse with propanone."
+    - "Put each metal in a solution of its own ions, at **1.00 mol dm⁻³**, at 298 K."
+    - "Make a **salt bridge** from filter paper soaked in saturated **potassium nitrate** solution."
+    - "Connect the electrodes to a **high-resistance voltmeter** and record the EMF."
+  iv: "The pair of half-cells used"
+  dv: "Cell EMF"
+  cv: "Concentration of ions (1.00 mol dm⁻³), temperature (298 K)"
+  exam:
+    - "`E(cell) = E(right) − E(left)`, where the right is the more positive (reduction) half-cell."
+    - "A **high-resistance** voltmeter means almost no current flows, so the EMF is measured accurately."
+    - "KNO₃ is used in the salt bridge because it doesn't react with the ions in the half-cells (KCl would form precipitates with Ag⁺)."
+
+- n: 9
+  year: 2
+  unit: "3.1.12"
+  spec: "3.1.12"
+  title: "Investigate how pH changes when a weak acid reacts with a strong base and when a strong acid reacts with a weak base"
+  aim: "Use a calibrated pH meter to plot titration curves and find equivalence points and pKa."
+  method:
+    - "**Calibrate** the pH meter with buffer solutions of known pH."
+    - "Put 25.0 cm³ of acid in a beaker. Add base from a burette in small portions (1 cm³, then 0.1–0.2 cm³ near the equivalence point)."
+    - "Stir and record the pH after each addition."
+    - "Plot pH against volume of base added."
+  iv: "Volume of base added"
+  dv: "pH"
+  cv: "Concentrations, temperature"
+  exam:
+    - "At the **half-equivalence point** of a weak acid–strong base titration, `pH = pKa`."
+    - "Weak acid + strong base: equivalence point above 7. Use **phenolphthalein**."
+    - "Strong acid + weak base: equivalence point below 7. Use **methyl orange**."
+    - "Rinse the electrode with distilled water between readings or solutions."
+
+- n: 10
+  year: 2
+  unit: "3.3.10"
+  spec: "3.3.9 / 3.3.10"
+  title: "Preparation of a pure organic solid and test of its purity, and a pure organic liquid"
+  aim: "Prepare and purify an organic solid (e.g. aspirin) by recrystallisation and check purity by melting point; prepare and purify a liquid (e.g. an ester) by separation and distillation."
+  method:
+    - "**Recrystallisation**: dissolve the impure solid in the **minimum volume of hot solvent**, filter hot if needed, cool slowly so pure crystals form, then filter under reduced pressure (Büchner funnel), wash with a little cold solvent and dry."
+    - "**Melting point**: a pure solid melts sharply at the data-book value. Impurities **lower and broaden** the melting range."
+    - "**Liquid purification**: use a **separating funnel** to remove aqueous layers, e.g. wash with sodium hydrogencarbonate to remove acid. Dry the organic layer with anhydrous **magnesium sulfate** or calcium chloride."
+    - "**Redistil**, collecting the fraction that boils at the expected boiling point."
+  iv: "Not applicable (preparation)"
+  dv: "Melting point or boiling point; yield"
+  cv: "Not applicable"
+  exam:
+    - "Minimum hot solvent so the product crystallises when cooled, rather than staying dissolved."
+    - "Cold solvent for washing, to avoid dissolving the product."
+    - "When using a separating funnel, release pressure regularly, especially after adding hydrogencarbonate (CO₂ forms)."
+    - "Percentage yield = (actual ÷ theoretical) × 100."
+
+- n: 11
+  year: 2
+  unit: "3.2.6"
+  spec: "3.2.6"
+  title: "Test-tube reactions to identify transition metal ions in aqueous solution"
+  aim: "Identify Cu²⁺, Fe²⁺, Fe³⁺ and Al³⁺ by their reactions with NaOH, NH₃ and Na₂CO₃."
+  method:
+    - "Add NaOH(aq) dropwise, then in excess. Note precipitate colours and whether they dissolve."
+    - "Repeat with NH₃(aq), dropwise then in excess."
+    - "Repeat with Na₂CO₃(aq)."
+  iv: "Not applicable (identification task)"
+  dv: "Observations"
+  cv: "Not applicable"
+  exam:
+    - "Cu²⁺: blue precipitate with NaOH. With excess NH₃, a **deep blue solution** forms ([Cu(NH₃)₄(H₂O)₂]²⁺)."
+    - "Fe²⁺: **green** precipitate, which slowly turns brown in air (oxidised to Fe³⁺)."
+    - "Fe³⁺: **brown** precipitate. With Na₂CO₃, brown precipitate **and** effervescence (CO₂), because Fe³⁺ solutions are more acidic."
+    - "Al³⁺: white precipitate that **dissolves in excess NaOH** (amphoteric)."
+
+- n: 12
+  year: 2
+  unit: "3.3.16"
+  spec: "3.3.16"
+  title: "Separation of species by thin-layer chromatography"
+  aim: "Separate and identify substances, e.g. amino acids or analgesics, using TLC and Rf values."
+  method:
+    - "Draw a **pencil** origin line on a TLC plate (wearing gloves so you don't contaminate it)."
+    - "Spot the samples on the line with a capillary tube."
+    - "Stand the plate in a beaker with solvent **below the origin line**, and cover with a lid."
+    - "Remove when the solvent nears the top and mark the solvent front."
+    - "Locate colourless spots with **UV light** or by spraying with a developing agent, e.g. **ninhydrin** for amino acids."
+    - "Calculate `Rf = distance moved by spot ÷ distance moved by solvent front`."
+  iv: "Sample or solvent used"
+  dv: "Rf values"
+  cv: "Solvent, plate type, temperature"
+  exam:
+    - "Separation depends on the balance between **solubility in the mobile phase** and **retention by the stationary phase** (adsorption)."
+    - "A lid keeps the atmosphere saturated with solvent vapour, so the solvent doesn't evaporate from the plate."
+    - "Compare Rf values with known substances run on the **same plate** under identical conditions."

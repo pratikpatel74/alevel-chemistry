@@ -1,0 +1,131 @@
+id: "3.1.4"
+order: 4
+year: 1
+section: "3.1"
+spec: "3.1.4"
+title: "Energetics"
+desc: "Enthalpy change, standard conditions, enthalpies of combustion and formation, calorimetry, Hess's law and mean bond enthalpies."
+practicals: [2]
+summary:
+  - h: "Enthalpy change"
+    p:
+      - "**Enthalpy change (ΔH)**: the heat energy change measured under conditions of **constant pressure**."
+      - "**Exothermic**: ΔH is **negative**; heat is released to the surroundings. **Endothermic**: ΔH is **positive**; heat is taken in."
+      - "**Standard conditions**: **100 kPa** and a stated temperature, usually **298 K**. Substances in their standard states. Shown as ΔH⦵."
+  - h: "Standard enthalpy definitions"
+    p:
+      - "**Standard enthalpy of combustion (ΔcH⦵)**: the enthalpy change when **1 mole** of a substance is **completely burned in oxygen**, with all reactants and products in their standard states, under standard conditions."
+      - "**Standard enthalpy of formation (ΔfH⦵)**: the enthalpy change when **1 mole** of a compound is formed **from its elements**, with all reactants and products in their standard states, under standard conditions."
+      - "ΔfH⦵ of an **element** in its standard state is **zero**."
+  - h: "Calorimetry"
+    p:
+      - "`q = m c ΔT`"
+      - "q = heat energy (J), m = mass of the **substance being heated**, usually water (g), c = specific heat capacity (4.18 J g⁻¹ K⁻¹ for water), ΔT = temperature change (K)."
+      - "`ΔH = −q ÷ n`, where n is moles of the limiting reactant (or fuel burned). Convert J to kJ by dividing by 1000."
+      - "Experimental values are less exothermic than data-book values mainly because of **heat loss** and **incomplete combustion**."
+  - h: "Hess's law"
+    p:
+      - "**Hess's law**: the enthalpy change of a reaction is **independent of the route** taken, provided the start and end conditions are the same."
+      - "Using formation data: `ΔH = Σ ΔfH(products) − Σ ΔfH(reactants)`"
+      - "Using combustion data: `ΔH = Σ ΔcH(reactants) − Σ ΔcH(products)`"
+      - "Multiply each value by the number of moles in the balanced equation."
+  - h: "Bond enthalpies"
+    p:
+      - "**Mean bond enthalpy**: the energy needed to **break one mole** of a covalent bond in **gaseous** molecules, **averaged** over a range of compounds."
+      - "Bond breaking is **endothermic**. Bond making is **exothermic**."
+      - "`ΔH = Σ(bonds broken) − Σ(bonds made)`"
+      - "Values calculated from mean bond enthalpies differ from data-book values because they are **averages**, not specific to the molecule in the reaction."
+pitfalls:
+  - "In q = mcΔT, m is the mass of the **water or solution**, not the mass of the fuel."
+  - "Always give a **sign** with ΔH, and units of kJ mol⁻¹."
+  - "Formation: products minus reactants. Combustion: **reactants minus products**. Don't mix them up."
+  - "Mean bond enthalpies only apply to **gases**."
+questions:
+  - q: "What does a negative value of ΔH show?"
+    o: ["The reaction is endothermic", "The reaction is exothermic and releases heat to the surroundings", "No energy change", "The reaction is slow"]
+    a: 1
+    e: "Negative ΔH means the products have less enthalpy than the reactants, so energy has been released."
+  - q: "What are standard conditions for enthalpy changes?"
+    o: ["100 kPa and a stated temperature, usually 298 K", "101 kPa and 273 K", "1 atm and 0 °C", "100 Pa and 25 K"]
+    a: 0
+    e: "Standard conditions are 100 kPa, with a stated temperature, normally 298 K."
+  - q: "What is the standard enthalpy of formation of O₂(g)?"
+    o: ["−286 kJ mol⁻¹", "+498 kJ mol⁻¹", "0 kJ mol⁻¹", "It depends on temperature"]
+    a: 2
+    e: "The enthalpy of formation of any element in its standard state is zero by definition."
+  - q: "Which equation represents the standard enthalpy of formation of water?"
+    o: ["2H₂(g) + O₂(g) → 2H₂O(l)", "H₂O(l) → H₂(g) + ½O₂(g)", "H₂(g) + O₂(g) → H₂O₂(l)", "H₂(g) + ½O₂(g) → H₂O(l)"]
+    a: 3
+    e: "Formation is for 1 mole of product, formed from its elements in their standard states."
+  - q: "Which equation represents the standard enthalpy of combustion of methane?"
+    o: ["CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)", "C(s) + 2H₂(g) → CH₄(g)", "2CH₄(g) + 4O₂(g) → 2CO₂(g) + 4H₂O(l)", "CH₄(g) + O₂(g) → C(s) + 2H₂O(l)"]
+    a: 0
+    e: "Combustion is for 1 mole of substance completely burned in oxygen."
+  - q: "100 g of water rises by 10.0 K. How much heat energy was absorbed? (c = 4.18 J g⁻¹ K⁻¹)"
+    o: ["418 J", "4180 J", "41.8 J", "41 800 J"]
+    a: 1
+    e: "q = mcΔT = 100 × 4.18 × 10.0 = 4180 J (4.18 kJ)."
+  - q: "Burning 0.0100 mol of fuel heats water, releasing 6.00 kJ. What is ΔcH?"
+    o: ["+600 kJ mol⁻¹", "−60.0 kJ mol⁻¹", "−600 kJ mol⁻¹", "−0.0600 kJ mol⁻¹"]
+    a: 2
+    e: "ΔH = −q ÷ n = −6.00 ÷ 0.0100 = −600 kJ mol⁻¹. Negative because heat was released."
+  - q: "Why are experimental enthalpies of combustion usually less exothermic than data-book values?"
+    o: ["Too much fuel is burned", "The thermometer is too accurate", "Water has a low heat capacity", "Heat is lost to the surroundings and combustion may be incomplete"]
+    a: 3
+    e: "Not all the heat released goes into the water, and incomplete combustion releases less energy."
+  - q: "What is Hess's law?"
+    o: ["The enthalpy change of a reaction is independent of the route taken", "Energy is always released in reactions", "Bond breaking is exothermic", "ΔH equals q"]
+    a: 0
+    e: "Whatever route is used to go from reactants to products, the overall enthalpy change is the same."
+  - q: "Using formation enthalpies, how is ΔH for a reaction calculated?"
+    o: ["Σ ΔfH(reactants) − Σ ΔfH(products)", "Σ ΔfH(products) − Σ ΔfH(reactants)", "Σ ΔfH(products) + Σ ΔfH(reactants)", "Σ ΔfH(products) × Σ ΔfH(reactants)"]
+    a: 1
+    e: "Products minus reactants, each multiplied by its number of moles."
+  - q: "Using combustion enthalpies, how is ΔH for a reaction calculated?"
+    o: ["Σ ΔcH(products) − Σ ΔcH(reactants)", "Σ ΔcH(products) + Σ ΔcH(reactants)", "Σ ΔcH(reactants) − Σ ΔcH(products)", "It can't be calculated"]
+    a: 2
+    e: "With combustion data, the route goes through the combustion products, so it's reactants minus products."
+  - q: "ΔfH: CO₂(g) = −394, H₂O(l) = −286, CH₄(g) = −75 kJ mol⁻¹. What is ΔcH of CH₄?"
+    o: ["−605 kJ mol⁻¹", "−755 kJ mol⁻¹", "+891 kJ mol⁻¹", "−891 kJ mol⁻¹"]
+    a: 3
+    e: "ΔH = [−394 + 2(−286)] − [−75 + 0] = −966 + 75 = −891 kJ mol⁻¹."
+  - q: "What is mean bond enthalpy?"
+    o: ["The energy to break one mole of a bond in gaseous molecules, averaged over a range of compounds", "The energy released when a bond forms in a liquid", "The energy of one bond in one molecule", "The enthalpy of formation of a bond"]
+    a: 0
+    e: "Mean bond enthalpies are averages, so they're approximate for any particular molecule."
+  - q: "Is breaking bonds exothermic or endothermic?"
+    o: ["Exothermic", "Endothermic", "Neither", "It depends on the bond"]
+    a: 1
+    e: "Energy must be put in to overcome the attraction between the bonded atoms, so bond breaking is endothermic."
+  - q: "Using bond enthalpies, how is ΔH calculated?"
+    o: ["Σ bonds made − Σ bonds broken", "Σ bonds broken + Σ bonds made", "Σ bonds broken − Σ bonds made", "Σ bonds made ÷ Σ bonds broken"]
+    a: 2
+    e: "Energy in (bonds broken) minus energy out (bonds made)."
+  - q: "H₂ + Cl₂ → 2HCl. Bond enthalpies: H–H 436, Cl–Cl 243, H–Cl 432 kJ mol⁻¹. What is ΔH?"
+    o: ["+247 kJ mol⁻¹", "−432 kJ mol⁻¹", "+185 kJ mol⁻¹", "−185 kJ mol⁻¹"]
+    a: 3
+    e: "Broken: 436 + 243 = 679. Made: 2 × 432 = 864. ΔH = 679 − 864 = −185 kJ mol⁻¹."
+  - q: "Why do values calculated from mean bond enthalpies differ from accurate data-book values?"
+    o: ["Mean bond enthalpies are averages, not exact for the bonds in that particular molecule", "They include heat loss", "Bonds don't break in reactions", "Data-book values are always wrong"]
+    a: 0
+    e: "The strength of a bond varies slightly depending on the molecule it's in."
+  - q: "In q = mcΔT for a neutralisation in a cup, what is m?"
+    o: ["The mass of the acid", "The total mass of the solution being heated, often taken as its volume in cm³", "The mass of the cup", "The mass of the salt formed"]
+    a: 1
+    e: "m is the mass of solution that changes temperature. Assume a density of 1.00 g cm⁻³."
+  - q: "In RP2, why is the temperature–time graph extrapolated back to the time of mixing?"
+    o: ["To find the starting temperature", "To increase accuracy of the clock", "To estimate the maximum temperature change, correcting for heat lost while the reaction was happening", "To find the rate"]
+    a: 2
+    e: "The solution starts cooling while the reaction is still finishing. Extrapolating corrects for this."
+  - q: "Why is a polystyrene cup used in calorimetry?"
+    o: ["It is cheap", "It reacts with nothing", "It is transparent", "It is a good insulator and has a low heat capacity"]
+    a: 3
+    e: "Polystyrene reduces heat loss and absorbs little heat itself."
+  - q: "What is the enthalpy change when 1 mole of a compound is formed from its elements under standard conditions?"
+    o: ["Standard enthalpy of formation", "Standard enthalpy of combustion", "Bond enthalpy", "Enthalpy of neutralisation"]
+    a: 0
+    e: "This is the definition of the standard enthalpy of formation, ΔfH⦵."
+  - q: "50.0 cm³ of solution rises by 6.0 K in a neutralisation producing 0.0500 mol of water. What is ΔH? (c = 4.18 J g⁻¹ K⁻¹)"
+    o: ["+25 kJ mol⁻¹", "−25 kJ mol⁻¹", "−1.25 kJ mol⁻¹", "−50 kJ mol⁻¹"]
+    a: 1
+    e: "q = 50.0 × 4.18 × 6.0 = 1254 J = 1.254 kJ. ΔH = −1.254 ÷ 0.0500 = −25 kJ mol⁻¹."

@@ -1,0 +1,129 @@
+id: "3.3.14"
+order: 32
+year: 2
+section: "3.3"
+spec: "3.3.14"
+title: "Organic synthesis"
+desc: "Planning multi-step syntheses, key reagents and conditions for interconversions, and choosing efficient and safer routes."
+practicals: []
+summary:
+  - h: "Planning a synthesis"
+    p:
+      - "Organic syntheses involve **two or more steps**. Work **backwards** from the target and forwards from the starting material."
+      - "Identify the **functional group changes** needed, and any **change in carbon chain length** (e.g. CN⁻ adds a carbon)."
+      - "For each step, state the **reagent**, **conditions** and **type of reaction**."
+      - "Chemists aim for routes with **fewer steps**, **high yields**, **high atom economy**, and that **avoid hazardous** solvents and reagents."
+  - h: "Key aliphatic interconversions"
+    p:
+      - "**Alkane → halogenoalkane**: Cl₂ or Br₂, **UV light** (free-radical substitution)."
+      - "**Alkene → halogenoalkane**: HBr, room temperature (electrophilic addition). **Alkene → dihalogenoalkane**: Br₂."
+      - "**Alkene → alcohol**: steam + H₃PO₄ catalyst, or conc. H₂SO₄ then water."
+      - "**Halogenoalkane → alcohol**: NaOH(aq), warm, reflux (nucleophilic substitution)."
+      - "**Halogenoalkane → alkene**: KOH in ethanol, heat (elimination)."
+      - "**Halogenoalkane → nitrile**: KCN in ethanol, reflux (adds one carbon)."
+      - "**Halogenoalkane → amine**: excess ethanolic NH₃, heat, sealed tube."
+      - "**Nitrile → amine**: LiAlH₄ or H₂/Ni (reduction)."
+      - "**Primary alcohol → aldehyde**: K₂Cr₂O₇/H₂SO₄, distil. **→ carboxylic acid**: reflux with excess."
+      - "**Secondary alcohol → ketone**: K₂Cr₂O₇/H₂SO₄, reflux."
+      - "**Alcohol → alkene**: conc. H₂SO₄ or H₃PO₄, heat (elimination)."
+      - "**Aldehyde/ketone → alcohol**: NaBH₄ (reduction). **→ hydroxynitrile**: KCN then dilute acid."
+      - "**Carboxylic acid + alcohol → ester**: conc. H₂SO₄, heat."
+      - "**Acyl chloride → ester/amide/acid**: with alcohol/amine or NH₃/water, room temperature."
+  - h: "Key aromatic interconversions"
+    p:
+      - "**Benzene → nitrobenzene**: conc. HNO₃ + conc. H₂SO₄, 50 °C."
+      - "**Nitrobenzene → phenylamine**: Sn + conc. HCl, then NaOH."
+      - "**Benzene → aromatic ketone**: acyl chloride + AlCl₃ (Friedel–Crafts acylation)."
+pitfalls:
+  - "Always give **reagent + condition + reaction type** for each step. Marks are lost for missing conditions (e.g. 'aqueous' vs 'ethanolic')."
+  - "Check whether the chain length changes. Only **CN⁻** steps add a carbon here."
+  - "Distinguish distil (aldehyde) from reflux (acid) for oxidations."
+questions:
+  - q: "How can propan-1-ol be converted to propanal?"
+    o: ["Heat under reflux with excess acidified K₂Cr₂O₇", "Warm with acidified K₂Cr₂O₇ and distil off the aldehyde", "React with NaBH₄", "Heat with concentrated H₂SO₄"]
+    a: 1
+    e: "Distilling removes the aldehyde before further oxidation."
+  - q: "How can bromoethane be converted to propanenitrile?"
+    o: ["KCN in ethanol, heated under reflux", "NH₃ in ethanol", "NaOH(aq)", "HBr"]
+    a: 0
+    e: "Nucleophilic substitution by CN⁻ adds one carbon."
+  - q: "What reagent converts a nitrile to a primary amine?"
+    o: ["NaBH₄", "K₂Cr₂O₇", "LiAlH₄ (or H₂ with Ni catalyst)", "Concentrated H₂SO₄"]
+    a: 2
+    e: "Reduction converts –C≡N into –CH₂NH₂."
+  - q: "How can ethene be converted to ethanol?"
+    o: ["NaBH₄", "KOH in ethanol", "UV light and Cl₂", "Steam with a phosphoric acid catalyst"]
+    a: 3
+    e: "Hydration of ethene by electrophilic addition."
+  - q: "Which conditions convert 2-bromopropane into propene?"
+    o: ["KOH in ethanol, heated", "NaOH(aq), warm", "Excess NH₃", "KCN in ethanol"]
+    a: 0
+    e: "Ethanolic hydroxide favours elimination."
+  - q: "How can a ketone be converted to a secondary alcohol?"
+    o: ["Oxidise with K₂Cr₂O₇", "Reduce with NaBH₄", "React with KCN", "Heat with H₂SO₄"]
+    a: 1
+    e: "NaBH₄ reduces ketones to secondary alcohols."
+  - q: "What is the reagent for converting benzene into nitrobenzene?"
+    o: ["Dilute HNO₃", "Sn and HCl", "Concentrated HNO₃ and concentrated H₂SO₄ at 50 °C", "AlCl₃"]
+    a: 2
+    e: "These generate the NO₂⁺ electrophile."
+  - q: "A synthesis needs to increase the carbon chain length by one. Which reagent is useful?"
+    o: ["NaBH₄", "NH₃", "HBr", "KCN"]
+    a: 3
+    e: "CN⁻ adds a carbon atom in substitution or addition reactions."
+  - q: "What is a two-step route from ethane to ethanol?"
+    o: ["Cl₂ with UV light, then NaOH(aq) and warm", "Steam and H₃PO₄, then oxidise", "NaBH₄, then H₂SO₄", "KOH in ethanol, then HBr"]
+    a: 0
+    e: "Free-radical substitution gives chloroethane, which nucleophilic substitution turns into ethanol."
+  - q: "What is a route from ethanol to ethyl ethanoate using ethanol as the only organic starting material?"
+    o: ["Reduce ethanol, then esterify", "Oxidise some ethanol to ethanoic acid (reflux), then esterify with more ethanol using H₂SO₄", "Dehydrate ethanol, then add HBr", "React ethanol with NaBH₄"]
+    a: 1
+    e: "Oxidation gives the acid; esterification joins acid and alcohol."
+  - q: "How can phenylamine be made from benzene?"
+    o: ["React with NH₃ directly", "Friedel–Crafts acylation", "Nitrate with conc. HNO₃/H₂SO₄, then reduce with Sn/HCl", "React with KCN"]
+    a: 2
+    e: "Benzene → nitrobenzene → phenylamine."
+  - q: "Why do chemists prefer synthetic routes with fewer steps?"
+    o: ["They use more reagents", "They make more by-products", "They are always slower", "Each step loses some yield, so fewer steps give a higher overall yield"]
+    a: 3
+    e: "Overall yield is the product of the yields of each step."
+  - q: "Two steps each have 80% yield. What is the overall yield?"
+    o: ["64%", "80%", "160%", "40%"]
+    a: 0
+    e: "0.80 × 0.80 = 0.64, so 64%."
+  - q: "Which reagent converts an acyl chloride into an amide?"
+    o: ["Water", "Ammonia", "An alcohol", "NaBH₄"]
+    a: 1
+    e: "Nucleophilic addition–elimination with NH₃ gives a primary amide."
+  - q: "What converts propanal into 2-hydroxybutanenitrile?"
+    o: ["NaBH₄", "K₂Cr₂O₇", "KCN followed by dilute acid", "NH₃"]
+    a: 2
+    e: "Nucleophilic addition of CN⁻ to the C=O adds a carbon."
+  - q: "How can propan-2-ol be converted to propanone?"
+    o: ["Distil with K₂Cr₂O₇", "Reduce with NaBH₄", "React with HBr", "Heat under reflux with acidified K₂Cr₂O₇"]
+    a: 3
+    e: "Secondary alcohols are oxidised to ketones."
+  - q: "Which reagent converts benzene into phenylethanone?"
+    o: ["Ethanoyl chloride with AlCl₃", "Ethanol with H₂SO₄", "Ethanoic acid only", "Chloroethane with UV"]
+    a: 0
+    e: "Friedel–Crafts acylation gives an aromatic ketone."
+  - q: "What reaction type converts an alkene into a dibromoalkane?"
+    o: ["Nucleophilic substitution", "Electrophilic addition", "Free-radical substitution", "Elimination"]
+    a: 1
+    e: "Br₂ adds across the C=C."
+  - q: "Why might a chemist avoid a route using a hazardous solvent?"
+    o: ["It always lowers the yield", "It makes the product impure", "To reduce risks to people and the environment (green chemistry)", "It increases atom economy"]
+    a: 2
+    e: "Safer reagents and solvents are a key aim of sustainable synthesis."
+  - q: "What is formed by heating a halogenoalkane with excess ethanolic ammonia in a sealed tube?"
+    o: ["An alcohol", "An alkene", "A nitrile", "A primary amine"]
+    a: 3
+    e: "Nucleophilic substitution by NH₃."
+  - q: "Which step converts a carboxylic acid into an ester?"
+    o: ["Heat with an alcohol and a concentrated H₂SO₄ catalyst", "Add NaBH₄", "Add water", "Add HBr"]
+    a: 0
+    e: "Esterification is a reversible condensation reaction."
+  - q: "How can propene be converted into propan-2-ol in one step?"
+    o: ["React with NaBH₄", "React with steam and a phosphoric acid catalyst", "React with KOH in ethanol", "React with Cl₂ in UV"]
+    a: 1
+    e: "Acid-catalysed hydration gives mainly propan-2-ol via the more stable carbocation."

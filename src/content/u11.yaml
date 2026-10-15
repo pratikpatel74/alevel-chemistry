@@ -1,0 +1,131 @@
+id: "3.3.1"
+order: 11
+year: 1
+section: "3.3"
+spec: "3.3.1"
+title: "Introduction to organic chemistry"
+desc: "Types of formula, IUPAC nomenclature, homologous series, reaction mechanisms with curly arrows, structural isomerism and E/Z stereoisomerism."
+practicals: []
+summary:
+  - h: "Formulae"
+    p:
+      - "**Molecular**: actual numbers of atoms, e.g. C₄H₁₀. **Empirical**: simplest ratio, e.g. C₂H₅."
+      - "**General formula**: for a homologous series, e.g. alkanes CₙH₂ₙ₊₂."
+      - "**Structural**: arrangement without showing bonds, e.g. CH₃CH₂CH₂CH₃."
+      - "**Displayed**: all atoms and bonds shown. **Skeletal**: lines for the carbon chain, with functional groups shown."
+  - h: "Nomenclature and homologous series"
+    p:
+      - "A **homologous series** has the **same functional group** and **general formula**, and each member differs by **CH₂**. Members have similar chemical properties and a trend in physical properties."
+      - "A **functional group** is the group of atoms responsible for the characteristic reactions of a compound."
+      - "IUPAC naming: find the **longest carbon chain** (meth-, eth-, prop-, but-, pent-, hex-...), identify the functional group suffix (-ane, -ene, -ol, -al, -one, -oic acid), and number substituents with the **lowest possible numbers**. List substituents in **alphabetical** order."
+  - h: "Mechanisms"
+    p:
+      - "**Curly arrows** show the movement of a **pair of electrons**. They start at a bond or a lone pair and point to where the electrons go."
+      - "**Homolytic fission**: a covalent bond breaks and each atom gets **one** electron, forming **free radicals** (shown with a dot)."
+      - "**Heterolytic fission**: one atom gets **both** electrons, forming ions."
+      - "**Nucleophile**: an electron pair **donor**. **Electrophile**: an electron pair **acceptor**."
+  - h: "Structural isomerism"
+    p:
+      - "**Structural isomers**: same molecular formula, **different structural formula**."
+      - "**Chain** isomers: different carbon skeleton (e.g. butane and methylpropane)."
+      - "**Position** isomers: functional group in a different position (e.g. propan-1-ol and propan-2-ol)."
+      - "**Functional group** isomers: different functional groups (e.g. propanal and propanone)."
+  - h: "Stereoisomerism: E/Z"
+    p:
+      - "**Stereoisomers**: same structural formula, but a **different arrangement of atoms in space**."
+      - "**E/Z isomerism** happens because there is **restricted rotation** around a **C=C double bond**, and each carbon of the C=C has **two different groups** attached."
+      - "Use **Cahn–Ingold–Prelog (CIP) priority rules**: the atom with the higher **atomic number** has higher priority."
+      - "**Z**: higher-priority groups on the **same side**. **E**: on **opposite sides**."
+pitfalls:
+  - "Curly arrows must start from a **bond or lone pair**, never from an atom or a charge on its own."
+  - "E/Z needs **two different groups** on **each** carbon of the C=C."
+  - "Use the lowest numbers when naming, and alphabetical order for substituents: 2-bromo-3-methyl..., not 3-methyl-2-bromo..."
+questions:
+  - q: "What is a homologous series?"
+    o: ["Compounds with the same molecular formula", "Compounds with the same functional group and general formula, each differing by CH₂", "Compounds with different functional groups", "Isomers of each other"]
+    a: 1
+    e: "Members of a homologous series react similarly and show gradual trends in physical properties."
+  - q: "What is the general formula of the alkanes?"
+    o: ["CₙH₂ₙ₊₂", "CₙH₂ₙ", "CₙH₂ₙ₋₂", "CₙH₂ₙ₊₁OH"]
+    a: 0
+    e: "Alkanes are saturated hydrocarbons, with general formula CₙH₂ₙ₊₂."
+  - q: "What is the empirical formula of butane, C₄H₁₀?"
+    o: ["C₄H₁₀", "CH₂", "C₂H₅", "CH₃"]
+    a: 2
+    e: "Divide by 2: C₂H₅."
+  - q: "What is the IUPAC name of CH₃CH(CH₃)CH₂CH₃?"
+    o: ["Pentane", "3-methylbutane", "Methylbutane-2", "2-methylbutane"]
+    a: 3
+    e: "Longest chain is 4 carbons (butane), with a methyl group on carbon 2."
+  - q: "What is the name of CH₃CH₂CH₂OH?"
+    o: ["Propan-1-ol", "Propan-2-ol", "Propanal", "Propanone"]
+    a: 0
+    e: "Three carbons, with the OH on carbon 1."
+  - q: "What does a curly arrow represent in a mechanism?"
+    o: ["Movement of a single electron", "Movement of a pair of electrons", "Movement of an atom", "Movement of a proton"]
+    a: 1
+    e: "A full curly arrow shows a pair of electrons moving from a bond or lone pair."
+  - q: "What is homolytic fission?"
+    o: ["A bond breaks with one atom taking both electrons", "Formation of a bond", "A bond breaks with each atom taking one electron, forming free radicals", "Addition of water"]
+    a: 2
+    e: "Homolytic fission produces two radicals, each with an unpaired electron."
+  - q: "What is a nucleophile?"
+    o: ["An electron pair acceptor", "A free radical", "A positive ion only", "An electron pair donor"]
+    a: 3
+    e: "Nucleophiles have a lone pair to donate, e.g. OH⁻, CN⁻ and NH₃."
+  - q: "What is an electrophile?"
+    o: ["An electron pair acceptor", "An electron pair donor", "A radical", "A molecule with a lone pair only"]
+    a: 0
+    e: "Electrophiles are attracted to electron-rich areas such as C=C, e.g. H⁺ and Br⁺."
+  - q: "Butane and methylpropane are which type of isomer?"
+    o: ["Position isomers", "Chain isomers", "Functional group isomers", "E/Z isomers"]
+    a: 1
+    e: "They have the same molecular formula (C₄H₁₀) but different carbon skeletons."
+  - q: "Propan-1-ol and propan-2-ol are which type of isomer?"
+    o: ["Chain isomers", "Functional group isomers", "Position isomers", "Stereoisomers"]
+    a: 2
+    e: "Same carbon chain and functional group, but the OH is in a different position."
+  - q: "Propanal and propanone are which type of isomer?"
+    o: ["Chain isomers", "Position isomers", "E/Z isomers", "Functional group isomers"]
+    a: 3
+    e: "Both are C₃H₆O, but one is an aldehyde and the other a ketone."
+  - q: "Why does E/Z isomerism occur in some alkenes?"
+    o: ["Restricted rotation around C=C, with two different groups on each carbon of the double bond", "Free rotation around C–C", "A chiral carbon", "Different molecular formulae"]
+    a: 0
+    e: "The double bond can't rotate, so the groups are fixed on one side or the other."
+  - q: "Which alkene can show E/Z isomerism?"
+    o: ["Ethene", "But-2-ene", "Propene", "2-methylpropene"]
+    a: 1
+    e: "But-2-ene has CH₃ and H on each carbon of the C=C. The others have two identical groups on one carbon."
+  - q: "In Z-but-2-ene, where are the two methyl groups?"
+    o: ["On opposite sides of the double bond", "On the same carbon", "On the same side of the double bond", "Rotating freely"]
+    a: 2
+    e: "Z (zusammen = together): higher-priority groups on the same side."
+  - q: "How are CIP priorities assigned?"
+    o: ["By group size", "By the number of hydrogens", "By bond length", "By atomic number of the atom attached directly to the C=C carbon"]
+    a: 3
+    e: "Higher atomic number means higher priority, e.g. Br > Cl > C > H."
+  - q: "In CHCl=CHBr, which groups are compared to decide E or Z?"
+    o: ["Cl on one carbon and Br on the other", "The two hydrogens", "Cl and H on the same carbon only", "Neither; it can't be E/Z"]
+    a: 0
+    e: "On each carbon, the higher priority group (Cl over H, Br over H) is compared."
+  - q: "What is a skeletal formula?"
+    o: ["A formula showing all atoms and bonds", "A formula with carbon chains shown as lines and only functional groups drawn", "The simplest ratio of atoms", "The molecular formula"]
+    a: 1
+    e: "In skeletal formulae, each line end and corner is a carbon, and hydrogens on carbon aren't shown."
+  - q: "What is the name of CH₃CH₂CHO?"
+    o: ["Propanone", "Propan-1-ol", "Propanal", "Propanoic acid"]
+    a: 2
+    e: "Three carbons with an aldehyde group (-CHO): propanal."
+  - q: "What is a functional group?"
+    o: ["A chain of carbon atoms", "Any hydrogen atom", "A type of isomer", "A group of atoms responsible for the characteristic reactions of a compound"]
+    a: 3
+    e: "E.g. -OH in alcohols and C=C in alkenes."
+  - q: "What is the correct name for CH₃CHBrCH(CH₃)CH₃?"
+    o: ["2-bromo-3-methylbutane", "3-methyl-2-bromobutane", "2-methyl-3-bromobutane", "3-bromo-2-methylbutane"]
+    a: 0
+    e: "Number to give the lowest locants (2 and 3), and list substituents alphabetically: bromo before methyl."
+  - q: "What is heterolytic fission?"
+    o: ["Each atom takes one electron", "One atom takes both electrons from the bond, forming ions", "Two radicals combine", "A double bond forms"]
+    a: 1
+    e: "Heterolytic fission produces a cation and an anion."

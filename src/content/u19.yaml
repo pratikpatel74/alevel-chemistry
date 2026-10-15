@@ -1,0 +1,120 @@
+id: "3.1.10"
+order: 19
+year: 2
+section: "3.1"
+spec: "3.1.10"
+title: "Equilibrium constant Kp"
+desc: "Mole fractions, partial pressures, writing and calculating Kp, its units, and how temperature, pressure and catalysts affect Kp."
+practicals: []
+summary:
+  - h: "Partial pressures"
+    p:
+      - "For gas mixtures, **partial pressure** is the pressure each gas would exert on its own."
+      - "`mole fraction of A = moles of A ÷ total moles of gas`"
+      - "`partial pressure of A (pA) = mole fraction of A × total pressure`"
+      - "The sum of partial pressures equals the **total pressure**."
+  - h: "Kp"
+    p:
+      - "For aA(g) + bB(g) ⇌ cC(g) + dD(g): `Kp = (pC)ᶜ(pD)ᵈ ÷ (pA)ᵃ(pB)ᵇ`"
+      - "Only **gases** are included in Kp."
+      - "Work out the units by cancelling pressure units (e.g. kPa)."
+      - "Use an ICE table for moles, find mole fractions, then partial pressures, then Kp."
+  - h: "What changes Kp"
+    p:
+      - "Like Kc, **Kp only changes with temperature**."
+      - "Exothermic forward reaction: Kp **decreases** as temperature increases. Endothermic: Kp **increases**."
+      - "Changing **total pressure** changes partial pressures and may shift the position of equilibrium, but **Kp stays the same**."
+      - "A **catalyst** doesn't affect Kp."
+pitfalls:
+  - "Partial pressures use **mole fractions** at **equilibrium**, not initial amounts."
+  - "Mole fractions must **add up to 1**. Use this to check your working."
+  - "Only temperature changes Kp."
+questions:
+  - q: "What is a mole fraction?"
+    o: ["Moles of one gas ÷ total moles of gas", "Mass of gas ÷ total mass", "Partial pressure ÷ volume", "Moles of gas ÷ volume"]
+    a: 0
+    e: "Mole fraction is the proportion of the total gas moles made up by one gas."
+  - q: "How is partial pressure calculated?"
+    o: ["Total pressure ÷ moles", "Mole fraction × total pressure", "Moles × volume", "Kp × total pressure"]
+    a: 1
+    e: "Each gas contributes a share of the total pressure equal to its mole fraction."
+  - q: "A mixture has 2 mol N₂ and 6 mol H₂ at 200 kPa total. What is the partial pressure of N₂?"
+    o: ["100 kPa", "25 kPa", "50 kPa", "150 kPa"]
+    a: 2
+    e: "Mole fraction N₂ = 2 ÷ 8 = 0.25. pN₂ = 0.25 × 200 = 50 kPa."
+  - q: "What is the sum of the mole fractions in a mixture?"
+    o: ["Total pressure", "Depends on the gases", "Zero", "1"]
+    a: 3
+    e: "All the fractions together make up the whole."
+  - q: "What is the Kp expression for N₂(g) + 3H₂(g) ⇌ 2NH₃(g)?"
+    o: ["(pNH₃)² ÷ (pN₂)(pH₂)³", "(pN₂)(pH₂)³ ÷ (pNH₃)²", "2pNH₃ ÷ pN₂ × 3pH₂", "(pNH₃) ÷ (pN₂)(pH₂)"]
+    a: 0
+    e: "Products over reactants, each partial pressure raised to its coefficient."
+  - q: "What are the units of Kp for N₂(g) + 3H₂(g) ⇌ 2NH₃(g), with pressures in kPa?"
+    o: ["kPa²", "kPa⁻²", "kPa", "No units"]
+    a: 1
+    e: "kPa² ÷ (kPa × kPa³) = kPa⁻²."
+  - q: "Which species are included in Kp?"
+    o: ["All species", "Solids only", "Gases only", "Aqueous species only"]
+    a: 2
+    e: "Kp uses partial pressures, which only apply to gases."
+  - q: "What changes the value of Kp?"
+    o: ["Total pressure", "Adding a catalyst", "Adding more reactant", "Temperature"]
+    a: 3
+    e: "Kp, like Kc, is constant at a given temperature."
+  - q: "For an exothermic forward reaction, what happens to Kp as temperature increases?"
+    o: ["It decreases", "It increases", "It stays the same", "It becomes negative"]
+    a: 0
+    e: "Equilibrium shifts left, in the endothermic direction, so Kp decreases."
+  - q: "The total pressure on an equilibrium is increased. What happens to Kp?"
+    o: ["It increases", "It stays the same", "It decreases", "It doubles"]
+    a: 1
+    e: "The position of equilibrium may shift, but Kp is unchanged at constant temperature."
+  - q: "For 2SO₂ + O₂ ⇌ 2SO₃, pSO₂ = 20 kPa, pO₂ = 10 kPa, pSO₃ = 60 kPa. What is Kp?"
+    o: ["0.3 kPa⁻¹", "3.0 kPa", "0.9 kPa⁻¹", "9.0 kPa⁻¹"]
+    a: 2
+    e: "Kp = 60² ÷ (20² × 10) = 3600 ÷ 4000 = 0.9 kPa⁻¹."
+  - q: "What is the effect of a catalyst on Kp?"
+    o: ["Increases it", "Decreases it", "Doubles it", "No effect"]
+    a: 3
+    e: "A catalyst speeds up both directions equally, so equilibrium is reached faster but Kp is unchanged."
+  - q: "In an equilibrium mixture at 100 kPa, the mole fraction of NO₂ is 0.4. What is pNO₂?"
+    o: ["40 kPa", "0.4 kPa", "60 kPa", "250 kPa"]
+    a: 0
+    e: "pNO₂ = 0.4 × 100 = 40 kPa."
+  - q: "N₂O₄ ⇌ 2NO₂. Start with 1.0 mol N₂O₄. At equilibrium, 0.40 mol has reacted. What is the total moles of gas?"
+    o: ["1.0 mol", "1.4 mol", "0.6 mol", "1.8 mol"]
+    a: 1
+    e: "N₂O₄ left = 0.60 mol. NO₂ formed = 0.80 mol. Total = 1.40 mol."
+  - q: "Using the previous question, what is the mole fraction of NO₂?"
+    o: ["0.80", "0.43", "0.57", "0.40"]
+    a: 2
+    e: "0.80 ÷ 1.40 = 0.57."
+  - q: "For an endothermic forward reaction, what happens to Kp as temperature rises?"
+    o: ["Decreases", "No change", "Becomes zero", "Increases"]
+    a: 3
+    e: "Equilibrium shifts right, in the endothermic direction, so Kp increases."
+  - q: "What is meant by partial pressure?"
+    o: ["The pressure a gas in a mixture would exert if it alone occupied the volume", "The total pressure", "Pressure of a liquid", "Pressure at equilibrium only"]
+    a: 0
+    e: "Each gas contributes part of the total pressure."
+  - q: "For H₂(g) + I₂(g) ⇌ 2HI(g), what are the units of Kp?"
+    o: ["kPa", "No units", "kPa⁻¹", "kPa²"]
+    a: 1
+    e: "kPa² ÷ (kPa × kPa) cancels out."
+  - q: "Why might a high total pressure increase the yield of NH₃ even though Kp is unchanged?"
+    o: ["Kp increases", "The reaction becomes endothermic", "The partial pressures change, so the position shifts to the side with fewer moles to keep the ratio equal to Kp", "A catalyst forms"]
+    a: 2
+    e: "The system adjusts its composition to restore the Kp value."
+  - q: "CaCO₃(s) ⇌ CaO(s) + CO₂(g). What is the Kp expression?"
+    o: ["pCaO × pCO₂ ÷ pCaCO₃", "pCaCO₃ ÷ pCO₂", "1 ÷ pCO₂", "pCO₂"]
+    a: 3
+    e: "Solids aren't included, so only CO₂ appears."
+  - q: "A mixture contains 0.2 mol A, 0.3 mol B and 0.5 mol C. What is the mole fraction of C?"
+    o: ["0.5", "0.3", "0.2", "1.0"]
+    a: 0
+    e: "Total = 1.0 mol. 0.5 ÷ 1.0 = 0.5."
+  - q: "What must you find before calculating partial pressures?"
+    o: ["Kc", "The equilibrium moles of each gas and the total moles", "The rate constant", "ΔH"]
+    a: 1
+    e: "Equilibrium moles give mole fractions, which give partial pressures."

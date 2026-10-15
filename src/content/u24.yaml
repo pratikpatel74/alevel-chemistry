@@ -1,0 +1,128 @@
+id: "3.2.6"
+order: 24
+year: 2
+section: "3.2"
+spec: "3.2.6"
+title: "Reactions of ions in aqueous solution"
+desc: "Acidity of hexaaqua ions, reactions of metal aqua ions with OH⁻, NH₃ and CO₃²⁻, amphoteric aluminium hydroxide, and ligand substitution."
+practicals: [11]
+summary:
+  - h: "Metal aqua ions"
+    p:
+      - "In water, metal ions form **hexaaqua ions**: [M(H₂O)₆]²⁺ or [M(H₂O)₆]³⁺."
+      - "**M³⁺ aqua ions are more acidic** than M²⁺ because M³⁺ has a **higher charge density**. It **polarises** the water ligands more, weakening the O–H bonds so H⁺ is released more easily."
+      - "`[Fe(H₂O)₆]³⁺ + H₂O ⇌ [Fe(H₂O)₅(OH)]²⁺ + H₃O⁺`"
+  - h: "Reactions with NaOH and NH₃ (hydrolysis)"
+    p:
+      - "OH⁻ or NH₃ removes H⁺ from the aqua ion, forming a neutral **metal hydroxide precipitate**."
+      - "**[Cu(H₂O)₆]²⁺** (blue solution) → Cu(H₂O)₄(OH)₂, **blue precipitate**."
+      - "**[Fe(H₂O)₆]²⁺** (green solution) → Fe(H₂O)₄(OH)₂, **green precipitate** (turns brown in air)."
+      - "**[Fe(H₂O)₆]³⁺** (yellow/brown solution) → Fe(H₂O)₃(OH)₃, **brown precipitate**."
+      - "**[Al(H₂O)₆]³⁺** (colourless solution) → Al(H₂O)₃(OH)₃, **white precipitate**."
+  - h: "Excess reagents"
+    p:
+      - "**Al(OH)₃ is amphoteric**: in **excess NaOH** it dissolves to form **[Al(OH)₄]⁻**, a colourless solution."
+      - "In **excess ammonia**, Cu(OH)₂ dissolves to form **[Cu(NH₃)₄(H₂O)₂]²⁺**, a **deep blue solution**. This is ligand substitution."
+      - "Other hydroxides (Fe²⁺, Fe³⁺, Al³⁺) don't dissolve in excess ammonia."
+  - h: "Reactions with carbonate"
+    p:
+      - "**M²⁺** ions form **metal carbonate precipitates**: CuCO₃ (blue-green), FeCO₃ (green)."
+      - "**M³⁺** ions are acidic enough to react with carbonate, giving **hydroxide precipitates and CO₂ (effervescence)**: Fe(OH)₃ (brown) and Al(OH)₃ (white)."
+  - h: "Ligand substitution"
+    p:
+      - "**H₂O and NH₃** are similar in size and uncharged, so substitution happens **without a change in co-ordination number**: e.g. [Co(H₂O)₆]²⁺ → [Co(NH₃)₆]²⁺."
+      - "**Cl⁻** is larger, so substitution **changes** co-ordination number from 6 to 4: `[Cu(H₂O)₆]²⁺ + 4Cl⁻ ⇌ [CuCl₄]²⁻ + 6H₂O`. Blue → **yellow-green**. Use concentrated HCl."
+      - "`[Co(H₂O)₆]²⁺` (pink) + 4Cl⁻ ⇌ `[CoCl₄]²⁻` (blue)."
+pitfalls:
+  - "M³⁺ + carbonate gives a **hydroxide + CO₂**, not a carbonate. M²⁺ gives a carbonate precipitate."
+  - "Only **Al(OH)₃** dissolves in excess NaOH. Only **Cu(OH)₂** (of these) dissolves in excess NH₃."
+  - "Explain acidity using **charge density** and **polarisation** of O–H bonds."
+questions:
+  - q: "Why is [Fe(H₂O)₆]³⁺ more acidic than [Fe(H₂O)₆]²⁺?"
+    o: ["Fe³⁺ is larger", "Fe³⁺ has a higher charge density, polarising the water ligands more so H⁺ is released more easily", "Fe²⁺ forms more bonds", "Fe³⁺ is a weaker acid"]
+    a: 1
+    e: "The smaller, more highly charged ion pulls electron density from O–H bonds, weakening them."
+  - q: "What is seen when NaOH is added to [Cu(H₂O)₆]²⁺(aq)?"
+    o: ["A blue precipitate", "A green precipitate", "A deep blue solution", "A brown precipitate"]
+    a: 0
+    e: "Cu(H₂O)₄(OH)₂ forms as a blue precipitate."
+  - q: "What is seen when excess ammonia is added to a copper(II) solution?"
+    o: ["A brown precipitate", "A white precipitate that remains", "A blue precipitate that dissolves to form a deep blue solution", "Effervescence"]
+    a: 2
+    e: "[Cu(NH₃)₄(H₂O)₂]²⁺ forms, which is deep blue."
+  - q: "What colour precipitate does Fe²⁺(aq) form with NaOH?"
+    o: ["Brown", "White", "Blue", "Green, turning brown on standing in air"]
+    a: 3
+    e: "Fe(OH)₂ is green, and is oxidised by air to brown Fe(OH)₃."
+  - q: "What colour precipitate does Fe³⁺(aq) form with NaOH?"
+    o: ["Brown", "Green", "Blue", "White"]
+    a: 0
+    e: "Fe(H₂O)₃(OH)₃ is a brown precipitate."
+  - q: "What happens when excess NaOH is added to Al(H₂O)₃(OH)₃?"
+    o: ["Nothing", "The white precipitate dissolves to form [Al(OH)₄]⁻, a colourless solution", "A blue solution forms", "A brown precipitate forms"]
+    a: 1
+    e: "Aluminium hydroxide is amphoteric, so it reacts with excess base."
+  - q: "What is seen when sodium carbonate is added to Fe³⁺(aq)?"
+    o: ["A green precipitate only", "No change", "A brown precipitate and effervescence", "A white precipitate only"]
+    a: 2
+    e: "[Fe(H₂O)₆]³⁺ is acidic enough to release CO₂ from carbonate, forming Fe(OH)₃."
+  - q: "What is seen when sodium carbonate is added to Cu²⁺(aq)?"
+    o: ["A brown precipitate and effervescence", "A deep blue solution", "A white precipitate", "A blue-green precipitate of CuCO₃"]
+    a: 3
+    e: "M²⁺ ions are less acidic, so a metal carbonate precipitates without effervescence."
+  - q: "Why do M³⁺ ions give hydroxides, not carbonates, with Na₂CO₃?"
+    o: ["The M³⁺ aqua ions are acidic enough to react with carbonate, releasing CO₂", "M³⁺ carbonates are coloured", "Carbonate is a ligand", "M³⁺ ions are larger"]
+    a: 0
+    e: "H⁺ from the acidic aqua ions reacts with CO₃²⁻ to form CO₂ and water."
+  - q: "What happens when concentrated HCl is added to [Cu(H₂O)₆]²⁺?"
+    o: ["A blue precipitate forms", "The solution turns yellow-green as [CuCl₄]²⁻ forms", "A deep blue solution forms", "No change"]
+    a: 1
+    e: "Six water ligands are replaced by four chloride ligands."
+  - q: "Why does the co-ordination number change from 6 to 4 when Cl⁻ replaces H₂O?"
+    o: ["Cl⁻ is smaller", "Cl⁻ is neutral", "Cl⁻ ligands are larger than H₂O, so only four fit around the metal", "Cl⁻ forms two bonds each"]
+    a: 2
+    e: "The bigger Cl⁻ ions can't fit six around the central ion."
+  - q: "Why does substitution of H₂O by NH₃ not change the co-ordination number?"
+    o: ["NH₃ is charged", "NH₃ is bidentate", "NH₃ is much larger", "NH₃ and H₂O are similar in size and both uncharged"]
+    a: 3
+    e: "Six NH₃ ligands can fit just as six H₂O can."
+  - q: "What is the colour of [CoCl₄]²⁻?"
+    o: ["Blue", "Pink", "Green", "Yellow"]
+    a: 0
+    e: "[Co(H₂O)₆]²⁺ is pink and [CoCl₄]²⁻ is blue."
+  - q: "What is the colour of [Al(H₂O)₆]³⁺(aq)?"
+    o: ["Blue", "Colourless", "Brown", "Green"]
+    a: 1
+    e: "Al³⁺ has no d electrons, so it doesn't absorb visible light."
+  - q: "Which hydroxide dissolves in excess ammonia?"
+    o: ["Fe(OH)₃", "Fe(OH)₂", "Cu(OH)₂", "Al(OH)₃"]
+    a: 2
+    e: "Cu(OH)₂ forms the deep blue complex [Cu(NH₃)₄(H₂O)₂]²⁺."
+  - q: "What is the equation for the hydrolysis of [Al(H₂O)₆]³⁺ in water?"
+    o: ["[Al(H₂O)₆]³⁺ → Al³⁺ + 6H₂O", "[Al(H₂O)₆]³⁺ + OH⁻ → [Al(OH)₆]³⁻", "[Al(H₂O)₆]³⁺ + Cl⁻ → [AlCl₄]⁻", "[Al(H₂O)₆]³⁺ + H₂O ⇌ [Al(H₂O)₅(OH)]²⁺ + H₃O⁺"]
+    a: 3
+    e: "The aqua ion donates H⁺ to water, making the solution acidic."
+  - q: "What is the formula of the hydroxide precipitate from Fe³⁺ aqua ions?"
+    o: ["Fe(H₂O)₃(OH)₃", "Fe(OH)₂", "[Fe(OH)₄]⁻", "Fe(H₂O)₆(OH)₃"]
+    a: 0
+    e: "Three H⁺ are removed from [Fe(H₂O)₆]³⁺, forming a neutral complex."
+  - q: "What role does ammonia play when added dropwise to a metal aqua ion?"
+    o: ["Ligand only", "Base: it removes H⁺ from water ligands", "Oxidising agent", "Catalyst"]
+    a: 1
+    e: "In small amounts NH₃ acts as a base. In excess it may also act as a ligand (e.g. with Cu²⁺)."
+  - q: "A solution gives a white precipitate with NaOH that dissolves in excess NaOH, and a white precipitate with Na₂CO₃ plus effervescence. Which ion is present?"
+    o: ["Cu²⁺", "Fe²⁺", "Al³⁺", "Fe³⁺"]
+    a: 2
+    e: "Amphoteric white hydroxide and acidity with carbonate show Al³⁺."
+  - q: "What colour is [Fe(H₂O)₆]²⁺(aq)?"
+    o: ["Brown", "Blue", "Colourless", "Pale green"]
+    a: 3
+    e: "Iron(II) aqua ions are pale green."
+  - q: "What is the colour of [Cu(H₂O)₆]²⁺(aq)?"
+    o: ["Blue", "Green", "Yellow", "Colourless"]
+    a: 0
+    e: "Hexaaquacopper(II) ions are blue."
+  - q: "Why does Fe(OH)₂ turn brown when left in air?"
+    o: ["It reacts with CO₂", "It is oxidised by oxygen to Fe(OH)₃", "It loses water", "It forms a complex with N₂"]
+    a: 1
+    e: "Iron(II) is oxidised to iron(III), which is brown."

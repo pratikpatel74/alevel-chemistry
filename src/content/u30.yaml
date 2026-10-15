@@ -1,0 +1,119 @@
+id: "3.3.12"
+order: 30
+year: 2
+section: "3.3"
+spec: "3.3.12"
+title: "Polymers"
+desc: "Condensation polymers (polyesters and polyamides), their repeating units, hydrogen bonding in polyamides, biodegradability and disposal of polymers."
+practicals: []
+summary:
+  - h: "Condensation polymers"
+    p:
+      - "**Condensation polymers** form when monomers join with the **loss of a small molecule**, usually **water** (or HCl from acyl chlorides)."
+      - "Each monomer needs **two functional groups**."
+      - "**Polyesters**: a **dicarboxylic acid** + a **diol**. E.g. **Terylene** (PET) from benzene-1,4-dicarboxylic acid and ethane-1,2-diol. Ester links: –COO–."
+      - "**Polyamides**: a **dicarboxylic acid** (or diacyl chloride) + a **diamine**. E.g. **nylon-6,6** from hexanedioic acid and hexane-1,6-diamine; **Kevlar** from benzene-1,4-dicarboxylic acid and benzene-1,4-diamine. Amide (peptide) links: –CONH–."
+      - "Draw the **repeating unit** with an ester or amide link and extension bonds."
+  - h: "Intermolecular forces"
+    p:
+      - "Polyamides form **hydrogen bonds** between N–H and C=O groups on neighbouring chains, making them strong."
+      - "Kevlar's straight chains and many hydrogen bonds make it very strong (used in body armour)."
+      - "Polyesters have **permanent dipole–dipole** forces between chains."
+  - h: "Biodegradability and disposal"
+    p:
+      - "**Polyesters and polyamides** can be broken down by **hydrolysis** (acid or base) because the ester and amide links are **polar**, so they are **biodegradable**."
+      - "**Polyalkenes** (addition polymers) are **chemically inert**: their non-polar C–C and C–H bonds aren't attacked, so they are **non-biodegradable**."
+      - "Disposal options: **landfill** (takes up space, slow breakdown), **incineration** (releases energy, but produces CO₂ and possibly toxic gases), and **recycling** (saves resources, but needs sorting and is costly)."
+pitfalls:
+  - "Condensation polymers lose a **small molecule** for each link formed. Addition polymers don't."
+  - "Show the amide link as –CONH– and the ester link as –COO– in repeat units."
+  - "Polyalkenes are non-biodegradable because they have **non-polar** bonds."
+questions:
+  - q: "What is a condensation polymer?"
+    o: ["A polymer formed by opening C=C bonds", "A polymer formed when monomers join with the loss of a small molecule such as water", "A polymer of alkenes", "A natural polymer only"]
+    a: 1
+    e: "Each new link releases a small molecule."
+  - q: "Which monomers form a polyester?"
+    o: ["A dicarboxylic acid and a diol", "A diamine and a diol", "Two alkenes", "Amino acids only"]
+    a: 0
+    e: "Ester links form between COOH and OH groups."
+  - q: "Which monomers form a polyamide?"
+    o: ["A diol and a dicarboxylic acid", "Two alkenes", "A dicarboxylic acid and a diamine", "A diol and an alkene"]
+    a: 2
+    e: "Amide links form between COOH and NH₂ groups."
+  - q: "What is the linking group in a polyamide?"
+    o: ["–COO–", "–O–", "–C=C–", "–CONH–"]
+    a: 3
+    e: "The amide (peptide) link."
+  - q: "Which polymer is made from hexanedioic acid and hexane-1,6-diamine?"
+    o: ["Nylon-6,6", "Terylene", "Kevlar", "Poly(ethene)"]
+    a: 0
+    e: "Each monomer has 6 carbons, hence nylon-6,6."
+  - q: "Which polymer is made from benzene-1,4-dicarboxylic acid and ethane-1,2-diol?"
+    o: ["Nylon-6,6", "Terylene (PET)", "Kevlar", "PVC"]
+    a: 1
+    e: "This is a polyester used in fibres and bottles."
+  - q: "Kevlar is made from benzene-1,4-dicarboxylic acid and which other monomer?"
+    o: ["Ethane-1,2-diol", "Hexane-1,6-diamine", "Benzene-1,4-diamine", "Ethene"]
+    a: 2
+    e: "Kevlar is an aromatic polyamide."
+  - q: "Why are polyamides such as Kevlar very strong?"
+    o: ["They have C=C bonds", "They are ionic", "They are short", "Hydrogen bonds form between N–H and C=O groups on neighbouring chains"]
+    a: 3
+    e: "Many hydrogen bonds between straight chains give great strength."
+  - q: "Why are polyesters and polyamides biodegradable?"
+    o: ["Their polar ester and amide links can be hydrolysed", "They are made from alkenes", "They contain C=C", "They are non-polar"]
+    a: 0
+    e: "Water, acids, bases and enzymes can break these links."
+  - q: "Why are polyalkenes non-biodegradable?"
+    o: ["They contain amide bonds", "They have non-polar C–C and C–H bonds that aren't easily attacked", "They are too small", "They dissolve in water"]
+    a: 1
+    e: "There are no polar bonds for nucleophiles or enzymes to attack."
+  - q: "What small molecule is lost when a diacyl chloride reacts with a diamine to form a polyamide?"
+    o: ["Water", "Ammonia", "HCl", "CO₂"]
+    a: 2
+    e: "Acyl chlorides release HCl in addition–elimination reactions."
+  - q: "What is a disadvantage of incinerating polymers?"
+    o: ["It takes up land", "It is expensive to sort", "It saves crude oil", "It releases CO₂ and possibly toxic gases"]
+    a: 3
+    e: "Burning releases greenhouse gases and, for PVC, HCl."
+  - q: "What is an advantage of incinerating polymers?"
+    o: ["The energy released can be used to generate electricity", "No CO₂ is produced", "It is cheap to set up", "It makes new polymers"]
+    a: 0
+    e: "Waste-to-energy plants recover energy from burning waste."
+  - q: "What is a disadvantage of recycling polymers?"
+    o: ["It releases toxic gases", "Different polymers must be collected and sorted, which is costly", "It uses more crude oil", "It produces methane"]
+    a: 1
+    e: "Sorting and cleaning add cost, but recycling saves resources."
+  - q: "What is a disadvantage of landfill for polymers?"
+    o: ["It produces electricity", "It releases HCl", "It takes up a lot of space, and polymers take a very long time to break down", "It is too expensive"]
+    a: 2
+    e: "Landfill sites fill up and polymers persist for centuries."
+  - q: "How can polyesters be broken down chemically?"
+    o: ["By adding bromine", "By polymerisation", "By cracking", "By hydrolysis with acid or base"]
+    a: 3
+    e: "Hydrolysis reverses the condensation reaction."
+  - q: "Each monomer for condensation polymerisation must have how many functional groups?"
+    o: ["Two", "One", "Three", "None"]
+    a: 0
+    e: "Two reactive groups allow chains to grow in both directions."
+  - q: "What is the linking group in a polyester?"
+    o: ["–CONH–", "–COO–", "–NH–", "–CH₂–"]
+    a: 1
+    e: "The ester link."
+  - q: "How does a condensation polymer differ from an addition polymer?"
+    o: ["Condensation polymers are always natural", "Addition polymers lose water", "Condensation polymers form with loss of a small molecule; addition polymers don't", "There is no difference"]
+    a: 2
+    e: "Addition polymers keep all the monomer atoms."
+  - q: "What forces exist between polyester chains?"
+    o: ["Ionic bonds", "Hydrogen bonds only", "Metallic bonds", "Permanent dipole–dipole forces (and van der Waals)"]
+    a: 3
+    e: "The polar C=O bonds give dipole–dipole forces between chains."
+  - q: "Which polymer would biodegrade most easily?"
+    o: ["Nylon-6,6", "Poly(ethene)", "Poly(propene)", "PVC"]
+    a: 0
+    e: "Nylon has amide links that can be hydrolysed. The others are polyalkenes."
+  - q: "What is a use of Kevlar?"
+    o: ["Fuel", "Bulletproof vests", "Food flavouring", "Fertiliser"]
+    a: 1
+    e: "Kevlar's strength-to-weight ratio makes it ideal for protective clothing."

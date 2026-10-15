@@ -1,0 +1,124 @@
+id: "3.2.2"
+order: 9
+year: 1
+section: "3.2"
+spec: "3.2.2"
+title: "Group 2, the alkaline earth metals"
+desc: "Trends in atomic radius, ionisation energy and melting point, reactions with water, solubility of hydroxides and sulfates, and uses of Group 2 compounds."
+practicals: [4]
+summary:
+  - h: "Physical trends down the group"
+    p:
+      - "**Atomic radius increases**: more shells."
+      - "**First ionisation energy decreases**: outer electrons are further from the nucleus and more shielded."
+      - "**Melting point generally decreases**: the ions get larger, so the attraction between the ions and delocalised electrons is weaker (Mg is an exception)."
+  - h: "Reactions with water"
+    p:
+      - "**Reactivity increases** down the group, because less energy is needed to lose the two outer electrons."
+      - "Metals react with water to form a **hydroxide** and **hydrogen**: `M + 2H₂O → M(OH)₂ + H₂`."
+      - "**Magnesium** reacts very slowly with liquid water, but burns in **steam** to form **magnesium oxide**: `Mg + H₂O → MgO + H₂`."
+  - h: "Solubility"
+    p:
+      - "**Hydroxides** become **more soluble** down the group. Mg(OH)₂ is **sparingly soluble**; Ba(OH)₂ is soluble."
+      - "**Sulfates** become **less soluble** down the group. BaSO₄ is **insoluble**."
+      - "**Test for sulfate ions**: add **acidified BaCl₂** solution. A **white precipitate** of BaSO₄ shows sulfate. The acid removes carbonate ions, which would also give a white precipitate."
+  - h: "Uses"
+    p:
+      - "**Mg(OH)₂**: used in medicine as an **antacid** to neutralise stomach acid."
+      - "**Ca(OH)₂**: used in agriculture to **neutralise acid soils**."
+      - "**BaSO₄**: used in a **barium meal** for X-rays of the digestive system. It is **insoluble**, so the toxic Ba²⁺ ions aren't absorbed."
+      - "**Mg**: used to extract **titanium** from TiCl₄: `TiCl₄ + 2Mg → Ti + 2MgCl₂`."
+      - "**CaO or CaCO₃**: used to remove **SO₂** from flue gases (flue gas desulfurisation)."
+pitfalls:
+  - "Hydroxides: **more** soluble down. Sulfates: **less** soluble down. Learn the opposite trends."
+  - "Mg with **steam** gives the **oxide** (MgO), not the hydroxide."
+  - "BaSO₄ is safe in barium meals **because it's insoluble**. Soluble barium compounds are toxic."
+questions:
+  - q: "How does atomic radius change down Group 2?"
+    o: ["Decreases", "Increases, because there are more electron shells", "Stays the same", "Decreases then increases"]
+    a: 1
+    e: "Each element down the group has an extra shell of electrons."
+  - q: "Why does first ionisation energy decrease down Group 2?"
+    o: ["Outer electrons are further from the nucleus and more shielded", "Nuclear charge decreases", "Atoms get smaller", "There are fewer electrons"]
+    a: 0
+    e: "Increased distance and shielding outweigh the increased nuclear charge."
+  - q: "How does reactivity with water change down Group 2?"
+    o: ["Decreases", "Stays the same", "Increases", "Only Mg reacts"]
+    a: 2
+    e: "Less energy is needed to remove the outer electrons, so the metals react more readily."
+  - q: "What are the products when calcium reacts with water?"
+    o: ["CaO and H₂", "CaO and O₂", "CaH₂ and O₂", "Ca(OH)₂ and H₂"]
+    a: 3
+    e: "Ca + 2H₂O → Ca(OH)₂ + H₂."
+  - q: "What forms when magnesium burns in steam?"
+    o: ["Magnesium oxide and hydrogen", "Magnesium hydroxide and hydrogen", "Magnesium hydride", "Magnesium oxide and oxygen"]
+    a: 0
+    e: "Mg + H₂O(g) → MgO + H₂. With steam, the oxide forms."
+  - q: "How does the solubility of Group 2 hydroxides change down the group?"
+    o: ["Decreases", "Increases", "Stays the same", "They are all insoluble"]
+    a: 1
+    e: "Mg(OH)₂ is sparingly soluble, while Ba(OH)₂ is quite soluble."
+  - q: "How does the solubility of Group 2 sulfates change down the group?"
+    o: ["Increases", "Stays the same", "Decreases", "They are all very soluble"]
+    a: 2
+    e: "MgSO₄ is soluble; BaSO₄ is insoluble."
+  - q: "How do you test for sulfate ions?"
+    o: ["Add silver nitrate", "Add sodium hydroxide", "Add limewater", "Add acidified barium chloride; a white precipitate shows sulfate"]
+    a: 3
+    e: "Ba²⁺ + SO₄²⁻ → BaSO₄, a white precipitate."
+  - q: "Why is the barium chloride solution acidified in the sulfate test?"
+    o: ["To remove carbonate ions, which would also form a white precipitate", "To dissolve barium sulfate", "To make the precipitate coloured", "To speed up the reaction"]
+    a: 0
+    e: "Acid reacts with carbonate, producing CO₂, so carbonate doesn't give a false positive."
+  - q: "Why is magnesium hydroxide used as an antacid?"
+    o: ["It is very soluble", "It neutralises excess stomach acid", "It is acidic", "It kills bacteria"]
+    a: 1
+    e: "Mg(OH)₂ is a base that neutralises HCl in the stomach."
+  - q: "Why is calcium hydroxide used in agriculture?"
+    o: ["As a fertiliser", "To kill pests", "To neutralise acidic soils", "To increase acidity"]
+    a: 2
+    e: "Ca(OH)₂ (slaked lime) raises soil pH so crops grow better."
+  - q: "Why is barium sulfate safe to use in a barium meal?"
+    o: ["Barium is not toxic", "It is absorbed quickly", "It dissolves in stomach acid", "It is insoluble, so toxic Ba²⁺ ions are not absorbed into the blood"]
+    a: 3
+    e: "BaSO₄ blocks X-rays and isn't absorbed, so it outlines the gut."
+  - q: "How is magnesium used in the extraction of titanium?"
+    o: ["It reduces TiCl₄ to titanium", "It oxidises titanium", "It is a catalyst", "It removes sulfur"]
+    a: 0
+    e: "TiCl₄ + 2Mg → Ti + 2MgCl₂. Mg is a more reactive metal, so it displaces Ti."
+  - q: "How are SO₂ emissions removed from power station flue gases?"
+    o: ["By adding chlorine", "By reacting with calcium oxide or calcium carbonate", "By cooling", "By adding water only"]
+    a: 1
+    e: "SO₂ is acidic, so it reacts with basic CaO or CaCO₃ to form calcium sulfite, removing it from the gas."
+  - q: "Which Group 2 hydroxide is least soluble?"
+    o: ["Ba(OH)₂", "Ca(OH)₂", "Mg(OH)₂", "Sr(OH)₂"]
+    a: 2
+    e: "Solubility of hydroxides increases down the group, so Mg(OH)₂ is least soluble."
+  - q: "Which Group 2 sulfate is least soluble?"
+    o: ["MgSO₄", "CaSO₄", "SrSO₄", "BaSO₄"]
+    a: 3
+    e: "Sulfate solubility decreases down the group, so BaSO₄ is the least soluble."
+  - q: "What is the oxidation state of Group 2 elements in their compounds?"
+    o: ["+2", "+1", "−2", "0"]
+    a: 0
+    e: "Group 2 elements lose their two outer electrons to form 2+ ions."
+  - q: "When dilute NaOH is added to a solution containing Mg²⁺, what is seen?"
+    o: ["No change", "A white precipitate of Mg(OH)₂", "A blue precipitate", "Effervescence"]
+    a: 1
+    e: "Mg(OH)₂ is sparingly soluble, so it forms a white precipitate."
+  - q: "Adding NaOH to a solution of Ba²⁺ gives no precipitate. Why?"
+    o: ["Ba²⁺ doesn't react", "BaSO₄ forms instead", "Ba(OH)₂ is soluble", "Barium is a transition metal"]
+    a: 2
+    e: "Group 2 hydroxides get more soluble down the group, so Ba(OH)₂ stays in solution."
+  - q: "Why does melting point generally decrease down Group 2?"
+    o: ["Covalent bonds weaken", "Van der Waals forces weaken", "There are fewer delocalised electrons", "Ions get larger, so the attraction between ions and delocalised electrons is weaker"]
+    a: 3
+    e: "Larger ions with the same 2+ charge have a lower charge density, so weaker metallic bonding."
+  - q: "Write the equation for strontium reacting with water."
+    o: ["Sr + 2H₂O → Sr(OH)₂ + H₂", "Sr + H₂O → SrO + H₂", "2Sr + O₂ → 2SrO", "Sr + 2H₂O → SrH₂ + O₂"]
+    a: 0
+    e: "Like calcium, strontium forms the hydroxide and hydrogen with cold water."
+  - q: "A solution of Ca(OH)₂ is tested with universal indicator. What is the likely pH?"
+    o: ["About 3", "About 11–12", "Exactly 7", "About 5"]
+    a: 1
+    e: "Calcium hydroxide is an alkali, so the solution is basic."

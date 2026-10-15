@@ -1,0 +1,132 @@
+id: "3.1.2"
+order: 2
+year: 1
+section: "3.1"
+spec: "3.1.2"
+title: "Amount of substance"
+desc: "Relative masses, the mole and Avogadro constant, the ideal gas equation, empirical and molecular formulae, yields, atom economy and titration calculations."
+practicals: [1]
+summary:
+  - h: "Relative masses and the mole"
+    p:
+      - "**Relative molecular mass (Mr)**: the average mass of a molecule compared with 1/12 of the mass of a carbon-12 atom. **Relative formula mass** is used for ionic compounds."
+      - "The **Avogadro constant (L)** is **6.022 × 10²³ mol⁻¹**: the number of particles in one mole."
+      - "`moles = mass ÷ Mr`"
+      - "`number of particles = moles × 6.022 × 10²³`"
+  - h: "Ideal gas equation"
+    p:
+      - "`pV = nRT`"
+      - "**p** in **pascals (Pa)**, **V** in **m³**, **n** in mol, **R** = 8.31 J K⁻¹ mol⁻¹, **T** in **kelvin** (°C + 273)."
+      - "Conversions: 1 dm³ = 1 × 10⁻³ m³. 1 cm³ = 1 × 10⁻⁶ m³. 1 kPa = 1000 Pa."
+  - h: "Solutions"
+    p:
+      - "`moles = concentration (mol dm⁻³) × volume (dm³)`"
+      - "To convert cm³ to dm³, divide by **1000**."
+      - "In a titration, use the balanced equation to find the **mole ratio** between the two reactants."
+  - h: "Formulae and equations"
+    p:
+      - "**Empirical formula**: the **simplest whole-number ratio** of atoms of each element in a compound."
+      - "**Molecular formula**: the **actual number** of atoms of each element in a molecule."
+      - "To find the empirical formula: divide mass (or %) of each element by its Ar, then divide by the smallest answer, then scale to whole numbers."
+      - "Molecular formula = empirical formula × (Mr ÷ empirical formula mass)."
+      - "Balanced **ionic equations** show only the species that react, e.g. H⁺(aq) + OH⁻(aq) → H₂O(l)."
+  - h: "Yield and atom economy"
+    p:
+      - "`Percentage yield = (actual yield ÷ theoretical yield) × 100`"
+      - "`Percentage atom economy = (Mr of desired product ÷ sum of Mr of all reactants) × 100`"
+      - "High atom economy means less waste, which is better for **sustainability** and **cost**."
+      - "Addition reactions have **100%** atom economy because there is only one product."
+pitfalls:
+  - "In pV = nRT, convert **everything** to SI units: Pa, m³ and K. This is the most common error."
+  - "Use the **mole ratio** from the balanced equation, not 1:1, in titration and yield calculations."
+  - "Yield and atom economy are different: yield measures how much product you actually got; atom economy is from the equation."
+  - "Round only at the end, and give answers to the same number of significant figures as the data."
+questions:
+  - q: "How many moles are in 9.0 g of water (Mr = 18.0)?"
+    o: ["0.25 mol", "0.50 mol", "2.0 mol", "162 mol"]
+    a: 1
+    e: "moles = mass ÷ Mr = 9.0 ÷ 18.0 = 0.50 mol."
+  - q: "What is the value of the Avogadro constant?"
+    o: ["6.022 × 10²³ mol⁻¹", "8.31 J K⁻¹ mol⁻¹", "6.022 × 10⁻²³ mol⁻¹", "1.66 × 10⁻²⁴ mol⁻¹"]
+    a: 0
+    e: "L = 6.022 × 10²³ mol⁻¹, the number of particles in one mole of a substance."
+  - q: "How many molecules are in 0.25 mol of CO₂?"
+    o: ["6.022 × 10²³", "2.4 × 10²⁴", "1.5 × 10²³", "1.5 × 10²²"]
+    a: 2
+    e: "Number = 0.25 × 6.022 × 10²³ = 1.5 × 10²³."
+  - q: "In pV = nRT, what are the units of V?"
+    o: ["dm³", "cm³", "litres", "m³"]
+    a: 3
+    e: "SI units are used: V in m³, p in Pa, T in K."
+  - q: "Convert 250 cm³ into m³."
+    o: ["2.5 × 10⁻⁴ m³", "0.25 m³", "2.5 × 10⁻¹ m³", "250 × 10⁻³ m³"]
+    a: 0
+    e: "1 cm³ = 1 × 10⁻⁶ m³, so 250 cm³ = 2.5 × 10⁻⁴ m³."
+  - q: "What volume does 0.100 mol of gas occupy at 100 kPa and 300 K? (R = 8.31 J K⁻¹ mol⁻¹)"
+    o: ["24.9 m³", "2.49 × 10⁻³ m³", "2.49 × 10⁻² m³", "0.249 m³"]
+    a: 1
+    e: "V = nRT ÷ p = (0.100 × 8.31 × 300) ÷ 100 000 = 2.49 × 10⁻³ m³ (2.49 dm³)."
+  - q: "How many moles are in 25.0 cm³ of 0.200 mol dm⁻³ HCl?"
+    o: ["5.00 mol", "0.0500 mol", "5.00 × 10⁻³ mol", "0.200 mol"]
+    a: 2
+    e: "moles = 0.200 × (25.0 ÷ 1000) = 5.00 × 10⁻³ mol."
+  - q: "25.0 cm³ of NaOH is neutralised by 20.0 cm³ of 0.100 mol dm⁻³ H₂SO₄. What is the concentration of the NaOH?"
+    o: ["0.0800 mol dm⁻³", "0.100 mol dm⁻³", "0.0400 mol dm⁻³", "0.160 mol dm⁻³"]
+    a: 3
+    e: "Moles H₂SO₄ = 0.100 × 0.0200 = 2.00 × 10⁻³. Ratio 2NaOH : 1H₂SO₄, so NaOH = 4.00 × 10⁻³ mol. Concentration = 4.00 × 10⁻³ ÷ 0.0250 = 0.160 mol dm⁻³."
+  - q: "What is an empirical formula?"
+    o: ["The simplest whole-number ratio of atoms of each element in a compound", "The actual number of atoms in a molecule", "The structural formula", "The formula of an ion"]
+    a: 0
+    e: "The empirical formula gives the simplest ratio, e.g. CH₂ for ethene (C₂H₄)."
+  - q: "A compound contains 40.0% C, 6.7% H and 53.3% O by mass. What is its empirical formula?"
+    o: ["C₂H₄O", "CH₂O", "CHO", "CH₂O₂"]
+    a: 1
+    e: "C: 40.0 ÷ 12.0 = 3.33. H: 6.7 ÷ 1.0 = 6.7. O: 53.3 ÷ 16.0 = 3.33. Divide by 3.33: 1 : 2 : 1, so CH₂O."
+  - q: "A compound has the empirical formula CH₂O and Mr = 180. What is its molecular formula?"
+    o: ["CH₂O", "C₃H₆O₃", "C₆H₁₂O₆", "C₂H₄O₂"]
+    a: 2
+    e: "Empirical formula mass = 30. 180 ÷ 30 = 6, so the molecular formula is C₆H₁₂O₆."
+  - q: "The theoretical yield of a product is 12.0 g. The actual yield is 9.0 g. What is the percentage yield?"
+    o: ["133%", "25%", "3.0%", "75%"]
+    a: 3
+    e: "Percentage yield = (9.0 ÷ 12.0) × 100 = 75%."
+  - q: "How is percentage atom economy calculated?"
+    o: ["(Mr of desired product ÷ sum of Mr of all reactants) × 100", "(actual yield ÷ theoretical yield) × 100", "(moles of product ÷ moles of reactant) × 100", "(mass of reactants ÷ mass of products) × 100"]
+    a: 0
+    e: "Atom economy measures what proportion of the reactant atoms end up in the useful product."
+  - q: "Why do addition reactions have 100% atom economy?"
+    o: ["They are always fast", "All the reactant atoms end up in the single product", "They have no catalyst", "They are exothermic"]
+    a: 1
+    e: "There are no by-products, so every atom in the reactants is in the desired product."
+  - q: "CaCO₃ → CaO + CO₂. What is the atom economy for making CaO? (Mr: CaCO₃ = 100, CaO = 56)"
+    o: ["44%", "100%", "56%", "78%"]
+    a: 2
+    e: "Atom economy = (56 ÷ 100) × 100 = 56%."
+  - q: "Why might the percentage yield of a reaction be less than 100%?"
+    o: ["The atom economy is low", "The reaction is exothermic", "The equation is balanced", "Some product is lost during separation, side reactions occur, or the reaction is reversible"]
+    a: 3
+    e: "Losses in transfers and purification, competing reactions and incomplete reactions all reduce yield."
+  - q: "What mass of MgO forms when 4.8 g of Mg burns completely? (2Mg + O₂ → 2MgO; Ar Mg = 24, O = 16)"
+    o: ["8.0 g", "4.8 g", "16 g", "6.4 g"]
+    a: 0
+    e: "Moles Mg = 4.8 ÷ 24 = 0.20. Ratio 1:1, so 0.20 mol MgO. Mass = 0.20 × 40 = 8.0 g."
+  - q: "Which is the correct ionic equation for the reaction of an acid with an alkali?"
+    o: ["HCl + NaOH → NaCl + H₂O", "H⁺(aq) + OH⁻(aq) → H₂O(l)", "Na⁺ + Cl⁻ → NaCl", "H₂ + O₂ → H₂O"]
+    a: 1
+    e: "Spectator ions (Na⁺, Cl⁻) are left out. Only H⁺ and OH⁻ react."
+  - q: "A gas occupies 500 cm³ at 20 °C. In pV = nRT, what values should be used for V and T?"
+    o: ["500 and 20", "0.500 and 293", "5.00 × 10⁻⁴ and 293", "5.00 × 10⁻⁴ and 20"]
+    a: 2
+    e: "500 cm³ = 5.00 × 10⁻⁴ m³. 20 °C = 293 K."
+  - q: "What is the relative formula mass of CaCO₃? (Ca = 40.1, C = 12.0, O = 16.0)"
+    o: ["68.1", "84.1", "116.1", "100.1"]
+    a: 3
+    e: "40.1 + 12.0 + (3 × 16.0) = 100.1."
+  - q: "What is the concentration in mol dm⁻³ of a solution with 5.85 g NaCl (Mr = 58.5) in 250 cm³?"
+    o: ["0.400 mol dm⁻³", "0.100 mol dm⁻³", "0.0250 mol dm⁻³", "23.4 mol dm⁻³"]
+    a: 0
+    e: "Moles = 5.85 ÷ 58.5 = 0.100. Concentration = 0.100 ÷ 0.250 = 0.400 mol dm⁻³."
+  - q: "Why is a high atom economy important in industry?"
+    o: ["It increases reaction rate", "It means less waste is produced, which is more sustainable and cheaper", "It always gives a high yield", "It lowers activation energy"]
+    a: 1
+    e: "Fewer by-products means less waste to dispose of and better use of raw materials."

@@ -1,0 +1,128 @@
+id: "3.3.10"
+order: 28
+year: 2
+section: "3.3"
+spec: "3.3.10"
+title: "Aromatic chemistry"
+desc: "Bonding and stability of benzene, enthalpy of hydrogenation evidence, electrophilic substitution: nitration and Friedel–Crafts acylation."
+practicals: [10]
+summary:
+  - h: "Structure of benzene"
+    p:
+      - "Benzene, C₆H₆, is a **planar** ring of six carbons. Each carbon forms **three σ bonds** (two C–C, one C–H), and has one **p orbital** electron."
+      - "The p orbitals overlap above and below the ring, forming a **delocalised ring of π electrons**."
+      - "All C–C bonds are the **same length**, between a single and double bond."
+  - h: "Stability of benzene"
+    p:
+      - "The **enthalpy of hydrogenation** of cyclohexene is −120 kJ mol⁻¹. For a theoretical 'cyclohexa-1,3,5-triene' with three C=C, it would be −360 kJ mol⁻¹."
+      - "Benzene's actual value is about **−208 kJ mol⁻¹**, so benzene is about **152 kJ mol⁻¹ more stable**, due to **delocalisation**."
+      - "Because of this stability, benzene undergoes **substitution** (keeping the delocalised ring), not addition."
+  - h: "Electrophilic substitution"
+    p:
+      - "The delocalised electrons attract **electrophiles**."
+      - "Mechanism: electrons from the ring attack the electrophile, forming an intermediate in which the delocalisation is **partly broken** (shown as a horseshoe with +). Then **H⁺ is lost** and the delocalised ring is restored."
+  - h: "Nitration"
+    p:
+      - "Reagents: **concentrated HNO₃** and **concentrated H₂SO₄** at about **50 °C**."
+      - "The electrophile **NO₂⁺** (nitronium ion) is formed: `HNO₃ + 2H₂SO₄ → NO₂⁺ + H₃O⁺ + 2HSO₄⁻`."
+      - "Product: **nitrobenzene**. Above 50 °C, multiple substitution happens."
+      - "Nitration is important for making **explosives** (e.g. TNT) and for making **aromatic amines** (by reducing nitro compounds), used to make dyes."
+  - h: "Friedel–Crafts acylation"
+    p:
+      - "Reagents: an **acyl chloride** with an **AlCl₃** catalyst, heated under reflux."
+      - "The electrophile **RCO⁺** (acylium ion) forms: `RCOCl + AlCl₃ → RCO⁺ + AlCl₄⁻`."
+      - "Product: an **aromatic ketone**, e.g. phenylethanone from ethanoyl chloride."
+      - "The catalyst is regenerated: `H⁺ + AlCl₄⁻ → AlCl₃ + HCl`."
+pitfalls:
+  - "Benzene does **substitution**, not addition, to keep its delocalised stability."
+  - "In the intermediate, draw the **horseshoe** of partial delocalisation, with the + inside, and the H and electrophile on the same carbon."
+  - "Use ΔH of hydrogenation data to show stability: actual is **less exothermic** than predicted."
+questions:
+  - q: "How are the electrons arranged in benzene?"
+    o: ["Three fixed C=C double bonds", "A delocalised ring of π electrons above and below the plane of the ring", "Six C–C single bonds only", "Ionic bonds"]
+    a: 1
+    e: "Overlapping p orbitals create a ring of delocalised electrons."
+  - q: "What evidence shows that all C–C bonds in benzene are equal?"
+    o: ["All C–C bond lengths are the same, between single and double bond lengths", "Benzene decolourises bromine water", "Benzene is a liquid", "Benzene has six hydrogens"]
+    a: 0
+    e: "X-ray diffraction shows one C–C bond length of 0.139 nm."
+  - q: "What is the enthalpy of hydrogenation of benzene compared with the theoretical value for cyclohexa-1,3,5-triene?"
+    o: ["More exothermic", "The same", "Less exothermic, showing benzene is more stable", "Endothermic"]
+    a: 2
+    e: "About −208 vs −360 kJ mol⁻¹, so benzene is about 152 kJ mol⁻¹ more stable."
+  - q: "Why does benzene undergo substitution rather than addition?"
+    o: ["It has no C=C", "It is unreactive", "Addition is too fast", "Substitution keeps the stable delocalised ring of electrons"]
+    a: 3
+    e: "Addition would destroy the delocalisation and lose its stability."
+  - q: "What is the electrophile in the nitration of benzene?"
+    o: ["NO₂⁺", "NO₃⁻", "HNO₃", "H⁺"]
+    a: 0
+    e: "The nitronium ion is generated from the acids."
+  - q: "What reagents and conditions are used for nitration of benzene?"
+    o: ["Dilute HNO₃ at room temperature", "Concentrated HNO₃ and concentrated H₂SO₄ at about 50 °C", "AlCl₃ and an acyl chloride", "UV light"]
+    a: 1
+    e: "Above 50 °C, more than one nitro group may substitute."
+  - q: "What is the role of sulfuric acid in nitration?"
+    o: ["Solvent only", "Nucleophile", "It reacts with nitric acid to generate NO₂⁺ (and is regenerated)", "It oxidises benzene"]
+    a: 2
+    e: "HNO₃ + 2H₂SO₄ → NO₂⁺ + H₃O⁺ + 2HSO₄⁻."
+  - q: "Why is nitration of aromatic compounds important?"
+    o: ["To make soaps", "To make fuels", "To make plastics only", "To make explosives and aromatic amines for dyes"]
+    a: 3
+    e: "Nitro compounds like TNT are explosives; reducing nitrobenzene gives phenylamine for dyes."
+  - q: "What catalyst is used in Friedel–Crafts acylation?"
+    o: ["AlCl₃", "H₂SO₄", "Ni", "Pt"]
+    a: 0
+    e: "AlCl₃ helps generate the acylium ion and is regenerated."
+  - q: "What is the electrophile in Friedel–Crafts acylation with ethanoyl chloride?"
+    o: ["Cl⁺", "CH₃CO⁺", "AlCl₄⁻", "CH₃⁺"]
+    a: 1
+    e: "CH₃COCl + AlCl₃ → CH₃CO⁺ + AlCl₄⁻."
+  - q: "What is the product of benzene with ethanoyl chloride and AlCl₃?"
+    o: ["Methylbenzene", "Benzoic acid", "Phenylethanone", "Chlorobenzene"]
+    a: 2
+    e: "An aromatic ketone, C₆H₅COCH₃, forms."
+  - q: "How is AlCl₃ regenerated in Friedel–Crafts acylation?"
+    o: ["It isn't regenerated", "By reaction with water", "By heating", "H⁺ + AlCl₄⁻ → AlCl₃ + HCl"]
+    a: 3
+    e: "The H⁺ lost from the ring reacts with AlCl₄⁻."
+  - q: "In the electrophilic substitution intermediate, what happens to the delocalised ring?"
+    o: ["It is partly broken, shown as a horseshoe with a positive charge", "It stays intact", "It becomes two double bonds", "It is completely destroyed"]
+    a: 0
+    e: "Two electrons are used to bond to the electrophile, so delocalisation is partly lost."
+  - q: "What is the final step of electrophilic substitution?"
+    o: ["The electrophile leaves", "H⁺ is lost from the ring, restoring the delocalised system", "An OH⁻ adds", "The ring breaks"]
+    a: 1
+    e: "Losing H⁺ allows the electrons to return to the ring."
+  - q: "By how much is benzene more stable than expected for a triene?"
+    o: ["About 360 kJ mol⁻¹", "About 120 kJ mol⁻¹", "About 152 kJ mol⁻¹", "About 208 kJ mol⁻¹"]
+    a: 2
+    e: "−360 − (−208) = 152 kJ mol⁻¹, the delocalisation energy."
+  - q: "What shape is a benzene molecule?"
+    o: ["Tetrahedral", "Chair-shaped", "Linear", "Planar hexagon"]
+    a: 3
+    e: "All atoms lie in one plane with 120° angles."
+  - q: "Why doesn't benzene readily decolourise bromine water?"
+    o: ["Its delocalised electrons are stable and spread out, so it doesn't undergo addition easily", "It has no electrons", "Bromine isn't an electrophile", "Benzene is ionic"]
+    a: 0
+    e: "The electron density is lower than in a localised C=C, so bromine isn't polarised enough without a catalyst."
+  - q: "Why is the temperature kept at about 50 °C in nitration?"
+    o: ["To speed it up", "To avoid multiple substitution", "To stop sulfuric acid boiling", "To form NO₂⁺"]
+    a: 1
+    e: "Higher temperatures lead to dinitro and trinitro products."
+  - q: "What is the formula of benzene?"
+    o: ["C₆H₁₂", "C₆H₁₀", "C₆H₆", "C₆H₁₄"]
+    a: 2
+    e: "Benzene is C₆H₆."
+  - q: "What type of mechanism do benzene's reactions follow?"
+    o: ["Nucleophilic addition", "Electrophilic addition", "Free-radical substitution", "Electrophilic substitution"]
+    a: 3
+    e: "Electrophiles attack the ring, and a hydrogen is substituted."
+  - q: "What happens to the H atom on the carbon attacked during electrophilic substitution?"
+    o: ["It is lost as H⁺", "It stays", "It moves to oxygen", "It becomes H⁻"]
+    a: 0
+    e: "The C–H electrons return to the ring as H⁺ leaves."
+  - q: "How is phenylamine made from nitrobenzene?"
+    o: ["Oxidation with KMnO₄", "Reduction with tin and concentrated HCl, then NaOH", "Reaction with NH₃", "Friedel–Crafts acylation"]
+    a: 1
+    e: "Nitro groups are reduced to amine groups."

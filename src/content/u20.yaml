@@ -1,0 +1,126 @@
+id: "3.1.11"
+order: 20
+year: 2
+section: "3.1"
+spec: "3.1.11"
+title: "Electrode potentials and cells"
+desc: "Half-cells and the standard hydrogen electrode, standard electrode potentials, cell EMF and conventional representation, predicting reactions, and commercial cells."
+practicals: [8]
+summary:
+  - h: "Half-cells and the standard hydrogen electrode"
+    p:
+      - "A **half-cell** is an element in contact with a solution of its ions. Two half-cells joined by a wire and a **salt bridge** make an electrochemical cell."
+      - "**Standard electrode potential (E⦵)**: the EMF of a half-cell compared with the **standard hydrogen electrode**, under standard conditions."
+      - "**Standard hydrogen electrode (SHE)**: H₂ gas at **100 kPa**, bubbled over a **platinum** electrode in **1.00 mol dm⁻³ H⁺**, at **298 K**. Its E⦵ is defined as **0.00 V**."
+      - "Standard conditions: **298 K**, **100 kPa**, **1.00 mol dm⁻³** solutions."
+      - "**Platinum** is used where there's no solid metal in the half-cell, e.g. Fe³⁺/Fe²⁺, because it is inert and conducts."
+  - h: "The electrochemical series"
+    p:
+      - "Half-equations are written as **reductions**, e.g. `Cu²⁺ + 2e⁻ ⇌ Cu   E⦵ = +0.34 V`."
+      - "A **more positive** E⦵ means the species on the left is a **better oxidising agent** (more easily reduced)."
+      - "A **more negative** E⦵ means the species on the right is a **better reducing agent** (more easily oxidised)."
+  - h: "Cells and EMF"
+    p:
+      - "`E(cell) = E(right) − E(left)`, or E(positive electrode) − E(negative electrode)."
+      - "**Conventional representation**: `Zn | Zn²⁺ || Cu²⁺ | Cu`. The **oxidised** half-cell (more negative) on the left; the reduction on the right. Single lines are phase boundaries; the double line is the salt bridge."
+      - "Electrons flow from the **more negative** electrode to the **more positive** electrode through the wire."
+      - "A reaction is **feasible** if E(cell) is **positive**. Kinetics may still make it too slow."
+  - h: "Commercial cells"
+    p:
+      - "**Non-rechargeable** cells (e.g. alkaline batteries) are used until the reactants run out."
+      - "**Rechargeable** cells (e.g. lithium-ion) have reactions that can be **reversed** by applying an external current."
+      - "**Fuel cells** (e.g. hydrogen–oxygen) produce electricity from a continuous supply of fuel. Reactions in alkaline conditions: `2H₂ + 4OH⁻ → 4H₂O + 4e⁻` and `O₂ + 2H₂O + 4e⁻ → 4OH⁻`. Overall `2H₂ + O₂ → 2H₂O`."
+      - "Benefits: fuel cells only produce water and are efficient. Risks: hydrogen is flammable and often made using fossil fuels; batteries contain toxic or flammable materials."
+pitfalls:
+  - "Electrode potential tables are always **reductions**. Reverse the more negative one to show oxidation."
+  - "E(cell) = E(more positive) − E(more negative). It should come out **positive** for a feasible reaction."
+  - "In the conventional representation, the **reduced forms** go next to the electrodes on the outside."
+questions:
+  - q: "What is the standard electrode potential of the standard hydrogen electrode?"
+    o: ["1.00 V", "0.00 V", "−1.00 V", "It depends on temperature"]
+    a: 1
+    e: "The SHE is the reference, defined as 0.00 V."
+  - q: "What are the conditions of a standard hydrogen electrode?"
+    o: ["H₂ at 100 kPa, 1.00 mol dm⁻³ H⁺, 298 K, platinum electrode", "H₂ at 1 kPa, pure water, 273 K", "H₂ at 100 kPa, 2.00 mol dm⁻³ H⁺, copper electrode", "O₂ at 100 kPa"]
+    a: 0
+    e: "These standard conditions are needed for a reproducible reference."
+  - q: "Why is platinum used in some half-cells?"
+    o: ["It is the most reactive metal", "It is cheap", "It is inert and conducts electricity", "It forms ions easily"]
+    a: 2
+    e: "Platinum provides a surface for electron transfer without reacting itself."
+  - q: "What is the role of the salt bridge?"
+    o: ["To carry electrons", "To heat the cell", "To provide H⁺", "To complete the circuit by allowing ions to move between half-cells"]
+    a: 3
+    e: "Ions flow through the salt bridge to balance charge as electrons flow in the wire."
+  - q: "Cu²⁺/Cu E⦵ = +0.34 V; Zn²⁺/Zn E⦵ = −0.76 V. What is the cell EMF?"
+    o: ["+1.10 V", "−0.42 V", "+0.42 V", "−1.10 V"]
+    a: 0
+    e: "E(cell) = 0.34 − (−0.76) = +1.10 V."
+  - q: "In a Zn/Cu cell, in which direction do electrons flow in the wire?"
+    o: ["From Cu to Zn", "From Zn to Cu", "No flow", "Through the salt bridge"]
+    a: 1
+    e: "Zn has the more negative E⦵, so it is oxidised and releases electrons, which flow to Cu."
+  - q: "A more positive E⦵ means the species on the left of the half-equation is:"
+    o: ["A better reducing agent", "Less easily reduced", "A better oxidising agent", "Unreactive"]
+    a: 2
+    e: "It is more easily reduced, so it is a stronger oxidising agent."
+  - q: "Which is the strongest reducing agent? (Li⁺/Li −3.04, Zn²⁺/Zn −0.76, Cu²⁺/Cu +0.34, Ag⁺/Ag +0.80 V)"
+    o: ["Ag", "Cu", "Zn", "Li"]
+    a: 3
+    e: "The most negative E⦵ means Li is most easily oxidised."
+  - q: "What is the conventional representation of a Zn/Cu cell?"
+    o: ["Zn | Zn²⁺ || Cu²⁺ | Cu", "Cu | Cu²⁺ || Zn²⁺ | Zn", "Zn²⁺ | Zn || Cu | Cu²⁺", "Zn || Cu"]
+    a: 0
+    e: "Oxidation half-cell on the left, metals on the outside, salt bridge as a double line."
+  - q: "How do you predict whether a redox reaction is feasible?"
+    o: ["If E(cell) is negative", "If E(cell) is positive", "If ΔH is positive", "If the reactants are metals"]
+    a: 1
+    e: "A positive EMF means the reaction is thermodynamically feasible."
+  - q: "Why might a reaction with a positive E(cell) not be observed?"
+    o: ["It is not feasible", "The salt bridge is missing", "The activation energy may be very high, so the rate is too slow", "E(cell) is always wrong"]
+    a: 2
+    e: "Electrode potentials predict feasibility, not rate."
+  - q: "Fe³⁺/Fe²⁺ E⦵ = +0.77 V; I₂/I⁻ E⦵ = +0.54 V. Will Fe³⁺ oxidise I⁻?"
+    o: ["No, because Fe³⁺ is a weaker oxidising agent", "No, because both are positive", "Only with a catalyst", "Yes, because Fe³⁺/Fe²⁺ is more positive, so E(cell) = +0.23 V"]
+    a: 3
+    e: "Fe³⁺ is reduced and I⁻ is oxidised: 0.77 − 0.54 = +0.23 V."
+  - q: "What is the overall reaction in a hydrogen–oxygen fuel cell?"
+    o: ["2H₂ + O₂ → 2H₂O", "H₂ → 2H⁺ + 2e⁻", "O₂ + 4e⁻ → 2O²⁻", "H₂O → H₂ + ½O₂"]
+    a: 0
+    e: "Hydrogen is oxidised and oxygen reduced, producing water."
+  - q: "How does a rechargeable cell differ from a non-rechargeable cell?"
+    o: ["It uses no chemicals", "Its reactions can be reversed by applying an external current", "It has a higher voltage", "It contains hydrogen"]
+    a: 1
+    e: "Recharging drives the reactions backwards, regenerating the reactants."
+  - q: "What is an advantage of hydrogen fuel cells?"
+    o: ["Hydrogen is easy to store", "They produce CO₂", "The only product is water", "They never need refuelling"]
+    a: 2
+    e: "No CO₂ is produced at the point of use, but hydrogen production may use fossil fuels."
+  - q: "What is a limitation of hydrogen fuel cells?"
+    o: ["They produce toxic gases", "They are inefficient", "They produce CO₂ directly", "Hydrogen is flammable, hard to store, and is often made using fossil fuels"]
+    a: 3
+    e: "These issues affect the overall environmental benefit and safety."
+  - q: "In which direction are half-equations written in the electrochemical series?"
+    o: ["As reductions", "As oxidations", "Either", "As overall reactions"]
+    a: 0
+    e: "All standard electrode potentials refer to the reduction reaction."
+  - q: "Why is a high-resistance voltmeter used to measure EMF?"
+    o: ["To speed up the reaction", "So almost no current flows and the EMF is measured accurately", "To increase voltage", "To protect the salt bridge"]
+    a: 1
+    e: "Drawing current would change concentrations and lower the measured voltage."
+  - q: "What happens at the negative electrode of a cell?"
+    o: ["Reduction", "Neutralisation", "Oxidation", "Nothing"]
+    a: 2
+    e: "The more negative half-cell is oxidised, releasing electrons into the wire."
+  - q: "Ag⁺/Ag E⦵ = +0.80 V; Cu²⁺/Cu E⦵ = +0.34 V. What is the EMF of a Cu/Ag cell?"
+    o: ["+1.14 V", "−0.46 V", "+0.34 V", "+0.46 V"]
+    a: 3
+    e: "E(cell) = 0.80 − 0.34 = +0.46 V."
+  - q: "Which statement about the salt bridge is correct?"
+    o: ["It is often filter paper soaked in KNO₃, which doesn't react with the ions in the half-cells", "It carries electrons", "It is made of copper", "It contains chloride ions to react with silver"]
+    a: 0
+    e: "KNO₃ is used because nitrates are soluble and don't form precipitates."
+  - q: "What happens to the concentration of Cu²⁺ in a Zn/Cu cell as it runs?"
+    o: ["Increases", "Decreases, as Cu²⁺ is reduced to Cu", "Stays the same", "Doubles"]
+    a: 1
+    e: "Cu²⁺ ions gain electrons and deposit as copper metal."
