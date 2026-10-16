@@ -8,6 +8,8 @@ desc: "Dynamic equilibrium, Le Chatelier's principle, industrial compromise cond
 practicals: []
 summary:
   - h: "Dynamic equilibrium"
+    fig: equilibrium
+    cap: "In a closed system the forward rate falls and the reverse rate rises until they are equal. From then on concentrations stay constant, but they are usually not equal, and both reactions keep going."
     p:
       - "Many reactions are **reversible** (⇌)."
       - "In a **closed system**, a reversible reaction reaches **dynamic equilibrium**: the **forward and reverse rates are equal**, and the **concentrations** of reactants and products **stay constant**."

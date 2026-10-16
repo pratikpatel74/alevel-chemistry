@@ -18,6 +18,8 @@ summary:
       - "Benzene's actual value is about **−208 kJ mol⁻¹**, so benzene is about **152 kJ mol⁻¹ more stable**, due to **delocalisation**."
       - "Because of this stability, benzene undergoes **substitution** (keeping the delocalised ring), not addition."
   - h: "Electrophilic substitution"
+    fig: nitration
+    cap: "Nitration of benzene. The delocalised electrons attack the NO₂⁺ electrophile, giving an intermediate with a horseshoe (part of the ring) and a + charge; H and NO₂ are on the same carbon. Losing H⁺ restores the stable delocalised ring."
     p:
       - "The delocalised electrons attract **electrophiles**."
       - "Mechanism: electrons from the ring attack the electrophile, forming an intermediate in which the delocalisation is **partly broken** (shown as a horseshoe with +). Then **H⁺ is lost** and the delocalised ring is restored."

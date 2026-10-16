@@ -13,6 +13,8 @@ summary:
       - "**M³⁺ aqua ions are more acidic** than M²⁺ because M³⁺ has a **higher charge density**. It **polarises** the water ligands more, weakening the O–H bonds so H⁺ is released more easily."
       - "`[Fe(H₂O)₆]³⁺ + H₂O ⇌ [Fe(H₂O)₅(OH)]²⁺ + H₃O⁺`"
   - h: "Reactions with NaOH and NH₃ (hydrolysis)"
+    fig: aqua-ions
+    cap: "Swatches show the precipitate colours (an empty box means it dissolved). Only Al(OH)₃ dissolves in excess NaOH (amphoteric). Only Cu(OH)₂ dissolves in excess NH₃, giving deep blue [Cu(NH₃)₄(H₂O)₂]²⁺. The 3+ ions are acidic enough to give a hydroxide and CO₂ with carbonate; Cu²⁺ and Fe²⁺ give carbonates."
     p:
       - "OH⁻ or NH₃ removes H⁺ from the aqua ion, forming a neutral **metal hydroxide precipitate**."
       - "**[Cu(H₂O)₆]²⁺** (blue solution) → Cu(H₂O)₄(OH)₂, **blue precipitate**."

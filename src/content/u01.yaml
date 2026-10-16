@@ -14,6 +14,8 @@ summary:
       - "**Isotopes**: atoms of the same element with the **same number of protons but different numbers of neutrons**. They have the same chemical properties (same electron configuration) but different physical properties (e.g. mass, density)."
       - "Models of the atom developed over time as new evidence appeared: Dalton's solid spheres, Thomson's plum pudding, Rutherford's nuclear model, Bohr's electron shells."
   - h: "Time-of-flight (TOF) mass spectrometry"
+    fig: tof
+    cap: "The four stages. An electric field gives every ion the same kinetic energy, so lighter ions move faster through the drift region and reach the detector first. Each ion gains an electron at the detector, making a current."
     p:
       - "**Ionisation**: by **electrospray** (sample dissolved in a volatile solvent and sprayed through a high-voltage needle; each molecule **gains a proton**, giving MH⁺) or by **electron impact** (high-energy electrons knock out an electron, giving X⁺)."
       - "**Acceleration**: an electric field gives all ions the **same kinetic energy**."

@@ -23,6 +23,8 @@ summary:
       - "Aldehydes → **primary alcohols**. Ketones → **secondary alcohols**. Use [H] in equations, e.g. `CH₃CHO + 2[H] → CH₃CH₂OH`."
       - "Mechanism: **nucleophilic addition**. The **H⁻ (hydride ion)** from NaBH₄ attacks the δ+ carbon. The C=O bond breaks, forming an O⁻ intermediate, which is protonated by water."
   - h: "Nucleophilic addition of HCN"
+    fig: nucleophilic-addition
+    cap: "Ethanal with KCN then acid. CN⁻ attacks the δ+ carbon and the C=O π electrons move onto oxygen, giving an O⁻ intermediate, which picks up H⁺. The C=O is planar, so attack from either side is equally likely: a racemic mixture forms."
     p:
       - "Carbonyls react with **KCN** followed by **dilute acid** to form **hydroxynitriles**, e.g. ethanal → 2-hydroxypropanenitrile."
       - "Mechanism: **CN⁻** attacks the δ+ carbon. The C=O breaks. The O⁻ intermediate gains H⁺ (from HCN or the acid)."

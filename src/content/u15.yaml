@@ -23,6 +23,8 @@ summary:
       - "**Secondary**: attached to **two** other carbons (e.g. propan-2-ol)."
       - "**Tertiary**: attached to **three** other carbons (e.g. 2-methylpropan-2-ol)."
   - h: "Oxidation with acidified potassium dichromate(VI)"
+    fig: alcohol-oxidation
+    cap: "Primary alcohols give an aldehyde if you distil it off as it forms, or a carboxylic acid if you heat under reflux. Secondary alcohols give ketones. Tertiary alcohols have no H on the C–OH carbon, so they aren't oxidised."
     p:
       - "Oxidising agent: **K₂Cr₂O₇** acidified with **H₂SO₄**. Colour change **orange → green** (Cr₂O₇²⁻ → Cr³⁺). Use [O] in equations."
       - "**Primary** alcohols → **aldehydes** (distil off immediately) → **carboxylic acids** (heat under **reflux** with excess oxidising agent)."

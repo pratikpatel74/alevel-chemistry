@@ -24,6 +24,8 @@ summary:
       - "Base hydrolysis of fats gives **soap** (sodium salts of fatty acids) and glycerol."
       - "**Biodiesel** is a mixture of **methyl esters** of long-chain fatty acids, made by reacting vegetable oils with **methanol** using a **catalyst**."
   - h: "Acyl chlorides and acid anhydrides"
+    fig: addition-elimination
+    cap: "Ethanoyl chloride with water. Addition: the lone pair on water's O attacks the δ+ carbon and the C=O opens. Elimination: the C=O reforms, Cl⁻ leaves, and H⁺ is lost, giving HCl. Alcohols, ammonia and amines react the same way."
     p:
       - "**Acyl chlorides** (RCOCl) and **acid anhydrides** ((RCO)₂O) react by **nucleophilic addition–elimination**."
       - "With **water** → carboxylic acid. With **alcohols** → esters. With **ammonia** → primary amides. With **primary amines** → N-substituted amides."

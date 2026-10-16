@@ -17,6 +17,8 @@ summary:
       - "Or reduce a **nitrile** with LiAlH₄, or H₂ with a nickel catalyst: `RCN + 4[H] → RCH₂NH₂`. This gives only the primary amine."
       - "**Aromatic amines**: reduce nitro compounds with **tin and concentrated HCl**, then NaOH: `C₆H₅NO₂ + 6[H] → C₆H₅NH₂ + 2H₂O`."
   - h: "Base properties"
+    fig: base-strength
+    cap: "Base strength depends on how available the lone pair on nitrogen is to accept H⁺. Alkyl groups push electron density onto N (stronger base). In phenylamine the lone pair is delocalised into the benzene ring (weaker base)."
     p:
       - "Amines are **bases**: the **lone pair** on N accepts a proton."
       - "Base strength depends on how available the lone pair is."

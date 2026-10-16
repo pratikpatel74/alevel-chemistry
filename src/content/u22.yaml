@@ -21,6 +21,8 @@ summary:
       - "**SiO₂**: **macromolecular**, very high melting point (many strong covalent bonds)."
       - "**P₄O₁₀, SO₂**: **simple molecular**, low melting points (weak intermolecular forces). P₄O₁₀ is larger, so higher than SO₂."
   - h: "Oxides with water"
+    fig: period3-oxides
+    cap: "Across Period 3 the oxides change from ionic and basic (O²⁻ makes OH⁻ in water) to covalent and acidic. Al₂O₃ is amphoteric. Al₂O₃ and SiO₂ don't dissolve, so water stays at pH 7, but SiO₂ is still classed as acidic because it reacts with bases."
     p:
       - "**Na₂O** + H₂O → 2NaOH (pH 12–14). **MgO** + H₂O → Mg(OH)₂ (pH about 9)."
       - "**Al₂O₃** and **SiO₂** are **insoluble** in water (pH 7)."

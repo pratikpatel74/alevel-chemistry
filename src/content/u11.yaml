@@ -31,6 +31,8 @@ summary:
       - "**Position** isomers: functional group in a different position (e.g. propan-1-ol and propan-2-ol)."
       - "**Functional group** isomers: different functional groups (e.g. propanal and propanone)."
   - h: "Stereoisomerism: E/Z"
+    fig: ez-isomers
+    cap: "The C=C can't rotate, so the groups are fixed in place. On each carbon the higher-priority group (higher atomic number: C beats H) is compared. Same side = Z (zusammen); opposite sides = E (entgegen)."
     p:
       - "**Stereoisomers**: same structural formula, but a **different arrangement of atoms in space**."
       - "**E/Z isomerism** happens because there is **restricted rotation** around a **C=C double bond**, and each carbon of the C=C has **two different groups** attached."

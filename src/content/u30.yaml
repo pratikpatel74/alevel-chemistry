@@ -8,6 +8,8 @@ desc: "Condensation polymers (polyesters and polyamides), their repeating units,
 practicals: []
 summary:
   - h: "Condensation polymers"
+    fig: condensation-polymer
+    cap: "Each monomer has two functional groups, so chains grow in both directions. Every amide (–CONH–) or ester (–COO–) link that forms releases a small molecule, usually water. The repeat unit contains one of each monomer."
     p:
       - "**Condensation polymers** form when monomers join with the **loss of a small molecule**, usually **water** (or HCl from acyl chlorides)."
       - "Each monomer needs **two functional groups**."

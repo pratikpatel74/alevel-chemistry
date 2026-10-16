@@ -26,6 +26,8 @@ summary:
       - "**Square planar**: e.g. cisplatin, Pt(NH₃)₂Cl₂, 90°. **Linear**: e.g. [Ag(NH₃)₂]⁺ in Tollens' reagent."
       - "Octahedral complexes can show **cis–trans** isomerism; those with bidentate ligands can show **optical** isomerism. Square planar can show cis–trans (cisplatin is the cis isomer)."
   - h: "Colour"
+    fig: d-splitting
+    cap: "Ligands split the d orbitals into two energy levels. An electron absorbs visible light of exactly ΔE = hν to jump up; we see the remaining (complementary) colours. Changing the ligand, co-ordination number or oxidation state changes ΔE, so the colour changes."
     p:
       - "Ligands **split** the d orbitals into two energy levels. Electrons absorb visible light and are **excited** to the higher level: `ΔE = hν = hc/λ`."
       - "The **colour seen** is the **complementary** colour to the light absorbed (the light transmitted)."

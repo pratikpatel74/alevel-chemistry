@@ -18,6 +18,8 @@ summary:
       - "Metals react with water to form a **hydroxide** and **hydrogen**: `M + 2H₂O → M(OH)₂ + H₂`."
       - "**Magnesium** reacts very slowly with liquid water, but burns in **steam** to form **magnesium oxide**: `Mg + H₂O → MgO + H₂`."
   - h: "Solubility"
+    fig: g2-solubility
+    cap: "The two trends run in opposite directions (bar length shows relative solubility, not to scale). Insoluble BaSO₄ is the basis of the sulfate test and of barium meals."
     p:
       - "**Hydroxides** become **more soluble** down the group. Mg(OH)₂ is **sparingly soluble**; Ba(OH)₂ is soluble."
       - "**Sulfates** become **less soluble** down the group. BaSO₄ is **insoluble**."

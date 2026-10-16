@@ -14,6 +14,8 @@ summary:
       - "A **reducing agent** is an **electron donor**: it is itself **oxidised**."
       - "A **redox** reaction involves both oxidation and reduction."
   - h: "Oxidation states"
+    fig: oxidation-states
+    cap: "Chlorine can take many oxidation states. Moving right (more positive) is oxidation; moving left is reduction. In Cl₂ + 2NaOH → NaCl + NaClO + H₂O, chlorine goes both ways at once (0 → −1 and 0 → +1): disproportionation."
     p:
       - "Uncombined elements: **0**. E.g. Na, O₂."
       - "The sum of oxidation states in a compound is **0**. In an ion, it equals the **charge**."

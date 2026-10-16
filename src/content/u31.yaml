@@ -8,6 +8,8 @@ desc: "Amino acids as zwitterions, peptide bonds and hydrolysis, protein structu
 practicals: [12]
 summary:
   - h: "Amino acids"
+    fig: amino-acid-ph
+    cap: "In acid, the COO⁻ group picks up H⁺, so the amino acid is positive. In alkali, the NH₃⁺ loses H⁺, so it is negative. At the isoelectric point it is a zwitterion with no overall charge, which is why amino acids have high melting points."
     p:
       - "Amino acids have an **amine group** and a **carboxylic acid group**. Most are chiral (except glycine)."
       - "At their **isoelectric point**, amino acids exist as **zwitterions**: H₃N⁺–CHR–COO⁻."

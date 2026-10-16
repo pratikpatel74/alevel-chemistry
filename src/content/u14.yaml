@@ -12,6 +12,8 @@ summary:
       - "Alkenes are **unsaturated** hydrocarbons with at least one **C=C** double bond. General formula **CₙH₂ₙ**."
       - "The C=C is a region of **high electron density**, so it is attacked by **electrophiles**."
   - h: "Electrophilic addition"
+    fig: electrophilic-addition
+    cap: "Ethene with HBr. The electron-rich C=C attacks the δ+ hydrogen, and the H–Br bond breaks so both electrons go to Br. This leaves a carbocation, which the Br⁻ ion then attacks. Draw the arrows from bonds or lone pairs."
     p:
       - "**HBr**: the δ+ H is attracted to the C=C. Electrons from the C=C form a bond to H, and the H–Br bond breaks heterolytically. A **carbocation** forms, and Br⁻ attacks it. Product: a **bromoalkane**."
       - "**Br₂**: as Br₂ approaches the C=C, the electron density induces a **dipole** in Br₂. The δ+ Br is attacked. Product: a **dibromoalkane**."

@@ -8,6 +8,8 @@ desc: "Chiral centres, enantiomers, plane-polarised light, racemic mixtures, and
 practicals: []
 summary:
   - h: "Chirality"
+    fig: enantiomers
+    cap: "Butan-2-ol: the central carbon has four different groups (H, OH, CH₃, C₂H₅), so it is chiral. The two enantiomers are mirror images that can't be superimposed. Wedge = towards you; hashed = away."
     p:
       - "**Optical isomerism** is a form of stereoisomerism."
       - "It happens when a molecule has a **chiral centre**: a carbon atom bonded to **four different groups**."

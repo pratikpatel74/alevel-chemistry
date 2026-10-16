@@ -14,6 +14,8 @@ summary:
       - "For each step, state the **reagent**, **conditions** and **type of reaction**."
       - "Chemists aim for routes with **fewer steps**, **high yields**, **high atom economy**, and that **avoid hazardous** solvents and reagents."
   - h: "Key aliphatic interconversions"
+    fig: synthesis-map
+    cap: "The main aliphatic routes with their reagents. Learn the conditions as well as the reagents: aqueous NaOH gives an alcohol but ethanolic KOH gives an alkene. Only the CN⁻ steps add a carbon atom to the chain."
     p:
       - "**Alkane → halogenoalkane**: Cl₂ or Br₂, **UV light** (free-radical substitution)."
       - "**Alkene → halogenoalkane**: HBr, room temperature (electrophilic addition). **Alkene → dihalogenoalkane**: Br₂."

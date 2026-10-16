@@ -25,6 +25,8 @@ summary:
       - "**NaBr**: HBr fumes, then Br⁻ reduces H₂SO₄ to **SO₂**. **Orange/brown** bromine vapour."
       - "**NaI**: HI fumes, then I⁻ reduces H₂SO₄ to **SO₂**, **S** (yellow solid) and **H₂S** (bad egg smell). **Purple/black** iodine."
   - h: "Silver nitrate test for halide ions"
+    fig: halide-test
+    cap: "Acidify with dilute nitric acid first (removes carbonate), then add silver nitrate. The precipitate colours are hard to tell apart, so confirm with ammonia: only AgCl dissolves in dilute NH₃; AgBr needs concentrated; AgI never dissolves."
     p:
       - "Add **dilute nitric acid** first (to remove carbonate and hydroxide ions), then **silver nitrate**."
       - "**Cl⁻**: **white** precipitate (AgCl). Dissolves in **dilute ammonia**."

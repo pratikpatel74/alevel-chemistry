@@ -19,6 +19,8 @@ summary:
       - "Precise atomic masses: ¹H = 1.0078, ¹²C = 12.0000, ¹⁴N = 14.0031, ¹⁶O = 15.9949."
       - "E.g. C₃H₈ (44.0624) and CO₂ (43.9898) both have Mr ≈ 44."
   - h: "Infrared spectroscopy"
+    fig: ir-spectrum
+    cap: "A sketch of the IR spectrum of ethanoic acid. The very broad O–H (acid) absorption at 2500–3000 cm⁻¹ plus the sharp C=O at about 1710 cm⁻¹ show a carboxylic acid. Below 1500 cm⁻¹ is the fingerprint region, matched against a database."
     p:
       - "Bonds **absorb IR radiation** at specific wavenumbers (cm⁻¹), causing them to **vibrate** more."
       - "Key absorptions: **O–H (alcohols)** 3230–3550, broad. **O–H (acids)** 2500–3000, very broad. **C=O** 1680–1750, sharp. **C–H** 2850–3300. **N–H** 3300–3500."

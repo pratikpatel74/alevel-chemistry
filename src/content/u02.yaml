@@ -8,6 +8,8 @@ desc: "Relative masses, the mole and Avogadro constant, the ideal gas equation, 
 practicals: [1]
 summary:
   - h: "Relative masses and the mole"
+    fig: mole-map
+    cap: "Moles are the hub: convert whatever you're given into moles, use the mole ratio from the balanced equation, then convert back. Remember the unit traps: dm³ for solutions, m³ and Pa for the gas equation."
     p:
       - "**Relative molecular mass (Mr)**: the average mass of a molecule compared with 1/12 of the mass of a carbon-12 atom. **Relative formula mass** is used for ionic compounds."
       - "The **Avogadro constant (L)** is **6.022 × 10²³ mol⁻¹**: the number of particles in one mole."

@@ -8,6 +8,8 @@ desc: "Fractional distillation of crude oil, cracking, combustion and pollutants
 practicals: []
 summary:
   - h: "Fractional distillation"
+    fig: fractional-distillation
+    cap: "The column is hotter at the bottom. Vapour rises and each fraction condenses where the temperature falls below its boiling point. Short chains (weak van der Waals forces, low boiling points) come off near the top."
     p:
       - "Alkanes are **saturated hydrocarbons**, mostly from **crude oil**."
       - "Crude oil is separated by **fractional distillation**: it is heated and vaporised, and the vapour rises up a column that is **hotter at the bottom and cooler at the top**."

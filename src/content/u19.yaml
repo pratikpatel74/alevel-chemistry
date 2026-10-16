@@ -14,6 +14,8 @@ summary:
       - "`partial pressure of A (pA) = mole fraction of A × total pressure`"
       - "The sum of partial pressures equals the **total pressure**."
   - h: "Kp"
+    fig: kp-steps
+    cap: "Worked example for N₂O₄ ⇌ 2NO₂ at a total pressure of 100 kPa. Always go moles → mole fractions → partial pressures → Kp, using equilibrium amounts, not starting ones. Kp ≈ 76 kPa."
     p:
       - "For aA(g) + bB(g) ⇌ cC(g) + dD(g): `Kp = (pC)ᶜ(pD)ᵈ ÷ (pA)ᵃ(pB)ᵇ`"
       - "Only **gases** are included in Kp."
