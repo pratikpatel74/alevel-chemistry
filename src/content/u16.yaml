@@ -17,7 +17,7 @@ summary:
     p:
       - "Measures m/z to **several decimal places**, so it can tell apart molecules with the **same integer Mr** but **different molecular formulae**."
       - "Precise atomic masses: ¹H = 1.0078, ¹²C = 12.0000, ¹⁴N = 14.0031, ¹⁶O = 15.9949."
-      - "E.g. C₃H₈ (44.0626) and CO₂ (43.9898) both have Mr ≈ 44."
+      - "E.g. C₃H₈ (44.0624) and CO₂ (43.9898) both have Mr ≈ 44."
   - h: "Infrared spectroscopy"
     p:
       - "Bonds **absorb IR radiation** at specific wavenumbers (cm⁻¹), causing them to **vibrate** more."
@@ -47,7 +47,7 @@ questions:
   - q: "C₃H₈ and CO₂ both have Mr ≈ 44. A peak is at 43.9898. Which is it? (C = 12.0000, H = 1.0078, O = 15.9949)"
     o: ["C₃H₈", "Neither", "Both", "CO₂"]
     a: 3
-    e: "CO₂ = 12.0000 + 2(15.9949) = 43.9898. C₃H₈ = 44.0626."
+    e: "CO₂ = 12.0000 + 2(15.9949) = 43.9898. C₃H₈ = 44.0624."
   - q: "What happens when a molecule absorbs infrared radiation?"
     o: ["Its bonds vibrate more", "It ionises", "It breaks into fragments", "Its electrons are excited to higher levels"]
     a: 0

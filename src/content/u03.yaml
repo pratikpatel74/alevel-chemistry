@@ -46,7 +46,7 @@ questions:
   - q: "What is a dative covalent bond?"
     o: ["A shared pair of electrons where both electrons come from the same atom", "A bond between two ions", "A bond with three shared pairs", "A hydrogen bond"]
     a: 0
-    e: "In a dative bond, one atom donates both electrons, e.g. the N–H⁺ bond formed in NH₄⁺."
+    e: "In a dative bond, one atom donates both electrons, e.g. when NH₃ donates its lone pair to H⁺ to form NH₄⁺."
   - q: "What is metallic bonding?"
     o: ["Attraction between ions of opposite charge", "Attraction between positive metal ions and delocalised electrons", "Shared pairs between metal atoms", "Hydrogen bonding in metals"]
     a: 1

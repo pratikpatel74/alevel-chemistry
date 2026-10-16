@@ -91,7 +91,7 @@ questions:
     a: 1
     e: "No H on adjacent carbons, so n = 0 and it's a singlet (e.g. CH₃ in propanone)."
   - q: "What is the ratio of peak areas in the ¹H NMR spectrum of ethyl ethanoate, CH₃COOCH₂CH₃?"
-    o: ["3:3:2", "3:2", "3:2:3", "1:1:1"]
+    o: ["3:2:1", "3:2", "3:2:3", "1:1:1"]
     a: 2
     e: "CH₃CO (3H), OCH₂ (2H), CH₂CH₃ (3H): three environments in ratio 3:2:3."
   - q: "How many H environments does 2-methylpropane, (CH₃)₃CH, have?"
@@ -119,6 +119,6 @@ questions:
     a: 0
     e: "Coupling happens between non-equivalent H on neighbouring carbons."
   - q: "Which compound has 2 peaks in its ¹³C NMR spectrum?"
-    o: ["Propan-1-ol", "Ethanol", "Butane", "Pentane"]
+    o: ["Propan-1-ol", "Ethanol", "Butan-1-ol", "Pentane"]
     a: 1
     e: "Ethanol has two carbons in different environments."

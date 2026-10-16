@@ -60,7 +60,7 @@ questions:
   - q: "Why does argon have the lowest melting point in Period 3?"
     o: ["It is metallic", "It is macromolecular", "It exists as single atoms with very weak van der Waals forces", "It forms hydrogen bonds"]
     a: 2
-    e: "Argon atoms have few electrons for a Period 3 element and weak forces between them."
+    e: "Argon is monatomic, so each particle has fewer electrons than S₈, P₄ or Cl₂ molecules, giving the weakest van der Waals forces."
   - q: "What is the general trend in first ionisation energy across Period 3?"
     o: ["Decreases", "Stays the same", "Decreases then increases", "Increases, with dips at Al and S"]
     a: 3

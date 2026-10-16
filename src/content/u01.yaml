@@ -124,7 +124,7 @@ questions:
   - q: "Which statement about the 4s and 3d sub-levels is correct?"
     o: ["3d fills first and empties first", "4s fills after 3d", "4s and 3d fill at the same time", "4s fills before 3d, and 4s electrons are lost first when transition metals form ions"]
     a: 3
-    e: "4s is lower in energy for empty atoms, so it fills first. Once 3d is occupied, 4s electrons are removed first."
+    e: "Before 3d is occupied, 4s is lower in energy, so it fills first. Once 3d is occupied, 4s electrons are removed first."
   - q: "An ion has 16 protons, 18 electrons and 16 neutrons. What is it?"
     o: ["³²S²⁻", "³²S²⁺", "³⁴S²⁻", "³²P³⁻"]
     a: 0
