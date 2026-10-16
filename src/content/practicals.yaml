@@ -3,6 +3,13 @@
   unit: "3.1.2"
   spec: "3.1.2"
   title: "Make up a volumetric solution and carry out a simple acid–base titration"
+  videos:
+    - yt: "Xw-CgHO6ULs"
+      title: "Required Practical 1a: making a standard solution"
+      by: "The Chem Tutor"
+    - yt: "lAZcV81UAQk"
+      title: "Required Practical 1b: acid–base titration"
+      by: "Dr de Bruin's Classroom"
   aim: "Prepare a standard solution of known concentration, then use it in a titration to find the concentration of another solution."
   method:
     - "Weigh the solid accurately in a weighing boat, transfer to a beaker, then **reweigh the boat** to find the exact mass transferred (weighing by difference)."
@@ -25,6 +32,10 @@
   unit: "3.1.4"
   spec: "3.1.4"
   title: "Measurement of an enthalpy change"
+  videos:
+    - yt: "ND6uKJwqeGw"
+      title: "Enthalpy change of neutralisation"
+      by: "Malmesbury Education"
   aim: "Measure the temperature change of a reaction in solution (e.g. neutralisation or displacement) and calculate ΔH."
   method:
     - "Put a known volume of one solution into a **polystyrene cup** (insulates and has low heat capacity), in a beaker for stability."
@@ -46,6 +57,10 @@
   unit: "3.1.5"
   spec: "3.1.5"
   title: "Investigation of how the rate of a reaction changes with temperature"
+  videos:
+    - yt: "hW79t6OD93Y"
+      title: "Sodium thiosulfate and HCl kinetics practical"
+      by: "Tailored Tutors"
   aim: "Measure the time for a reaction to reach a fixed point at several temperatures, e.g. sodium thiosulfate with hydrochloric acid producing a sulfur precipitate."
   method:
     - "Heat the sodium thiosulfate solution in a water bath to the chosen temperature, and record the actual temperature."
@@ -66,6 +81,10 @@
   unit: "3.2.2"
   spec: "3.2.2 / 3.2.3"
   title: "Simple test-tube reactions to identify cations and anions in aqueous solution"
+  videos:
+    - yt: "Z6525dhPdP4"
+      title: "Required Practical 4: inorganic test-tube reactions"
+      by: "Dr de Bruin's Classroom"
   aim: "Identify Group 2 ions, NH₄⁺, halide ions, OH⁻, CO₃²⁻ and SO₄²⁻ using test-tube reactions."
   method:
     - "**Group 2 ions**: add NaOH(aq). Mg²⁺ gives a white precipitate. Ca²⁺ gives a slight white precipitate. Ba²⁺ gives none (Ba(OH)₂ is soluble)."
@@ -89,6 +108,10 @@
   unit: "3.3.5"
   spec: "3.3.5"
   title: "Distillation of a product from a reaction"
+  videos:
+    - yt: "m1KqiMLo1Ak"
+      title: "Required Practical 5: distillation"
+      by: "Dr de Bruin's Classroom"
   aim: "Oxidise ethanol with acidified potassium dichromate(VI) and distil off the aldehyde (ethanal) as it forms."
   method:
     - "Add acidified potassium dichromate to a flask and warm gently. Add ethanol dropwise."
@@ -109,6 +132,10 @@
   unit: "3.3.6"
   spec: "3.3.6"
   title: "Tests for alcohol, aldehyde, alkene and carboxylic acid"
+  videos:
+    - yt: "hLuRG3vBYTU"
+      title: "Required Practical 6: organic test-tube reactions"
+      by: "Dr de Bruin's Classroom"
   aim: "Identify functional groups using simple chemical tests."
   method:
     - "**Alkene**: shake with bromine water. **Orange to colourless**."
@@ -128,6 +155,13 @@
   unit: "3.1.9"
   spec: "3.1.9"
   title: "Measuring the rate of reaction: by an initial rate method and by a continuous monitoring method"
+  videos:
+    - yt: "tH8j4vnnSos"
+      title: "Required Practical 7a: initial rate of reaction"
+      by: "Dr de Bruin's Classroom"
+    - yt: "1v7fG6CZgD4"
+      title: "Required Practical 7b: continuous monitoring of rate"
+      by: "Dr de Bruin's Classroom"
   aim: "Find the order of reaction with respect to a reactant, e.g. using an iodine clock reaction (initial rate) or measuring gas volume over time (continuous monitoring)."
   method:
     - "**Initial rate (clock)**: vary the concentration of one reactant while keeping others constant. Time how long until a sudden colour change (e.g. blue-black with starch). Initial rate ∝ 1/t."
@@ -147,6 +181,10 @@
   unit: "3.1.11"
   spec: "3.1.11"
   title: "Measuring the EMF of an electrochemical cell"
+  videos:
+    - yt: "aWVZ1ZfJ-RI"
+      title: "Measuring the EMF of electrochemical cells"
+      by: "St Peter's School"
   aim: "Build cells from two half-cells joined by a salt bridge and measure the EMF with a high-resistance voltmeter."
   method:
     - "Clean metal electrodes with emery paper to remove oxide, then rinse with propanone."
@@ -166,6 +204,10 @@
   unit: "3.1.12"
   spec: "3.1.12"
   title: "Investigate how pH changes when a weak acid reacts with a strong base and when a strong acid reacts with a weak base"
+  videos:
+    - yt: "lAdyTvkWVfc"
+      title: "Required Practical 9: pH curves"
+      by: "LPGS Chemistry"
   aim: "Use a calibrated pH meter to plot titration curves and find equivalence points and pKa."
   method:
     - "**Calibrate** the pH meter with buffer solutions of known pH."
@@ -186,6 +228,10 @@
   unit: "3.3.10"
   spec: "3.3.9 / 3.3.10"
   title: "Preparation of a pure organic solid and test of its purity, and a pure organic liquid"
+  videos:
+    - yt: "qRdkoLu1nJ8"
+      title: "Required Practical 10a and 10b: making and purifying an organic solid"
+      by: "Mr Carver"
   aim: "Prepare and purify an organic solid (e.g. aspirin) by recrystallisation and check purity by melting point; prepare and purify a liquid (e.g. an ester) by separation and distillation."
   method:
     - "**Recrystallisation**: dissolve the impure solid in the **minimum volume of hot solvent**, filter hot if needed, cool slowly so pure crystals form, then filter under reduced pressure (Büchner funnel), wash with a little cold solvent and dry."
@@ -206,6 +252,10 @@
   unit: "3.2.6"
   spec: "3.2.6"
   title: "Test-tube reactions to identify transition metal ions in aqueous solution"
+  videos:
+    - yt: "d0nywznpbzw"
+      title: "Required Practical 11: transition metal test-tube reactions"
+      by: "Dr de Bruin's Classroom"
   aim: "Identify Cu²⁺, Fe²⁺, Fe³⁺ and Al³⁺ by their reactions with NaOH, NH₃ and Na₂CO₃."
   method:
     - "Add NaOH(aq) dropwise, then in excess. Note precipitate colours and whether they dissolve."
@@ -225,6 +275,10 @@
   unit: "3.3.16"
   spec: "3.3.16"
   title: "Separation of species by thin-layer chromatography"
+  videos:
+    - yt: "97I3DXhV_xg"
+      title: "Thin-layer chromatography (with timelapses)"
+      by: "Mr Murray-Green"
   aim: "Separate and identify substances, e.g. amino acids or analgesics, using TLC and Rf values."
   method:
     - "Draw a **pencil** origin line on a TLC plate (wearing gloves so you don't contaminate it)."
