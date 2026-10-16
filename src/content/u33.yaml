@@ -24,6 +24,8 @@ summary:
       - "**Integration** (relative peak area) = the **ratio** of H atoms in each environment."
       - "**Chemical shift** shows the type of environment, e.g. R–CH₃ about 0.7–1.2, H–C–C=O about 2.1–2.6, H–C–O about 3.1–3.9, aldehyde CHO about 9–10, carboxylic acid OH about 10–12."
   - h: "Splitting (n + 1 rule)"
+    fig: nmr-ethyl
+    cap: "¹H NMR of chloroethane, CH₃CH₂Cl. The CH₂ has 3 neighbouring H, so it splits into 3 + 1 = 4 (quartet); the CH₃ has 2 neighbours, so it's a triplet. The CH₂ is next to Cl, so it is further downfield (higher δ). δ runs from right to left."
     p:
       - "A peak is split into **n + 1** lines, where **n** is the number of H atoms on **adjacent carbons**."
       - "Singlet (0 neighbours), **doublet** (1), **triplet** (2), **quartet** (3), and so on."

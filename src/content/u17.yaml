@@ -15,6 +15,8 @@ summary:
       - "**Enthalpy of hydration**: gaseous ions dissolving in water to form 1 mole of aqueous ions. Exothermic."
       - "**Enthalpy of solution**: 1 mole of an ionic solid dissolving in water."
   - h: "Born–Haber cycles"
+    fig: born-haber
+    cap: "Born–Haber cycle for NaCl, in kJ mol⁻¹, roughly to scale. Going up is endothermic and going down is exothermic. Both routes from the elements to NaCl(s) give the same total (Hess's law): 107 + 122 + 496 − 349 − 787 = −411 = ΔfH."
     p:
       - "A Hess's law cycle linking the **enthalpy of formation** of an ionic compound to the steps of forming its gaseous ions and the **lattice enthalpy**."
       - "Steps for NaCl: atomise Na, ionise Na, atomise Cl (½ bond enthalpy), electron affinity of Cl, then lattice formation."

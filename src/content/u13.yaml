@@ -13,6 +13,8 @@ summary:
       - "The δ+ carbon is attacked by **nucleophiles**."
       - "Reactivity depends on **bond enthalpy**, not polarity. The **C–I** bond is **weakest**, so iodoalkanes react **fastest**. C–F is strongest and least reactive."
   - h: "Nucleophilic substitution"
+    fig: sn-mechanism
+    cap: "Bromoethane with hydroxide ions. The first curly arrow goes from the lone pair on OH⁻ to the δ+ carbon; the second goes from the C–Br bond to Br, which leaves as Br⁻. Each curly arrow means a pair of electrons moving."
     p:
       - "A nucleophile's **lone pair** attacks the δ+ carbon. The C–X bond breaks **heterolytically**, and X⁻ leaves."
       - "**OH⁻**: aqueous NaOH or KOH, heated under reflux. Forms an **alcohol**."

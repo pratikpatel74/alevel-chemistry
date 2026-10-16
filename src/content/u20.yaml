@@ -20,6 +20,8 @@ summary:
       - "A **more positive** E⦵ means the species on the left is a **better oxidising agent** (more easily reduced)."
       - "A **more negative** E⦵ means the species on the right is a **better reducing agent** (more easily oxidised)."
   - h: "Cells and EMF"
+    fig: cell
+    cap: "Zinc has the more negative E⦵, so it is oxidised and electrons flow through the wire from Zn to Cu. The salt bridge lets ions move to balance the charge. EMF = E(right) − E(left) = 0.34 − (−0.76) = +1.10 V. Written: Zn | Zn²⁺ || Cu²⁺ | Cu."
     p:
       - "`E(cell) = E(right) − E(left)`, or E(positive electrode) − E(negative electrode)."
       - "**Conventional representation**: `Zn | Zn²⁺ || Cu²⁺ | Cu`. The **oxidised** half-cell (more negative) on the left; the reduction on the right. Single lines are phase boundaries; the double line is the salt bridge."

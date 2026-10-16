@@ -18,11 +18,15 @@ summary:
       - "**Nuclear charge increases** (more protons), but electrons are added to the **same shell**, so shielding is similar."
       - "Outer electrons are pulled **closer** to the nucleus."
   - h: "First ionisation energy across Period 3"
+    fig: ie-period3
+    cap: "First ionisation energy rises across Period 3 as nuclear charge increases with similar shielding. It dips at Al (electron removed from 3p, higher in energy than 3s) and at S (electron removed from a paired 3p orbital, where repulsion helps)."
     p:
       - "General **increase** across the period, for the same reasons: more protons, similar shielding, smaller radius."
       - "**Dip at Al**: the outer electron is in a **3p** sub-level, higher in energy than 3s."
       - "**Dip at S**: the electron is removed from a **3p orbital with a pair**, and pair repulsion makes it easier to remove."
   - h: "Melting point across Period 3"
+    fig: mp-period3
+    cap: "Melting point depends on structure. Metallic bonding strengthens from Na to Al; silicon is macromolecular, so it is highest; P₄, S₈, Cl₂ and Ar are simple molecular, and their order follows the number of electrons (van der Waals forces)."
     p:
       - "**Na, Mg, Al**: **metallic** bonding. Melting point **increases** because the ions have a **larger charge** and are **smaller**, with **more delocalised electrons**, so metallic bonding is stronger."
       - "**Si**: **macromolecular** (giant covalent). The **highest** melting point, because many strong covalent bonds must be broken."

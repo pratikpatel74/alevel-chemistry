@@ -25,6 +25,8 @@ summary:
       - "A **larger Ka** (smaller pKa) means a **stronger** acid."
       - "Assume [H⁺] = [A⁻] and [HA] at equilibrium ≈ initial [HA], so `[H⁺] = √(Ka × [HA])`."
   - h: "Titration curves and indicators"
+    fig: titration
+    cap: "25.0 cm³ of 0.100 mol dm⁻³ ethanoic acid (Ka = 1.74 × 10⁻⁵) titrated with 0.100 mol dm⁻³ NaOH. The vertical section sits above pH 7, so phenolphthalein changes colour inside it but methyl orange doesn't. Halfway to equivalence (12.5 cm³), pH = pKa = 4.76."
     p:
       - "pH curves show a **vertical section** at the equivalence point."
       - "Strong acid–strong base: vertical section about pH 3 to 11. Weak acid–strong base: equivalence point **above 7**. Strong acid–weak base: **below 7**. Weak–weak: no sharp vertical section."

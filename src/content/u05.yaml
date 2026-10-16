@@ -19,6 +19,8 @@ summary:
       - "The **area under the curve** equals the total number of molecules."
       - "Molecules to the right of **Ea** have enough energy to react."
   - h: "Effect of temperature"
+    fig: mb-temperature
+    cap: "At the higher temperature the peak is lower and further right, but the area under the curve (the number of molecules) is the same. The shaded tail beyond Eₐ is much larger, so many more collisions per second have enough energy to react."
     p:
       - "At a **higher temperature**, the curve's peak moves to the **right** and is **lower**. The area stays the same."
       - "Many **more molecules have energy ≥ Ea**, so many more collisions are successful per second."
@@ -29,6 +31,8 @@ summary:
       - "So collisions are **more frequent**, and there are more successful collisions per second."
       - "The Maxwell–Boltzmann curve **doesn't change shape** with concentration (only temperature changes it)."
   - h: "Catalysts"
+    fig: mb-catalyst
+    cap: "A catalyst doesn't change the curve. It provides a route with a lower Eₐ, so a much bigger share of the molecules (shaded) now has enough energy to react."
     p:
       - "A **catalyst** increases the rate of a reaction **without being changed in chemical composition** or amount."
       - "It provides an **alternative reaction route** with a **lower activation energy**."

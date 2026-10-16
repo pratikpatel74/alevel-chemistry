@@ -8,6 +8,8 @@ desc: "Enthalpy change, standard conditions, enthalpies of combustion and format
 practicals: [2]
 summary:
   - h: "Enthalpy change"
+    fig: energy-profile
+    cap: "In an exothermic reaction the products have less enthalpy than the reactants, so ΔH is negative (energy is released). Eₐ is the energy barrier between reactants and the top of the hump."
     p:
       - "**Enthalpy change (ΔH)**: the heat energy change measured under conditions of **constant pressure**."
       - "**Exothermic**: ΔH is **negative**; heat is released to the surroundings. **Endothermic**: ΔH is **positive**; heat is taken in."

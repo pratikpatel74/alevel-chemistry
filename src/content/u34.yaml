@@ -13,6 +13,8 @@ summary:
       - "All types have a **stationary phase** and a **mobile phase**."
       - "Separation depends on the balance between **solubility in the mobile phase** and **retention by the stationary phase** (e.g. adsorption)."
   - h: "Thin-layer chromatography (TLC)"
+    fig: tlc
+    cap: "Measure both distances from the origin. Rf = distance moved by the spot (a) ÷ distance moved by the solvent front (b). The second sample here contains at least two substances."
     p:
       - "Stationary phase: a thin layer of **silica** or **alumina** on a plate. Mobile phase: a **solvent**."
       - "`Rf = distance moved by spot ÷ distance moved by solvent front`"

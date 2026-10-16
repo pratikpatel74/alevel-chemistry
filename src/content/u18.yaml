@@ -14,6 +14,8 @@ summary:
       - "Orders can only be found by **experiment**, not from the balanced equation."
       - "**Zero order**: rate doesn't depend on concentration. **First order**: doubling concentration **doubles** rate. **Second order**: doubling concentration **quadruples** rate."
   - h: "Finding orders"
+    fig: rate-orders
+    cap: "On a rate–concentration graph, zero order is flat (rate doesn't depend on concentration), first order is a straight line through the origin, and second order is a curve: doubling concentration quadruples the rate."
     p:
       - "**Initial rates method**: change one concentration at a time and compare initial rates."
       - "**Concentration–time graphs**: zero order gives a **straight line**; first order gives a curve with a **constant half-life**."

@@ -20,6 +20,8 @@ summary:
       - "**Simple molecular** (e.g. I₂, ice): low melting point. Only weak **intermolecular forces** need breaking, not covalent bonds. Doesn't conduct."
       - "**Macromolecular / giant covalent** (e.g. diamond, graphite): very high melting point, because many **strong covalent bonds** must break. Graphite conducts (delocalised electrons between layers). Diamond doesn't."
   - h: "Shapes of molecules (VSEPR)"
+    fig: vsepr
+    cap: "Count the electron pairs round the central atom. Lone pairs (gold) repel more than bonding pairs, so each lone pair closes the bond angle by about 2.5°: 109.5° (CH₄) → 107° (NH₃) → 104.5° (H₂O). Shapes are drawn flat; the tetrahedral and octahedral ones are 3D."
     p:
       - "Electron pairs around the central atom **repel** each other and arrange themselves as far apart as possible."
       - "**Lone pairs repel more** than bonding pairs, reducing bond angles by about **2.5°** per lone pair."
